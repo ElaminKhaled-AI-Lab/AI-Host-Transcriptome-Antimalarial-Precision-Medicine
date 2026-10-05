@@ -1,0 +1,192 @@
+{
+  "cohort": "real_mali",
+  "representation": "variance-weighted PCs (corrected)",
+  "normalisation": "cpm",
+  "n_total": 56,
+  "n_removed_qc": 7,
+  "n_analysed": 49,
+  "k": 2,
+  "cluster_sizes": [
+    4,
+    45
+  ],
+  "silhouette": 0.2816234062161233,
+  "balance": 0.40790598013897633,
+  "stability": 0.379799487446808,
+  "reference_null": {
+    "n_references": 1000,
+    "reference": "uniform over the bounding box in principal-axis frame (Tibshirani gap-statistic reference)",
+    "silhouette_null_median": 0.12280703695465703,
+    "silhouette_null_p95": 0.15326444732094824,
+    "silhouette_p": 0.000999000999000999,
+    "stability_null_median": 0.7835449044851654,
+    "stability_null_p95": 0.9649562161311532,
+    "stability_p": 0.983016983016983,
+    "primary_criterion": "bootstrap stability"
+  },
+  "severity": null,
+  "covariates": [
+    {
+      "test": "Mann-Whitney U",
+      "p": 0.00016991070248635994,
+      "effect": 0.9444444444444444,
+      "effect_name": "rank-biserial r",
+      "n": 49,
+      "covariate": "host_PC1",
+      "p_fdr": 0.002718571239781759,
+      "significant": true
+    },
+    {
+      "test": "Mann-Whitney U",
+      "p": 0.03950423832807869,
+      "effect": 0.6222222222222222,
+      "effect_name": "rank-biserial r",
+      "n": 49,
+      "covariate": "host_transcripts_detected",
+      "p_fdr": 0.23281542034019903,
+      "significant": false
+    },
+    {
+      "test": "Mann-Whitney U",
+      "p": 0.04817912363835452,
+      "effect": 0.6,
+      "effect_name": "rank-biserial r",
+      "n": 49,
+      "covariate": "host_PC5",
+      "p_fdr": 0.23281542034019903,
+      "significant": false
+    },
+    {
+      "test": "Mann-Whitney U",
+      "p": 0.05820385508504976,
+      "effect": 0.5777777777777777,
+      "effect_name": "rank-biserial r",
+      "n": 49,
+      "covariate": "parasite_PC3",
+      "p_fdr": 0.23281542034019903,
+      "significant": false
+    },
+    {
+      "test": "Mann-Whitney U",
+      "p": 0.14368781740263176,
+      "effect": 0.4555555555555556,
+      "effect_name": "rank-biserial r",
+      "n": 49,
+      "covariate": "host_PC4",
+      "p_fdr": 0.45980101568842163,
+      "significant": false
+    },
+    {
+      "test": "Mann-Whitney U",
+      "p": 0.2458607864977629,
+      "effect": 0.3666666666666667,
+      "effect_name": "rank-biserial r",
+      "n": 49,
+      "covariate": "host_PC2",
+      "p_fdr": 0.6556287639940345,
+      "significant": false
+    },
+    {
+      "test": "Mann-Whitney U",
+      "p": 0.3660348505729767,
+      "effect": 0.28888888888888886,
+      "effect_name": "rank-biserial r",
+      "n": 49,
+      "covariate": "host_PC3",
+      "p_fdr": 0.8366510870239467,
+      "significant": false
+    },
+    {
+      "test": "Mann-Whitney U",
+      "p": 0.4261454813192623,
+      "effect": 0.25555555555555554,
+      "effect_name": "rank-biserial r",
+      "n": 49,
+      "covariate": "parasite_PC1",
+      "p_fdr": 0.8522909626385246,
+      "significant": false
+    },
+    {
+      "test": "Mann-Whitney U",
+      "p": 0.6343616077328249,
+      "effect": 0.15555555555555556,
+      "effect_name": "rank-biserial r",
+      "n": 49,
+      "covariate": "host_library_size",
+      "p_fdr": 0.9359436651626423,
+      "significant": false
+    },
+    {
+      "test": "Mann-Whitney U",
+      "p": 0.7647019955068058,
+      "effect": 0.09999999999999998,
+      "effect_name": "rank-biserial r",
+      "n": 49,
+      "covariate": "parasite_library_size",
+      "p_fdr": 0.9359436651626423,
+      "significant": false
+    },
+    {
+      "test": "Mann-Whitney U",
+      "p": 0.7917272366856085,
+      "effect": 0.0888888888888889,
+      "effect_name": "rank-biserial r",
+      "n": 49,
+      "covariate": "parasite_PC2",
+      "p_fdr": 0.9359436651626423,
+      "significant": false
+    },
+    {
+      "test": "Mann-Whitney U",
+      "p": 0.7951289984607738,
+      "effect": 0.08333333333333337,
+      "effect_name": "rank-biserial r",
+      "n": 49,
+      "covariate": "age_years",
+      "p_fdr": 0.9359436651626423,
+      "significant": false
+    },
+    {
+      "test": "Mann-Whitney U",
+      "p": 0.818950707017312,
+      "effect": 0.07777777777777772,
+      "effect_name": "rank-biserial r",
+      "n": 49,
+      "covariate": "parasite_read_fraction",
+      "p_fdr": 0.9359436651626423,
+      "significant": false
+    },
+    {
+      "test": "Mann-Whitney U",
+      "p": 0.818950707017312,
+      "effect": 0.07777777777777772,
+      "effect_name": "rank-biserial r",
+      "n": 49,
+      "covariate": "run_accession_order",
+      "p_fdr": 0.9359436651626423,
+      "significant": false
+    },
+    {
+      "test": "Fisher exact",
+      "p": 1.0,
+      "effect": 0.030582326809065558,
+      "effect_name": "Cramer's V",
+      "n": 49,
+      "covariate": "sex",
+      "p_fdr": 1.0,
+      "significant": false
+    },
+    {
+      "test": "Mann-Whitney U",
+      "p": 0.9417468911525896,
+      "effect": 0.02777777777777779,
+      "effect_name": "rank-biserial r",
+      "n": 49,
+      "covariate": "parasite_transcripts_detected",
+      "p_fdr": 1.0,
+      "significant": false
+    }
+  ],
+  "host_pc1_variance": 0.08685162141189003,
+  "n_host_pcs_above_1pct": 30
+}

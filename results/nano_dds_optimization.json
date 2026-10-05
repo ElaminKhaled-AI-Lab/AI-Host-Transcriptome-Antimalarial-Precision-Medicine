@@ -1,0 +1,271 @@
+{
+  "drug": "lumefantrine",
+  "stabilizer": "PVA",
+  "ai_surrogate_cv_r2": {
+    "size_nm": {
+      "random_forest": 1.0,
+      "gradient_boost": 1.0,
+      "mlp_neural": 0.997,
+      "top_drivers": {
+        "A_polymer_drug_ratio_coded": 0.386,
+        "poly_basesize": 0.328,
+        "poly_zeta": 0.128
+      }
+    },
+    "pdi": {
+      "random_forest": 1.0,
+      "gradient_boost": 1.0,
+      "mlp_neural": 0.589,
+      "top_drivers": {
+        "poly_basesize": 0.87,
+        "C_homogenization_coded": 0.056,
+        "poly_degrad": 0.054
+      }
+    },
+    "zeta_mv": {
+      "random_forest": 1.0,
+      "gradient_boost": 1.0,
+      "mlp_neural": 1.0,
+      "top_drivers": {
+        "poly_zeta": 0.959,
+        "B_stabilizer_pct_coded": 0.025,
+        "poly_degrad": 0.011
+      }
+    },
+    "ee_pct": {
+      "random_forest": 0.896,
+      "gradient_boost": 0.929,
+      "mlp_neural": 0.939,
+      "top_drivers": {
+        "A_polymer_drug_ratio_coded": 0.517,
+        "drug_logp": 0.472,
+        "B_stabilizer_pct_coded": 0.006
+      }
+    },
+    "release_24h_pct": {
+      "random_forest": 0.874,
+      "gradient_boost": 0.891,
+      "mlp_neural": 0.811,
+      "top_drivers": {
+        "A_polymer_drug_ratio_coded": 0.346,
+        "drug_logp": 0.283,
+        "poly_degrad": 0.203
+      }
+    },
+    "liver_targeting_index": {
+      "random_forest": 1.0,
+      "gradient_boost": 0.994,
+      "mlp_neural": 0.868,
+      "top_drivers": {
+        "poly_basesize": 0.467,
+        "A_polymer_drug_ratio_coded": 0.279,
+        "C_homogenization_coded": 0.104
+      }
+    }
+  },
+  "polymer_ranking_by_desirability": {
+    "Eudragit_RL100": 0.687,
+    "Eudragit_RS100": 0.625,
+    "Eudragit_S100": 0.578,
+    "PLGA_75_25": 0.511,
+    "PLA_PDLLA": 0.464,
+    "Alginate": 0.458,
+    "PLGA_50_50": 0.447,
+    "PCL": 0.411,
+    "Ethylcellulose": 0.367,
+    "HPMC": 0.28,
+    "Chitosan": 0.145
+  },
+  "box_behnken_rsm": {
+    "polymer": "Eudragit_RL100",
+    "models": {
+      "size_nm": {
+        "coeffs": {
+          "b0": 146.606,
+          "A": 39.793,
+          "B": -7.111,
+          "C": -16.869,
+          "AB": -1.968,
+          "AC": -4.643,
+          "BC": 0.827,
+          "A2": 0.008,
+          "B2": -0.818,
+          "C2": -2.41
+        },
+        "r2": 1.0
+      },
+      "ee_pct": {
+        "coeffs": {
+          "b0": 84.828,
+          "A": 6.087,
+          "B": -2.144,
+          "C": 0.0,
+          "AB": -0.154,
+          "AC": 0.0,
+          "BC": -0.0,
+          "A2": -0.359,
+          "B2": -0.247,
+          "C2": -0.001
+        },
+        "r2": 1.0
+      },
+      "release_24h_pct": {
+        "coeffs": {
+          "b0": 88.465,
+          "A": 5.341,
+          "B": -1.351,
+          "C": 0.282,
+          "AB": 0.209,
+          "AC": 0.128,
+          "BC": -0.132,
+          "A2": -0.434,
+          "B2": -0.245,
+          "C2": 0.03
+        },
+        "r2": 1.0
+      },
+      "liver_targeting_index": {
+        "coeffs": {
+          "b0": 0.933,
+          "A": 0.029,
+          "B": -0.016,
+          "C": -0.001,
+          "AB": 0.052,
+          "AC": 0.118,
+          "BC": -0.024,
+          "A2": -0.157,
+          "B2": -0.021,
+          "C2": -0.028
+        },
+        "r2": 0.97
+      }
+    }
+  },
+  "bayesian_optimization": {
+    "Eudragit_RL100": {
+      "best_desirability": 0.811,
+      "optimal_factors_coded": {
+        "A": 0,
+        "B": -1,
+        "C": 0
+      },
+      "optimal_formulation": {
+        "drug": "lumefantrine",
+        "polymer": "Eudragit_RL100",
+        "stabilizer": "PVA",
+        "factors": {
+          "polymer_drug_ratio": 5.0,
+          "stabilizer_pct": 0.5,
+          "homogenization_energy": 0.6,
+          "galactosylated": false
+        },
+        "size_nm": 153.0,
+        "pdi": 0.212,
+        "zeta_mv": 25.3,
+        "ee_pct": 86.7,
+        "dl_pct": 14.45,
+        "release_24h_pct": 89.6,
+        "release_best_model": "korsmeyer_peppas",
+        "peppas_n": 0.711,
+        "release_mechanism": "anomalous (non-Fickian) transport",
+        "liver_targeting_index": 0.945,
+        "liver_plasma_ratio": 0.431,
+        "release_class": "IR"
+      }
+    },
+    "Eudragit_RS100": {
+      "best_desirability": 0.76,
+      "optimal_factors_coded": {
+        "A": 0,
+        "B": -1,
+        "C": 0
+      },
+      "optimal_formulation": {
+        "drug": "lumefantrine",
+        "polymer": "Eudragit_RS100",
+        "stabilizer": "PVA",
+        "factors": {
+          "polymer_drug_ratio": 5.0,
+          "stabilizer_pct": 0.5,
+          "homogenization_energy": 0.6,
+          "galactosylated": false
+        },
+        "size_nm": 161.4,
+        "pdi": 0.192,
+        "zeta_mv": 19.9,
+        "ee_pct": 86.7,
+        "dl_pct": 14.45,
+        "release_24h_pct": 85.5,
+        "release_best_model": "korsmeyer_peppas",
+        "peppas_n": 0.655,
+        "release_mechanism": "anomalous (non-Fickian) transport",
+        "liver_targeting_index": 0.905,
+        "liver_plasma_ratio": 0.417,
+        "release_class": "SR"
+      }
+    },
+    "Eudragit_S100": {
+      "best_desirability": 0.723,
+      "optimal_factors_coded": {
+        "A": -1,
+        "B": -1,
+        "C": -1
+      },
+      "optimal_formulation": {
+        "drug": "lumefantrine",
+        "polymer": "Eudragit_S100",
+        "stabilizer": "PVA",
+        "factors": {
+          "polymer_drug_ratio": 2.0,
+          "stabilizer_pct": 0.5,
+          "homogenization_energy": 0.3,
+          "galactosylated": false
+        },
+        "size_nm": 135.5,
+        "pdi": 0.262,
+        "zeta_mv": -22.6,
+        "ee_pct": 80.1,
+        "dl_pct": 26.71,
+        "release_24h_pct": 84.4,
+        "release_best_model": "korsmeyer_peppas",
+        "peppas_n": 0.693,
+        "release_mechanism": "anomalous (non-Fickian) transport",
+        "liver_targeting_index": 0.552,
+        "liver_plasma_ratio": 0.293,
+        "release_class": "IR"
+      }
+    }
+  },
+  "recommended_formulation": {
+    "polymer": "Eudragit_RL100",
+    "best_desirability": 0.811,
+    "optimal_factors_coded": {
+      "A": 0,
+      "B": -1,
+      "C": 0
+    },
+    "optimal_formulation": {
+      "drug": "lumefantrine",
+      "polymer": "Eudragit_RL100",
+      "stabilizer": "PVA",
+      "factors": {
+        "polymer_drug_ratio": 5.0,
+        "stabilizer_pct": 0.5,
+        "homogenization_energy": 0.6,
+        "galactosylated": false
+      },
+      "size_nm": 153.0,
+      "pdi": 0.212,
+      "zeta_mv": 25.3,
+      "ee_pct": 86.7,
+      "dl_pct": 14.45,
+      "release_24h_pct": 89.6,
+      "release_best_model": "korsmeyer_peppas",
+      "peppas_n": 0.711,
+      "release_mechanism": "anomalous (non-Fickian) transport",
+      "liver_targeting_index": 0.945,
+      "liver_plasma_ratio": 0.431,
+      "release_class": "IR"
+    }
+  }
+}

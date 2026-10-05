@@ -1,0 +1,58 @@
+# =====================================================================
+# project.yaml  --  Global project configuration
+# Dual Host-Parasite Multi-Omics + AI for Precision Pediatric
+# Antimalarial Therapy and Oral Liquid Formulation
+#
+# Abbreviations (first use, per project convention):
+#   AI  = Artificial Intelligence
+#   ML  = Machine Learning
+#   DL  = Deep Learning
+#   PK  = Pharmacokinetics
+#   QC  = Quality Control
+# =====================================================================
+
+project:
+  name: "Malaria_Project"
+  title: "Dual Host-Parasite Multi-Omics and AI for Precision Pediatric Antimalarial Therapy"
+  version: "v0.1 data-discovery"
+  disease: "Plasmodium falciparum malaria in children"
+  # Root on the Linux workstation. Everything else is resolved relative to this.
+  root: "/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project"
+
+# Paths are relative to project.root unless absolute.
+paths:
+  data_raw: "data/raw"
+  data_interim: "data/interim"
+  data_processed: "data/processed"
+  data_synthetic: "data/synthetic"
+  data_external_validation: "data/external_validation"
+  metadata: "metadata"
+  dataset_registry: "metadata/dataset_registry"
+  sample_maps: "metadata/sample_maps"
+  checksums: "metadata/checksums"
+  access_notes: "metadata/access_notes"
+  models: "models"
+  results: "results"
+  figures: "figures"
+  tables: "tables"
+  reports: "reports"
+  logs: "logs"
+  tmp: "tmp"
+
+compute:
+  # Set to the number of cores you want download / preprocessing to use.
+  n_jobs: 8
+  # Set true if a CUDA GPU is available for PyTorch (DL models).
+  use_gpu: false
+  gpu_device: "cuda:0"
+
+reproducibility:
+  # Master seed; per-run seeds live in config/seeds.yaml
+  global_seed: 11
+  # Record environment + git commit into every result manifest.
+  write_manifest: true
+
+logging:
+  level: "INFO"          # DEBUG | INFO | WARNING | ERROR
+  to_file: true
+  logfile: "logs/malaria_project.log"

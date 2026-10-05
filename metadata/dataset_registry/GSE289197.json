@@ -1,0 +1,22 @@
+{
+  "accession": "GSE289197",
+  "repository": "GEO",
+  "download_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE289197",
+  "download_date": "2026-08-24T11:41:31.805894+00:00",
+  "dest_dir": "/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/host_transcriptomics/GSE289197",
+  "license_or_access_terms": "open processed/count-level; raw FASTQ NOT open",
+  "publication": "https://www.nature.com/articles/s41467-025-59281-5",
+  "raw_or_processed_status": "processed_only",
+  "sample_count": null,
+  "organism": "Homo sapiens",
+  "tissue": "whole blood",
+  "platform": "",
+  "software": "",
+  "files": [
+    {
+      "file_name": "soft/GSE289197_family.soft.gz",
+      "file_size": 6416
+    }
+  ],
+  "notes": "Patient FASTQ withheld (identifiable). Use count-level data only."
+}

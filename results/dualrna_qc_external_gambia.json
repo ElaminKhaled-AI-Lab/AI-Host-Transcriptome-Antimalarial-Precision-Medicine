@@ -1,0 +1,60 @@
+{
+  "qc": {
+    "n_samples": 52,
+    "parasite_read_fraction": {
+      "median": 0.0019883002721056498,
+      "min": 4.987349252828357e-06,
+      "max": 0.0075250349156705,
+      "n_above_0.05pct": 44,
+      "n_above_0.1pct": 36,
+      "n_above_0.5pct": 3
+    },
+    "host_transcripts_detected_median": 84305,
+    "parasite_transcripts_detected_median": 96
+  },
+  "robustness": {
+    "host_only": {
+      "concat_kmeans": {
+        "silhouette": 0.16393376113718625,
+        "cluster_balance": 0.9989326546231728,
+        "stability_mean_pairwise_ari": 0.6859108996322638,
+        "stability_frac_confident_0.9": 0.019230769230769232
+      },
+      "BLISS": {
+        "silhouette": 0.8259912133216858,
+        "cluster_balance": 0.9957274520820402,
+        "stability_mean_pairwise_ari": 1.0,
+        "stability_frac_confident_0.9": 0.0
+      }
+    },
+    "dual_full": {
+      "concat_kmeans": {
+        "silhouette": 0.0856611932778725,
+        "cluster_balance": 0.9903748364456899,
+        "stability_mean_pairwise_ari": 0.45169369748985044,
+        "stability_frac_confident_0.9": 0.038461538461538464
+      },
+      "BLISS": {
+        "silhouette": 0.861376166343689,
+        "cluster_balance": 0.9957274520820402,
+        "stability_mean_pairwise_ari": 1.0,
+        "stability_frac_confident_0.9": 0.0
+      }
+    },
+    "dual_parasite_informed_subset": {
+      "n": 44,
+      "concat_kmeans": {
+        "silhouette": 0.10715771318531546,
+        "cluster_balance": 0.9760206482337298,
+        "stability_mean_pairwise_ari": 0.7573458674100053,
+        "stability_frac_confident_0.9": 0.0
+      },
+      "BLISS": {
+        "silhouette": 0.8540887236595154,
+        "cluster_balance": 0.9624127354601069,
+        "stability_mean_pairwise_ari": 1.0,
+        "stability_frac_confident_0.9": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "simulate_doe",
+  "date": "2026-08-28T11:47:20.148717+00:00",
+  "git_commit": "unknown",
+  "python": "3.12.14",
+  "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.39",
+  "seed": 11,
+  "hyperparameters": {},
+  "train_split": null,
+  "test_split": null,
+  "inputs": [],
+  "extra": {
+    "n_experiments": 300,
+    "n_factors": 9,
+    "design": "latin_hypercube",
+    "kind": "in_silico_digital_twin"
+  }
+}

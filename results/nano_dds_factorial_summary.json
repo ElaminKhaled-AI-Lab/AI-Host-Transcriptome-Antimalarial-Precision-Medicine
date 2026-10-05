@@ -1,0 +1,61 @@
+{
+  "design": "3^3 full factorial (27 runs) per polymer x drug",
+  "n_runs_per_cell": 27,
+  "n_polymers": 11,
+  "n_drugs": 9,
+  "n_total_rows": 2673,
+  "factors": {
+    "A": "polymer:drug ratio (2/5/10)",
+    "B": "stabilizer % (0.5/1/2)",
+    "C": "homogenization energy (0.3/0.6/1.0)"
+  },
+  "response_ranges": {
+    "size_nm": {
+      "min": 87.3,
+      "median": 184.4,
+      "max": 511.8
+    },
+    "pdi": {
+      "min": 0.05,
+      "median": 0.168,
+      "max": 0.462
+    },
+    "zeta_mv": {
+      "min": -31.6,
+      "median": -9.2,
+      "max": 28.0
+    },
+    "ee_pct": {
+      "min": 32.3,
+      "median": 64.1,
+      "max": 92.6
+    },
+    "dl_pct": {
+      "min": 6.07,
+      "median": 9.56,
+      "max": 26.71
+    },
+    "release_24h_pct": {
+      "min": 43.7,
+      "median": 61.6,
+      "max": 96.2
+    },
+    "liver_targeting_index": {
+      "min": 0.0,
+      "median": 0.528,
+      "max": 0.945
+    },
+    "liver_plasma_ratio": {
+      "min": 0.1,
+      "median": 0.285,
+      "max": 0.431
+    }
+  },
+  "release_mechanism_counts": {
+    "anomalous (non-Fickian) transport": 1640,
+    "Fickian diffusion": 1033
+  },
+  "best_model_counts": {
+    "korsmeyer_peppas": 2673
+  }
+}

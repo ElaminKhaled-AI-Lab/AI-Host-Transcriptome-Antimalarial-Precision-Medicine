@@ -1,0 +1,17 @@
+{
+  "accession": "MSV000096913",
+  "repository": "MassIVE",
+  "download_url": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=ba8df9f0096c4bf6abb946f323f153c1",
+  "download_date": "2026-08-24T11:42:33.368785+00:00",
+  "dest_dir": "/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/host_metabolomics/MSV000096913",
+  "license_or_access_terms": "public",
+  "publication": "",
+  "raw_or_processed_status": "raw",
+  "sample_count": null,
+  "organism": "Homo sapiens",
+  "tissue": "plasma/serum",
+  "platform": "",
+  "software": "",
+  "files": [],
+  "notes": "If empty, download folders manually from the file-browser URL."
+}

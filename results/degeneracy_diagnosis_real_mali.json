@@ -1,0 +1,196 @@
+{
+  "cohort": "real_mali",
+  "n_samples": 56,
+  "stage1": {
+    "minority_cluster_ids": [
+      "SRR25640283"
+    ],
+    "n_qc_fail": 7,
+    "minority_explained_by_flags": false,
+    "n_flagged": 7
+  },
+  "stage2": {
+    "n_after_removal": 49,
+    "sweep": [
+      {
+        "k": 2,
+        "silhouette": 0.20850407790098824,
+        "balance": 0.14372616993938178,
+        "min_cluster_size": 1,
+        "sizes": [
+          1,
+          48
+        ],
+        "stability": 0.18426288853015452,
+        "degenerate": true,
+        "representation": "z-scored PCs"
+      },
+      {
+        "k": 3,
+        "silhouette": 0.00499369965355993,
+        "balance": 0.6702512071242511,
+        "min_cluster_size": 1,
+        "sizes": [
+          17,
+          31,
+          1
+        ],
+        "stability": 0.10827809093276561,
+        "degenerate": true,
+        "representation": "z-scored PCs"
+      },
+      {
+        "k": 4,
+        "silhouette": -0.023210437925833997,
+        "balance": 0.7714936814405138,
+        "min_cluster_size": 1,
+        "sizes": [
+          1,
+          14,
+          26,
+          8
+        ],
+        "stability": 0.07632731093437438,
+        "degenerate": true,
+        "representation": "z-scored PCs"
+      },
+      {
+        "k": 5,
+        "silhouette": -0.01481407617251374,
+        "balance": 0.7459135446565202,
+        "min_cluster_size": 1,
+        "sizes": [
+          9,
+          21,
+          1,
+          17,
+          1
+        ],
+        "stability": 0.175985699574529,
+        "degenerate": true,
+        "representation": "z-scored PCs"
+      },
+      {
+        "k": 6,
+        "silhouette": 0.005837616041570014,
+        "balance": 0.605636033246371,
+        "min_cluster_size": 1,
+        "sizes": [
+          10,
+          5,
+          1,
+          1,
+          31,
+          1
+        ],
+        "stability": 0.09644144451315059,
+        "degenerate": true,
+        "representation": "z-scored PCs"
+      },
+      {
+        "k": 2,
+        "silhouette": 0.07503403003725687,
+        "balance": 0.9313043685793763,
+        "min_cluster_size": 17,
+        "sizes": [
+          32,
+          17
+        ],
+        "stability": 0.3417351670276675,
+        "degenerate": false,
+        "representation": "variance-weighted PCs"
+      },
+      {
+        "k": 3,
+        "silhouette": 0.055837152751088553,
+        "balance": 0.7079605160676896,
+        "min_cluster_size": 1,
+        "sizes": [
+          23,
+          25,
+          1
+        ],
+        "stability": 0.2097335454645267,
+        "degenerate": true,
+        "representation": "variance-weighted PCs"
+      },
+      {
+        "k": 4,
+        "silhouette": -0.016725663445145495,
+        "balance": 0.7659688760158213,
+        "min_cluster_size": 1,
+        "sizes": [
+          20,
+          22,
+          6,
+          1
+        ],
+        "stability": 0.27679208727829174,
+        "degenerate": true,
+        "representation": "variance-weighted PCs"
+      },
+      {
+        "k": 5,
+        "silhouette": 0.05994672103553367,
+        "balance": 0.5433363903161569,
+        "min_cluster_size": 1,
+        "sizes": [
+          14,
+          32,
+          1,
+          1,
+          1
+        ],
+        "stability": 0.21838220714924853,
+        "degenerate": true,
+        "representation": "variance-weighted PCs"
+      },
+      {
+        "k": 6,
+        "silhouette": 0.04814486726369864,
+        "balance": 0.6815420927762033,
+        "min_cluster_size": 1,
+        "sizes": [
+          9,
+          1,
+          26,
+          1,
+          11,
+          1
+        ],
+        "stability": 0.2597367662424682,
+        "degenerate": true,
+        "representation": "variance-weighted PCs"
+      }
+    ],
+    "best_non_degenerate": {
+      "k": 2,
+      "silhouette": 0.07503403003725687,
+      "balance": 0.9313043685793763,
+      "min_cluster_size": 17,
+      "sizes": [
+        32,
+        17
+      ],
+      "stability": 0.3417351670276675,
+      "degenerate": false,
+      "representation": "variance-weighted PCs"
+    },
+    "permutation_null_median": 0.0322139135681596,
+    "permutation_p": 0.02040816326530612,
+    "peeling_best": null,
+    "peeling_n_removed": 0,
+    "peeling_removed_ids": [],
+    "host_pc1_variance": 0.09038938817178103,
+    "n_host_pcs_above_1pct": 30,
+    "criteria": {
+      "min_balance": 0.5,
+      "min_cluster_size": 5
+    }
+  },
+  "stage3": {
+    "univariate": [],
+    "multivariate": null,
+    "note": "insufficient labelled samples or not a two-group comparison"
+  }
+}

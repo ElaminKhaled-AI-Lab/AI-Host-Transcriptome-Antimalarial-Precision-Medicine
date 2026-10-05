@@ -1,0 +1,22 @@
+{
+  "generator_version": "0.2.0",
+  "seed": 233,
+  "n": 2000,
+  "planted_subtypes": 4,
+  "subtype_effect": 1.5,
+  "tx_pcs": 30,
+  "prot_pcs": 20,
+  "n_parasite_features": 80,
+  "real_anchors": [
+    "transcriptome internal covariance (PCA)",
+    "clinical phenotype distribution",
+    "transcriptome<->phenotype regression",
+    "proteome internal covariance (PCA)",
+    "parasite resistance rows (resampled)"
+  ],
+  "documented_assumptions": [
+    "proteome/metabolome phenotype-independent in v1 (no public labels)",
+    "cross-omic RNA<->protein covariance NOT claimed",
+    "synthetic != clinical evidence (Section 7.1)"
+  ]
+}

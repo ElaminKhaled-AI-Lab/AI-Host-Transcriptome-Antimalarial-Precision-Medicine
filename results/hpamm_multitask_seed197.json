@@ -1,0 +1,63 @@
+{
+  "baseline_xgb": {
+    "resistance": {
+      "auroc": 0.6366729205753596
+    },
+    "cure": {
+      "auroc": 0.5757339973026248
+    },
+    "recrudescence": {
+      "auroc": 0.5895248130348745
+    },
+    "toxicity": {
+      "auroc": 0.4954966277072599
+    },
+    "pk_auc": {
+      "mae": 9.961261297789024
+    },
+    "clearance": {
+      "mae": 10.35592410780766
+    }
+  },
+  "hpamm_full": {
+    "resistance": {
+      "auroc": 0.6748968105065665
+    },
+    "cure": {
+      "auroc": 0.6234308538230107
+    },
+    "recrudescence": {
+      "auroc": 0.6450875073886562
+    },
+    "toxicity": {
+      "auroc": 0.5571195174060576
+    },
+    "pk_auc": {
+      "mae": 9.084820967037405
+    },
+    "clearance": {
+      "mae": 9.897524806747882
+    }
+  },
+  "hpamm_parasite_dropped": {
+    "resistance": {
+      "auroc": 0.4687679799874922
+    },
+    "cure": {
+      "auroc": 0.4916744475568005
+    },
+    "recrudescence": {
+      "auroc": 0.49651769422528336
+    },
+    "toxicity": {
+      "auroc": 0.547526287126639
+    },
+    "pk_auc": {
+      "mae": 8.837644286829844
+    },
+    "clearance": {
+      "mae": 10.811402162340022
+    }
+  },
+  "note": "resistance is parasite-driven; dropping the parasite block should hurt resistance AUROC while host-driven PK/toxicity persist."
+}

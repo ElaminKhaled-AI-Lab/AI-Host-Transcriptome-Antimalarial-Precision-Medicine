@@ -1,0 +1,80 @@
+title	gsm	clin_tissue	clin_match_group	clin_Sex	clin_age	clin_ethnicity	clin_blantyre_coma_scale	clin_hemoglobin_g_dl	clin_parasitemia	clin_age_years	clin_blood_type	clin_rh_factor	clin_type_cat	clin_blantyre_coma_scale_2	clin_cm_sma	library	join_key	clin_age_months	in_counts_matrix
+SMA2	GSM8786894	whole blood	SMA	Female	3 years	Dogon	5	3.6	43800	3	O	+	case	5	SMA	IGS_MLI_046rCap	IGS-MLI-046RCAP		True
+SMA3	GSM8786895	whole blood	SMA	Female	3 years	Dogon	5	2.3	8550	3	B	+	case	5	SMA	IGS_MLI_047rCap	IGS-MLI-047RCAP		True
+SMA4	GSM8786896	whole blood	SMA	Male	3 years	Dogon	5	2.8	181500	3	B	+	case	5	SMA	IGS_MLI_048rCap	IGS-MLI-048RCAP		True
+CM5	GSM8786897	whole blood	CM	Female	1 year	Dogon	2	7.9	291000	1	A	+	case	2	CM	IGS_MLI_049rCap	IGS-MLI-049RCAP		True
+CS3	GSM8786898	whole blood	CM + SMA	Male	1 year	Dogon	2	3.5	242400	1	B	+	case	2	both	IGS_MLI_050rCap	IGS-MLI-050RCAP		True
+SMA5	GSM8786899	whole blood	SMA	Female	2 years	Dogon	3	2.9	55500	2	B	+	case	3	SMA	IGS_MLI_053rCap	IGS-MLI-053RCAP		True
+CM6	GSM8786900	whole blood	CM	Female	3 years	Dogon	2	5.3	18150	3	A	+	case	2	CM	IGS_MLI_057rCap	IGS-MLI-057RCAP		True
+CS4	GSM8786901	whole blood	CM + SMA	Female	5 years	Dogon	1	2.7	3975	5	B	+	case	1	both	IGS_MLI_059rCap	IGS-MLI-059RCAP		True
+SMA9	GSM8786902	whole blood	SMA	Female	5 years	Dogon	4	5	95100	5	B	+	case	4	SMA	IGS_MLI_061rCap	IGS-MLI-061RCAP		True
+CM7	GSM8786903	whole blood	CM	Female	3years	Dogon	2	9	25350	3	O	+	case	2	CM	IGS_MLI_063rCap	IGS-MLI-063RCAP		True
+CM8	GSM8786904	whole blood	CM	Male	2 years	Dogon	2	9.6	265800	2	O	+	case	2	CM	IGS_MLI_064rCap	IGS-MLI-064RCAP		True
+SMA6	GSM8786905	whole blood	SMA	Female	1 year	Dogon	5	2.6	3450	1	O	+	case	5	SMA	IGS_MLI_066rCap	IGS-MLI-066RCAP		True
+CS5	GSM8786906	whole blood	CM + SMA	Female	3 years	Dogon	2	4.1	71700	3	B	+	case	2	both	IGS_MLI_067rCap	IGS-MLI-067RCAP		True
+CS6	GSM8786907	whole blood	CM + SMA	Male	2 years	Sarakolé	2	4.2	9800	2	O	+	case	2	both	IGS_MLI_068rCap	IGS-MLI-068RCAP		True
+CM9	GSM8786908	whole blood	CM	Male	3 years	Dogon	2	8.9	442800	3	B	+	case	2	CM	IGS_MLI_069rCap	IGS-MLI-069RCAP		True
+CM13	GSM8786909	whole blood	CM	Male	3 years	Dogon	2	7	450600	3	AB	+	case	2	CM	IGS_MLI_071rCap	IGS-MLI-071RCAP		True
+CS7	GSM8786910	whole blood	CM + SMA	Male	5 years	Bambara	2	4.6	182000	5	B	-	case	2	both	IGS_MLI_073rCap	IGS-MLI-073RCAP		True
+CS8	GSM8786911	whole blood	CM + SMA	Male	3 years	Dogon	1	2.2	1650	3	O	-	case	1	both	IGS_MLI_074rCap	IGS-MLI-074RCAP		True
+CM10	GSM8786912	whole blood	CM	Male	5 years	Dogon	1	8.1	244700	5	AB	+	case	1	CM	IGS_MLI_075rCap	IGS-MLI-075RCAP		True
+CM12	GSM8786913	whole blood	CM	Male	3 years	Dogon	1	10.8	1200	3	O	-	case	1	CM	IGS_MLI_076rCap	IGS-MLI-076RCAP		True
+UMC2	GSM8786914	whole blood	CM	Male	4 years	Dogon	5	8.6	9000	4	A	+	control	N/A	neither	IGS_MLI_079rCap	IGS-MLI-079RCAP		True
+UMC3	GSM8786915	whole blood	CM	Female	21 Months	Dogon	5	5.5	3300	1.75	A	+	control	N/A	neither	IGS_MLI_080rCap	IGS-MLI-080RCAP	21	True
+UMC4	GSM8786916	whole blood	CM	Male	16 Months	Dogon	5	7.5	1425	1.33	B	+	control	N/A	neither	IGS_MLI_081rCap	IGS-MLI-081RCAP	16	True
+UMCS1	GSM8786917	whole blood	CM + SMA	Male	3 years	Dogon	5	11.2	1575	3	B	+	control	N/A	neither	IGS_MLI_082rCap	IGS-MLI-082RCAP		True
+UMCS2	GSM8786918	whole blood	CM + SMA	Male	4 years	Dogon	5	7.8	375	4	O	+	control	N/A	neither	IGS_MLI_083rCap	IGS-MLI-083RCAP		True
+UMS1	GSM8786919	whole blood	SMA	Female	3 years	Dogon	5	7	55500	3	B	+	control	N/A	neither	IGS_MLI_084rCap	IGS-MLI-084RCAP		True
+UMS2	GSM8786920	whole blood	SMA	Female	3 years	Dogon	5	8.6	9300	3	AB	+	control	N/A	neither	IGS_MLI_085rCap	IGS-MLI-085RCAP		True
+UMS3	GSM8786921	whole blood	SMA	Female	3 years	Dogon	5	8.9	55800	3	O	+	control	N/A	neither	IGS_MLI_086rCap	IGS-MLI-086RCAP		True
+UMS4	GSM8786922	whole blood	SMA	Male	3 years	Dogon	5	11.5	9975	3	A	+	control	N/A	neither	IGS_MLI_087rCap	IGS-MLI-087RCAP		True
+UMC5	GSM8786923	whole blood	CM	Female	1 years	Dogon	5	7.9	82500	1	A	+	control	N/A	neither	IGS_MLI_088rCap	IGS-MLI-088RCAP		True
+UMCS3	GSM8786924	whole blood	CM + SMA	Male	1	Dogon	5	7	12600	1	B	+	control	N/A	neither	IGS_MLI_089rCap	IGS-MLI-089RCAP		True
+UMS5	GSM8786925	whole blood	SMA	Female	3 years	Dogon	5	7.2	119400	3	A	+	control	N/A	neither	IGS_MLI_090rCap	IGS-MLI-090RCAP		True
+UMC6	GSM8786926	whole blood	CM	Female	3 years	Dogon	5	11.6	45850	3	O	+	control	N/A	neither	IGS_MLI_091rCap	IGS-MLI-091RCAP		True
+UMCS4	GSM8786927	whole blood	CM + SMA	Female	5 years	Dogon	5	11.8	8025	5	B	+	control	N/A	neither	IGS_MLI_092rCap	IGS-MLI-092RCAP		True
+UMC7	GSM8786928	whole blood	CM	Female	3 years	Dogon	5	8.8	54000	4	O	+	control	N/A	neither	IGS_MLI_094rCap	IGS-MLI-094RCAP		True
+UMC8	GSM8786929	whole blood	CM	Male	2 years	Dogon	5	10.6	5100	2	O	+	control	N/A	neither	IGS_MLI_095rCap	IGS-MLI-095RCAP		True
+UMS6	GSM8786930	whole blood	SMA	Female	1 year	Dogon	5	6.2	1350	1	B	-	control	N/A	neither	IGS_MLI_097rCap	IGS-MLI-097RCAP		True
+UMCS5	GSM8786931	whole blood	CM + SMA	Female	3 years	Dogon	5	6.4	2550	3	O	+	control	N/A	neither	IGS_MLI_098rCap	IGS-MLI-098RCAP		True
+UMCS6	GSM8786932	whole blood	CM + SMA	Male	2 years	Malinke	5	5	7500	2	A	+	control	N/A	neither	IGS_MLI_099rCap	IGS-MLI-099RCAP		True
+UMC9	GSM8786933	whole blood	CM	Male	3 years	Dogon	5	10.6	165000	3	O	+	control	N/A	neither	IGS_MLI_100rCap	IGS-MLI-100RCAP		True
+UMCS7	GSM8786934	whole blood	CM + SMA	Male	4 ans	Bambara	5	9.3	10800	4	O	+	control	N/A	neither	IGS_MLI_102rCap	IGS-MLI-102RCAP		True
+UMCS8	GSM8786935	whole blood	CM + SMA	Male	4 years	Dogon	5	6.4	36000	4	A	+	control	N/A	neither	IGS_MLI_103rCap	IGS-MLI-103RCAP		True
+UMC10	GSM8786936	whole blood	CM	Male	4 years	Dogon	5	8	2850	4	A	+	control	5	neither	IGS_MLI_104rCap	IGS-MLI-104RCAP		True
+UMC12	GSM8786937	whole blood	CM	Male	4 years	Dogon	5	8.2	5475	4	O	+	control	N/A	neither	IGS_MLI_105rCap	IGS-MLI-105RCAP		True
+CM11	GSM8786938	whole blood	CM	Female	9 months	Bambara	2	6.3	42000		O	+	case	2	CM	IGS_MLI_126rCap	IGS-MLI-126RCAP	9	True
+SMA10	GSM8786939	whole blood	SMA	Male	3 years	Bambara	5	2.8	28350	3	AB	+	case	5	SMA	IGS_MLI_127rCap	IGS-MLI-127RCAP		True
+SMA7	GSM8786940	whole blood	SMA	Male	2 years	Bambara	4	2.4	5375	2	B	+	case	4	SMA	IGS_MLI_131rCap	IGS-MLI-131RCAP		True
+SMA8	GSM8786941	whole blood	SMA	Female	3 years	Peulh	3	2.6	17500	3	B	+	case	3	SMA	IGS_MLI_134rCap	IGS-MLI-134RCAP		True
+UMC11	GSM8786942	whole blood	CM	Female	15 months	Bambara	5	8.4	22500	1.25	O	-	control	N/A	neither	IGS_MLI_136rCap	IGS-MLI-136RCAP	15	True
+UMS7	GSM8786943	whole blood	SMA	Male	3 years	Bambara	5	7.4	32100	3	B	+	control	N/A	neither	IGS_MLI_137rCap	IGS-MLI-137RCAP		True
+UMS8	GSM8786944	whole blood	SMA	Female	3	Peulh	5	10.5	14475	3	O	+	control	N/A	neither	IGS_MLI_138rCap	IGS-MLI-138RCAP		True
+CM1	GSM8786945	whole blood	CM	Male	4 years	Dogon	2	6.6	14040	4	A	+	case	2	CM	IGS_MLI_141rCap	IGS-MLI-141RCAP		True
+CM2	GSM8786946	whole blood	CM	Male	4 years	Dogon	1	6.9	76400	4	O	+	case	1	CM	IGS_MLI_142rCap	IGS-MLI-142RCAP		True
+CM3	GSM8786947	whole blood	CM	Female	18 months	Dogon	2	7.4	73800	1.5	O	+	case	2	CM	IGS_MLI_143rCap	IGS-MLI-143RCAP	18	True
+CM4	GSM8786948	whole blood	CM	Male	16 months	Dogon	2	5.4	24000	1.33	O	+	case	2	CM	IGS_MLI_144rCap	IGS-MLI-144RCAP	16	True
+CS1	GSM8786949	whole blood	CM + SMA	Male	3 years	Dogon	1	2.5	525	3	B	+	case	1	both	IGS_MLI_145rCap	IGS-MLI-145RCAP		True
+CS2	GSM8786950	whole blood	CM + SMA	Male	4years	Dogon	1	2.6	950	4	AB	+	case	1	both	IGS_MLI_147rCap	IGS-MLI-147RCAP		True
+SMA1	GSM8786951	whole blood	SMA	Female	3 years	Dogon	3	3.8	68400	3	B	+	case	3	SMA	IGS_MLI_148rCap	IGS-MLI-148RCAP		True
+UMC1	GSM8786952	whole blood	CM	Male	4 years	Dogon	5	10.7	3900	4	A	+	control	N/A	neither	IGS_MLI_151rCap	IGS-MLI-151RCAP		True
+CM14	GSM8786953	whole blood	CM	Male	2 years	Dogon	2	6.2	154200	2	B	+	case	2	CM	IGS_MLI_200rCAP	IGS-MLI-200RCAP		True
+CM15	GSM8786954	whole blood	CM	Male	3 years	Dogon	1	8.6	185100	3	O	+	case	1	CM	IGS_MLI_201rCAP	IGS-MLI-201RCAP		True
+CM16	GSM8786955	whole blood	CM	Male	4 years	Dogon	1	7.3	306600	4	AB	+	case	1	CM	IGS_MLI_205rCAP	IGS-MLI-205RCAP		True
+CM17	GSM8786956	whole blood	CM	Female	3 years	Dogon	1	6.3	244200	3	O	+	case	1	CM	IGS_MLI_206rCAP	IGS-MLI-206RCAP		True
+CM18	GSM8786957	whole blood	CM	Female	4 years	Dogon	1	6.3	63325	4	A	+	case	1	CM	IGS_MLI_207rCAP	IGS-MLI-207RCAP		True
+SMA11	GSM8786958	whole blood	SMA	Male	18 months	Peulh	5	3.8	15500	1.5	A	+	case	5	SMA	IGS_MLI_211rCAP	IGS-MLI-211RCAP	18	True
+SMA12	GSM8786959	whole blood	SMA	Female	1 year	Bambara	3	3.3	112500	1	O	+	case	3	SMA	IGS_MLI_212rCAP	IGS-MLI-212RCAP		True
+SMA13	GSM8786960	whole blood	SMA	Male	1 year	Bambara	3	4.3	3200	1	B	-	case	3	SMA	IGS_MLI_213rCAP	IGS-MLI-213RCAP		True
+CM19	GSM8786961	whole blood	CM	Female	5 years	Malinké	1	6.6	41000	5	A	+	case	1	CM	IGS_MLI_214rCAP	IGS-MLI-214RCAP		True
+SMA14	GSM8786962	whole blood	SMA	Male	11 months	Senoufo	5	4.6	205000	0.916666667	O	+	case	5	SMA	IGS_MLI_215rCAP	IGS-MLI-215RCAP	11	True
+CS10	GSM8786963	whole blood	CM + SMA	Male	2 ans	Bambara	1	1.5	125	2	A	+	case	1	both	IGS_MLI_216rCAP	IGS-MLI-216RCAP		True
+SMA15	GSM8786964	whole blood	SMA	Male	5 ans	Bozo	5	3.3	150	5	A	+	case	5	SMA	IGS_MLI_217rCAP	IGS-MLI-217RCAP		True
+SMA16	GSM8786965	whole blood	SMA	Male	5 years	Bambara	5	3.4	25000	5	B	+	case	5	SMA	IGS_MLI_219rCAP	IGS-MLI-219RCAP		True
+CM20	GSM8786966	whole blood	CM	Female	5 years	Bobo	1	8.3	1650	5	O	-	case	1	CM	IGS_MLI_220rCAP	IGS-MLI-220RCAP		True
+SMA17	GSM8786967	whole blood	SMA	Female	3 years	Dogon	5	3.9	150000	3	O	+	case	5	SMA	IGS_MLI_221rCAP	IGS-MLI-221RCAP		True
+Both9	GSM8786968	whole blood	CM + SMA	Male	3 years	Bozo	2	4.2	550	3	B	-	case	2	both	IGS_MLI_222rCAP	IGS-MLI-222RCAP		True
+CM21	GSM8786969	whole blood	CM	Female	5 years	Sonrhaï	1	11.2	92400	5	B	+	case	1	CM	IGS_MLI_223rCAP	IGS-MLI-223RCAP		True
+SMA18	GSM8786970	whole blood	SMA	Female	1 year	Senoufo	5	4.7	24825	1	A	+	case	5	SMA	IGS_MLI_228rCAP	IGS-MLI-228RCAP		True
+SMA19	GSM8786971	whole blood	SMA	Male	19 months	Bambara	5	4.2	2643	1.583333333	O	+	case	5	SMA	IGS_MLI_230rCAP	IGS-MLI-230RCAP	19	True
+SMA20	GSM8786972	whole blood	SMA	Male	16 months	Senoufo	5	4.3	32650	1.333333333	A	+	case	5	SMA	IGS_MLI_231rCAP	IGS-MLI-231RCAP	16	True

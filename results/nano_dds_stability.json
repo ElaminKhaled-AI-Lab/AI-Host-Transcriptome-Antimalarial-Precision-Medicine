@@ -1,0 +1,33 @@
+{
+  "drug": "lumefantrine",
+  "polymer": "Eudragit_RL100",
+  "factors_coded": {
+    "A": 0,
+    "B": -1,
+    "C": 0
+  },
+  "stability": {
+    "monthly_growth_25C": 0.0421,
+    "monthly_growth_40C": 0.1977,
+    "size_trajectory_40C_nm": [
+      153.0,
+      183.2,
+      219.4,
+      262.8,
+      314.7,
+      376.9,
+      451.4
+    ],
+    "ee_trajectory_40C_pct": [
+      86.7,
+      78.2,
+      70.4,
+      63.5,
+      57.2,
+      51.5,
+      46.5
+    ],
+    "predicted_shelf_life_25C_months": 2.3,
+    "colloidally_stable": true
+  }
+}

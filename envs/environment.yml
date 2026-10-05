@@ -1,0 +1,53 @@
+# =====================================================================
+# environment.yml  --  Reproducible conda/mamba environment (Section 91)
+# Create with:  mamba env create -f envs/environment.yml
+#           or: conda env create -f envs/environment.yml
+# Activate with: conda activate malaria
+# =====================================================================
+name: malaria
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  # --- core scientific stack ---
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - pyarrow
+  - zarr
+  - pyyaml
+  - tqdm
+  - joblib
+  # --- ML / DL ---
+  - pytorch            # add pytorch-cuda=12.1 + channel pytorch for GPU builds
+  - xgboost
+  - optuna
+  - shap
+  # --- bioinformatics download / access tools ---
+  - sra-tools          # prefetch, fasterq-dump  (SRA)
+  - entrez-direct      # esearch/efetch (NCBI)
+  - wget
+  - curl
+  - aria2              # parallel/segmented downloads
+  - pigz
+  # --- omics processing (optional, heavier) ---
+  - salmon             # transcript quantification (dual RNA)
+  - fastqc
+  - multiqc
+  # --- MalariaGEN access ---
+  - pip
+  - pip:
+      - malariagen_data       # Pf8 access (zarr over cloud)
+      - pridepy               # PRIDE download helper (proteomics)
+      - requests
+      - ppx                   # ProteomeXchange / MassIVE / PRIDE download
+      - mofapy2               # MOFA+ (Python side)
+      - snfpy                 # Similarity Network Fusion
+      - gpytorch              # Gaussian process (formulation)
+      - botorch               # Bayesian optimization (formulation)
+      - lifelines             # parasite-clearance / time-to-event

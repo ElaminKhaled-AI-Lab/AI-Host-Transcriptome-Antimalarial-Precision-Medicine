@@ -1,0 +1,271 @@
+{
+  "cohort": "external_gambia",
+  "n_samples": 52,
+  "stage1": {
+    "minority_cluster_ids": [
+      "ERR3470488",
+      "ERR3470509",
+      "ERR3470533",
+      "ERR3470534"
+    ],
+    "n_qc_fail": 0,
+    "minority_explained_by_flags": false,
+    "n_flagged": 0
+  },
+  "stage2": {
+    "n_after_removal": 52,
+    "sweep": [
+      {
+        "k": 2,
+        "silhouette": 0.031095642619329768,
+        "balance": 0.39124356362925566,
+        "min_cluster_size": 4,
+        "sizes": [
+          48,
+          4
+        ],
+        "stability": 0.22319563383410795,
+        "degenerate": true,
+        "representation": "z-scored PCs"
+      },
+      {
+        "k": 3,
+        "silhouette": -0.0059551408436645656,
+        "balance": 0.6273165445404413,
+        "min_cluster_size": 1,
+        "sizes": [
+          36,
+          15,
+          1
+        ],
+        "stability": 0.13653539793403777,
+        "degenerate": true,
+        "representation": "z-scored PCs"
+      },
+      {
+        "k": 4,
+        "silhouette": 0.07302478290332651,
+        "balance": 0.20482772097780375,
+        "min_cluster_size": 1,
+        "sizes": [
+          49,
+          1,
+          1,
+          1
+        ],
+        "stability": 0.09466949115576585,
+        "degenerate": true,
+        "representation": "z-scored PCs"
+      },
+      {
+        "k": 5,
+        "silhouette": 0.01517402406973251,
+        "balance": 0.7389110464397404,
+        "min_cluster_size": 1,
+        "sizes": [
+          9,
+          20,
+          1,
+          21,
+          1
+        ],
+        "stability": 0.12262664524807547,
+        "degenerate": true,
+        "representation": "z-scored PCs"
+      },
+      {
+        "k": 6,
+        "silhouette": 0.01163835444783095,
+        "balance": 0.6963703680552884,
+        "min_cluster_size": 1,
+        "sizes": [
+          19,
+          1,
+          22,
+          1,
+          1,
+          8
+        ],
+        "stability": 0.10663257140719194,
+        "degenerate": true,
+        "representation": "z-scored PCs"
+      },
+      {
+        "k": 2,
+        "silhouette": 0.16201296669088214,
+        "balance": 0.990374836448575,
+        "min_cluster_size": 23,
+        "sizes": [
+          29,
+          23
+        ],
+        "stability": 0.9253596644170151,
+        "degenerate": false,
+        "representation": "variance-weighted PCs"
+      },
+      {
+        "k": 3,
+        "silhouette": 0.15621025028483737,
+        "balance": 0.7009993867863293,
+        "min_cluster_size": 1,
+        "sizes": [
+          28,
+          23,
+          1
+        ],
+        "stability": 0.5983625531769076,
+        "degenerate": true,
+        "representation": "variance-weighted PCs"
+      },
+      {
+        "k": 4,
+        "silhouette": 0.04622662120417271,
+        "balance": 0.8750249652173758,
+        "min_cluster_size": 2,
+        "sizes": [
+          2,
+          18,
+          18,
+          14
+        ],
+        "stability": 0.5372641656033033,
+        "degenerate": true,
+        "representation": "variance-weighted PCs"
+      },
+      {
+        "k": 5,
+        "silhouette": 0.10588089781913798,
+        "balance": 0.6606981810104989,
+        "min_cluster_size": 1,
+        "sizes": [
+          20,
+          26,
+          1,
+          4,
+          1
+        ],
+        "stability": 0.4922969812621995,
+        "degenerate": true,
+        "representation": "variance-weighted PCs"
+      },
+      {
+        "k": 6,
+        "silhouette": 0.10825987498448178,
+        "balance": 0.6727712790560667,
+        "min_cluster_size": 1,
+        "sizes": [
+          1,
+          6,
+          20,
+          23,
+          1,
+          1
+        ],
+        "stability": 0.5266007308107346,
+        "degenerate": true,
+        "representation": "variance-weighted PCs"
+      }
+    ],
+    "best_non_degenerate": {
+      "k": 2,
+      "silhouette": 0.16201296669088214,
+      "balance": 0.990374836448575,
+      "min_cluster_size": 23,
+      "sizes": [
+        29,
+        23
+      ],
+      "stability": 0.9253596644170151,
+      "degenerate": false,
+      "representation": "variance-weighted PCs"
+    },
+    "permutation_null_median": 0.03308123803847437,
+    "permutation_p": 0.02,
+    "peeling_best": null,
+    "peeling_n_removed": 0,
+    "peeling_removed_ids": [],
+    "host_pc1_variance": 0.16341517051617743,
+    "n_host_pcs_above_1pct": 30,
+    "criteria": {
+      "min_balance": 0.5,
+      "min_cluster_size": 5
+    }
+  },
+  "stage3": {
+    "univariate": [
+      {
+        "component": "host_PC1",
+        "variance_explained": 0.16341517051617743,
+        "test": "Mann-Whitney U",
+        "p": 0.6123233239580474,
+        "rank_biserial_r": 0.09166666666666656
+      },
+      {
+        "component": "host_PC2",
+        "variance_explained": 0.050424108619108156,
+        "test": "Mann-Whitney U",
+        "p": 0.5958830905651777,
+        "rank_biserial_r": 0.09583333333333333
+      },
+      {
+        "component": "host_PC3",
+        "variance_explained": 0.04061759160249161,
+        "test": "Mann-Whitney U",
+        "p": 0.05777474412710396,
+        "rank_biserial_r": 0.3374999999999999
+      },
+      {
+        "component": "host_PC4",
+        "variance_explained": 0.03172139493976673,
+        "test": "Mann-Whitney U",
+        "p": 0.953011395422729,
+        "rank_biserial_r": 0.012499999999999956
+      },
+      {
+        "component": "host_PC5",
+        "variance_explained": 0.026363730340886897,
+        "test": "Mann-Whitney U",
+        "p": 0.12262472237011013,
+        "rank_biserial_r": 0.2749999999999999
+      },
+      {
+        "component": "parasite_PC1",
+        "variance_explained": 0.31832586634061977,
+        "test": "Mann-Whitney U",
+        "p": 0.117016544741845,
+        "rank_biserial_r": 0.27916666666666656
+      },
+      {
+        "component": "parasite_PC2",
+        "variance_explained": 0.08974586228062165,
+        "test": "Mann-Whitney U",
+        "p": 0.6973436642249593,
+        "rank_biserial_r": 0.0708333333333333
+      },
+      {
+        "component": "parasite_PC3",
+        "variance_explained": 0.06830383385088572,
+        "test": "Mann-Whitney U",
+        "p": 0.7148587400794155,
+        "rank_biserial_r": 0.06666666666666665
+      }
+    ],
+    "multivariate": {
+      "model": "logistic regression on standardised components",
+      "n": 44,
+      "n_features": 8,
+      "cv_auroc": 0.51875,
+      "cv_folds": 5,
+      "coefficients": {
+        "host_PC1": -0.08920854198467051,
+        "host_PC2": -0.033461600190776646,
+        "host_PC3": -0.5094437753065224,
+        "host_PC4": -0.2529344326887043,
+        "host_PC5": -0.20382076640730332,
+        "parasite_PC1": -0.4545207097926388,
+        "parasite_PC2": 0.37513077003741185,
+        "parasite_PC3": -0.14492799812236293
+      }
+    }
+  }
+}

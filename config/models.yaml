@@ -1,0 +1,158 @@
+# =====================================================================
+# models.yaml  --  Benchmark + novel-method configuration
+# (blueprint Sections 39-56, 69, 70-75, 81-82)
+#
+# Development order is fixed (Section 81): baselines BEFORE HPAMM-Net.
+# HPAMM-Net = Host-Parasite Adaptive Missingness-aware Multi-task Network
+#             (provisional name; novelty must be demonstrated, Section 48/80).
+# =====================================================================
+
+cross_validation:
+  scheme: "nested"          # outer = performance, inner = hyperparameter tuning
+  outer_folds: 5
+  inner_folds: 5
+  repeats: 10               # repeated CV across the predeclared seed set
+  # Grouping prevents leakage: never split technical replicates of one patient.
+  group_by: ["patient_id", "study_id", "site", "country"]
+  stratify_by: "outcome"
+
+metrics:
+  classification:
+    - auroc                 # Area Under the Receiver Operating Characteristic curve
+    - auprc                 # Area Under the Precision-Recall Curve
+    - sensitivity
+    - specificity
+    - balanced_accuracy
+    - f1
+    - mcc                   # Matthews Correlation Coefficient
+  calibration:
+    - brier
+    - calibration_slope
+    - calibration_intercept
+    - expected_calibration_error
+  regression:              # PK exposure, clearance
+    - mae                   # Mean Absolute Error
+    - rmse                  # Root Mean Squared Error
+    - r2
+  ranking:                 # treatment prioritization
+    - top1_agreement
+    - rank_correlation
+    - simulated_regret
+
+# ---------------------------------------------------------------------
+# Baselines (Section 40) -- mandatory comparators
+# ---------------------------------------------------------------------
+baselines:
+  clinical_only:
+    features: [age, weight, parasitemia, hemoglobin, severity, treatment, dose]
+    models: [logistic_regression, elastic_net, xgboost]
+  parasite_resistance_rules:
+    features: [kelch13, crt, mdr1, dhfr, dhps, plasmepsin2_3]
+  single_omic:
+    modalities: [host_rna, host_proteome, host_metabolome, parasite_genome, parasite_rna]
+  concatenation:
+    models: [logistic_regression, elastic_net, random_forest, xgboost]
+
+# ---------------------------------------------------------------------
+# Established integration methods (Section 69)
+# ---------------------------------------------------------------------
+integration_methods:
+  mofa:                    # Multi-Omics Factor Analysis Plus
+    n_factors: 15
+    convergence_mode: "slow"
+    handles_missing: true
+  snf:                     # Similarity Network Fusion
+    k_neighbors: 20
+    alpha: 0.5
+    t_iterations: 20
+  diablo:                  # requires matched samples across blocks
+    ncomp: 3
+    design_correlation: 0.1
+  autoencoder:
+    latent_dim: 64
+    hidden: [512, 128]
+    dropout: 0.3
+  vae:                     # multimodal Variational Autoencoder
+    latent_dim: 64
+    fusion: "product_of_experts"   # or mixture_of_experts | mask
+    beta: 1.0
+  mogonet:                 # Multi-Omics Graph cOnvolutional NETworks
+    gcn_hidden: [64, 64]
+    adj_metric: "cosine"
+    adj_k: 10
+  late_fusion:
+    combiner: "learned_gating"     # weighted_average | logistic_stacking | attention
+
+# ---------------------------------------------------------------------
+# HPAMM-Net (Sections 49-56, 82) -- developed incrementally v0..v8
+# ---------------------------------------------------------------------
+hpamm_net:
+  version: "v1"            # bump as you add gating(v2), dropout(v3), multitask(v4)...
+  encoders:
+    latent_dim_per_modality: 64      # tune within 32..128
+    modalities:
+      - host_genome
+      - host_rna
+      - host_proteome
+      - host_metabolome
+      - parasite_genome
+      - parasite_rna
+      - clinical
+      - treatment
+  host_parasite_separation: true     # Z_H, Z_P, then Z_HP = h(Z_H, Z_P)
+  gated_fusion: true
+  missingness_aware: true            # missing modality contributes zero, not imputed
+  modality_dropout_p: 0.3            # training-time robustness (Section 53)
+  multitask_heads:                   # Section 55
+    resistance: {type: classification, weight: 1.0}
+    clearance:  {type: regression,     weight: 1.0}
+    pk_auc:     {type: regression,     weight: 1.0}
+    recrudescence: {type: classification, weight: 1.0}
+    toxicity:   {type: classification, weight: 1.0}
+    cure:       {type: classification, weight: 1.0}
+  biological_regularization:         # Section 56 (must NOT encode test label)
+    enabled: false
+    lambda: 0.01
+  domain_adaptation:                 # Section 57
+    enabled: false
+    method: "adversarial"            # or domain_specific_norm
+  uncertainty:                       # Section 58
+    method: "deep_ensemble"          # mc_dropout | bayesian_head | conformal
+    ensemble_size: 5
+  optimizer:
+    name: "adamw"
+    lr: 0.0003
+    weight_decay: 0.0001
+    batch_size: 64
+    max_epochs: 200
+    early_stopping_patience: 20
+
+# ---------------------------------------------------------------------
+# Ablation matrix (Section 75) -- toggled by the ablation runner
+# ---------------------------------------------------------------------
+ablations:
+  - drop_host_genome
+  - drop_host_rna
+  - drop_host_proteome
+  - drop_host_metabolome
+  - drop_parasite_genome
+  - drop_parasite_rna
+  - no_modality_gating
+  - no_modality_dropout
+  - no_biological_regularization
+  - no_multitask
+  - no_domain_adaptation
+  - no_uncertainty
+
+# ---------------------------------------------------------------------
+# Formulation models (Sections 66-67)
+# ---------------------------------------------------------------------
+formulation:
+  models: [response_surface, random_forest, xgboost, gaussian_process]
+  optimizer: "bayesian"             # constrained multi-objective preferred
+  objectives: [stability, dissolution, dose_uniformity, palatability]
+  constraints:
+    viscosity_range: [null, null]
+    ph_range: [null, null]
+    dose_volume_limit_ml: null
+    chemical_stability_threshold: null

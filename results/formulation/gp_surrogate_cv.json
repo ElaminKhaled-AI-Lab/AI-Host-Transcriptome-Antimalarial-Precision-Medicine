@@ -1,0 +1,12 @@
+{
+  "visc_cp": 0.7192388141626227,
+  "sedimentation_volume_ratio": 0.5757126561253127,
+  "redispersibility_strokes": 0.9064046637741183,
+  "dissolution_pct_30min": 0.9385434910273613,
+  "content_uniformity_rsd": 0.5766679735187714,
+  "delivered_dose_rsd": 0.5001234556466818,
+  "chemical_assay_pct_accel": 0.9073772513558255,
+  "palatability_score": 0.8965243400060481,
+  "administration_volume_ml": 0.991661319025039,
+  "predicted_pk_auc": 0.6622151585620567
+}

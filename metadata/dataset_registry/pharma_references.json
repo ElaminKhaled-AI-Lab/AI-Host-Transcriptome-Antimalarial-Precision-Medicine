@@ -1,0 +1,22 @@
+{
+  "accession": "pharma_references",
+  "repository": "PubChem+ChEMBL+WHO",
+  "download_url": "https://pubchem.ncbi.nlm.nih.gov/",
+  "download_date": "2026-08-25T03:31:55.413995+00:00",
+  "dest_dir": "/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/formulation/PubChem",
+  "license_or_access_terms": "open",
+  "publication": "",
+  "raw_or_processed_status": "reference_descriptors",
+  "sample_count": null,
+  "organism": "",
+  "tissue": "",
+  "platform": "",
+  "software": "",
+  "files": [
+    {
+      "file_name": "antimalarial_physicochemical.json",
+      "file_size": 3871
+    }
+  ],
+  "notes": "PubChem 12 compounds; ChEMBL 12; WHO benchmark noted."
+}

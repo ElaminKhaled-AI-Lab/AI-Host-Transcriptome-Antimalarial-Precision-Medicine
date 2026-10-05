@@ -1,0 +1,35 @@
+{
+  "cohort": "real_mali",
+  "n_samples": 56,
+  "cluster_source": "BLISS",
+  "k": 2,
+  "cluster_sizes": {
+    "0": 1,
+    "1": 55
+  },
+  "n_covariates_tested": 1,
+  "n_significant_fdr_0.05": 0,
+  "results": [
+    {
+      "test": "Fisher exact",
+      "p": 1.0,
+      "effect": 0.1125707613394346,
+      "effect_name": "Cramer's V",
+      "n": 56,
+      "detail": {
+        "female": {
+          "0": 0,
+          "1": 23
+        },
+        "male": {
+          "0": 1,
+          "1": 32
+        }
+      },
+      "covariate": "sex",
+      "type": "categorical",
+      "p_fdr": 1.0,
+      "significant": false
+    }
+  ]
+}

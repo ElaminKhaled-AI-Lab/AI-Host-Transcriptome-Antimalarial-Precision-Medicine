@@ -1,0 +1,118 @@
+{
+  "n_checks": 11,
+  "n_design_space_overlaps": 11,
+  "fraction_overlapping": 1.0,
+  "method": "design-space overlap across 3^3 factorial vs published range",
+  "checks": [
+    {
+      "anchor": "Primaquine nanochitosan-galactose",
+      "drug": "primaquine",
+      "polymer": "Chitosan",
+      "metric": "size_nm",
+      "twin_achievable_range": "208.6 - 511.8",
+      "literature_range": "300 - 500",
+      "design_space_overlaps": true,
+      "citation": "Antimicrob. Agents Chemother. 2023, doi:10.1128/aac.00915-23"
+    },
+    {
+      "anchor": "Primaquine nanochitosan-galactose",
+      "drug": "primaquine",
+      "polymer": "Chitosan",
+      "metric": "zeta_mv",
+      "twin_achievable_range": "23.1 - 32.0",
+      "literature_range": "20 - 40",
+      "design_space_overlaps": true,
+      "citation": "Antimicrob. Agents Chemother. 2023, doi:10.1128/aac.00915-23"
+    },
+    {
+      "anchor": "Primaquine nanochitosan-galactose",
+      "drug": "primaquine",
+      "polymer": "Chitosan",
+      "metric": "pdi",
+      "twin_achievable_range": "0.37 - 0.46",
+      "literature_range": "0.4 - 0.6",
+      "design_space_overlaps": true,
+      "citation": "Antimicrob. Agents Chemother. 2023, doi:10.1128/aac.00915-23"
+    },
+    {
+      "anchor": "Primaquine nanochitosan-galactose",
+      "drug": "primaquine",
+      "polymer": "Chitosan",
+      "metric": "ee_pct",
+      "twin_achievable_range": "35.2 - 72.9",
+      "literature_range": "40 - 60",
+      "design_space_overlaps": true,
+      "citation": "Antimicrob. Agents Chemother. 2023, doi:10.1128/aac.00915-23"
+    },
+    {
+      "anchor": "Primaquine nanochitosan-galactose",
+      "drug": "primaquine",
+      "polymer": "Chitosan",
+      "metric": "liver_plasma_ratio",
+      "twin_achievable_range": "0.61 - 0.63",
+      "literature_range": "0.45 - 0.65",
+      "design_space_overlaps": true,
+      "citation": "Antimicrob. Agents Chemother. 2023, doi:10.1128/aac.00915-23"
+    },
+    {
+      "anchor": "Curcumin-artesunate PLGA 50:50",
+      "drug": "artesunate",
+      "polymer": "PLGA_50_50",
+      "metric": "size_nm",
+      "twin_achievable_range": "121.3 - 297.5",
+      "literature_range": "220 - 290",
+      "design_space_overlaps": true,
+      "citation": "PMC5988888 (Sci. Rep. / PLGA artesunate)"
+    },
+    {
+      "anchor": "Curcumin-artesunate PLGA 50:50",
+      "drug": "artesunate",
+      "polymer": "PLGA_50_50",
+      "metric": "zeta_mv",
+      "twin_achievable_range": "-18.1 - -12.3",
+      "literature_range": "-25 - -13",
+      "design_space_overlaps": true,
+      "citation": "PMC5988888 (Sci. Rep. / PLGA artesunate)"
+    },
+    {
+      "anchor": "Curcumin-artesunate PLGA 50:50",
+      "drug": "artesunate",
+      "polymer": "PLGA_50_50",
+      "metric": "pdi",
+      "twin_achievable_range": "0.05 - 0.13",
+      "literature_range": "0.08 - 0.22",
+      "design_space_overlaps": true,
+      "citation": "PMC5988888 (Sci. Rep. / PLGA artesunate)"
+    },
+    {
+      "anchor": "Curcumin-artesunate PLGA 50:50",
+      "drug": "artesunate",
+      "polymer": "PLGA_50_50",
+      "metric": "ee_pct",
+      "twin_achievable_range": "33.7 - 71.6",
+      "literature_range": "15 - 35",
+      "design_space_overlaps": true,
+      "citation": "PMC5988888 (Sci. Rep. / PLGA artesunate)"
+    },
+    {
+      "anchor": "DHA-lumefantrine polymeric NP",
+      "drug": "lumefantrine",
+      "polymer": "PLGA_75_25",
+      "metric": "size_nm",
+      "twin_achievable_range": "101.9 - 249.9",
+      "literature_range": "120 - 260",
+      "design_space_overlaps": true,
+      "citation": "Heliyon 2024, doi:10.1016/j.heliyon.2024.e28990"
+    },
+    {
+      "anchor": "DHA-lumefantrine polymeric NP",
+      "drug": "lumefantrine",
+      "polymer": "PLGA_75_25",
+      "metric": "ee_pct",
+      "twin_achievable_range": "76.2 - 92.6",
+      "literature_range": "40 - 90",
+      "design_space_overlaps": true,
+      "citation": "Heliyon 2024, doi:10.1016/j.heliyon.2024.e28990"
+    }
+  ]
+}

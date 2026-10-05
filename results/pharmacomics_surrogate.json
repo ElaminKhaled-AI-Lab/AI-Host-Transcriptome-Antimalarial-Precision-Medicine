@@ -1,0 +1,38 @@
+{
+  "response": {
+    "cv_r2": 0.9921439854361455,
+    "top_features": {
+      "mw": 0.571,
+      "hbd": 0.166,
+      "hba": 0.091,
+      "logp": 0.07
+    }
+  },
+  "bioavailability": {
+    "cv_r2": 0.999999999999998,
+    "top_features": {
+      "mw": 0.656,
+      "logp": 0.344,
+      "hba": 0.0,
+      "tpsa": 0.0
+    }
+  },
+  "day7_exposure": {
+    "cv_r2": 0.9880953767452703,
+    "top_features": {
+      "hbd": 0.34,
+      "pat_host_metabolic": 0.212,
+      "logp": 0.141,
+      "mw": 0.125
+    }
+  },
+  "hepatotoxicity": {
+    "cv_r2": 0.9987525957324157,
+    "top_features": {
+      "logp": 0.456,
+      "pat_host_tox": 0.3,
+      "mw": 0.208,
+      "tpsa": 0.035
+    }
+  }
+}

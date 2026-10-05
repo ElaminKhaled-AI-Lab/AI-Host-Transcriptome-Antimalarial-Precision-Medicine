@@ -1,0 +1,2 @@
+covariate,type,test,n,effect_name,effect,p,p_fdr,significant_fdr_0.05
+sex,categorical,Fisher exact,56,Cramer's V,0.1125707613394346,1.0,1.0,False

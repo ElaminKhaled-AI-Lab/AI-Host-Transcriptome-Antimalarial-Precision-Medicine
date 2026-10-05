@@ -1,0 +1,1334 @@
+{
+  "accession": "PXD058621",
+  "repository": "PRIDE",
+  "download_url": "https://www.ebi.ac.uk/pride/archive/projects/PXD058621",
+  "download_date": "2026-08-27T04:15:02.946252+00:00",
+  "dest_dir": "/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/host_proteomics/PXD058621",
+  "license_or_access_terms": "open",
+  "publication": "",
+  "raw_or_processed_status": "raw+processed",
+  "sample_count": null,
+  "organism": "Homo sapiens",
+  "tissue": "",
+  "platform": "",
+  "software": "PRIDE REST v2 / pridepy",
+  "files": [
+    {
+      "file_name": "OTHER/Sample_01.mzML.quant",
+      "file_size": 1915061
+    },
+    {
+      "file_name": "OTHER/Sample_01.raw.quant",
+      "file_size": 1579313
+    },
+    {
+      "file_name": "OTHER/Sample_02.raw.quant",
+      "file_size": 1487533
+    },
+    {
+      "file_name": "OTHER/Sample_03.raw.quant",
+      "file_size": 1553829
+    },
+    {
+      "file_name": "OTHER/Sample_04.raw.quant",
+      "file_size": 1549617
+    },
+    {
+      "file_name": "OTHER/Sample_05.raw.quant",
+      "file_size": 1438921
+    },
+    {
+      "file_name": "OTHER/Sample_06.raw.quant",
+      "file_size": 1458861
+    },
+    {
+      "file_name": "OTHER/Sample_07.raw.quant",
+      "file_size": 1557677
+    },
+    {
+      "file_name": "OTHER/Sample_08.raw.quant",
+      "file_size": 1549365
+    },
+    {
+      "file_name": "OTHER/Sample_09.raw.quant",
+      "file_size": 1159729
+    },
+    {
+      "file_name": "OTHER/Sample_10.raw.quant",
+      "file_size": 1519457
+    },
+    {
+      "file_name": "OTHER/Sample_100.raw.quant",
+      "file_size": 1440306
+    },
+    {
+      "file_name": "OTHER/Sample_101.raw.quant",
+      "file_size": 1516834
+    },
+    {
+      "file_name": "OTHER/Sample_102.raw.quant",
+      "file_size": 1451722
+    },
+    {
+      "file_name": "OTHER/Sample_103.raw.quant",
+      "file_size": 95765
+    },
+    {
+      "file_name": "OTHER/Sample_104.raw.quant",
+      "file_size": 1429330
+    },
+    {
+      "file_name": "OTHER/Sample_105.raw.quant",
+      "file_size": 1482658
+    },
+    {
+      "file_name": "OTHER/Sample_106.raw.quant",
+      "file_size": 1255874
+    },
+    {
+      "file_name": "OTHER/Sample_107.raw.quant",
+      "file_size": 1450882
+    },
+    {
+      "file_name": "OTHER/Sample_108.raw.quant",
+      "file_size": 1488646
+    },
+    {
+      "file_name": "OTHER/Sample_11.raw.quant",
+      "file_size": 1510345
+    },
+    {
+      "file_name": "OTHER/Sample_12.raw.quant",
+      "file_size": 1496525
+    },
+    {
+      "file_name": "OTHER/Sample_13.raw.quant",
+      "file_size": 1466601
+    },
+    {
+      "file_name": "OTHER/Sample_14.raw.quant",
+      "file_size": 1552093
+    },
+    {
+      "file_name": "OTHER/Sample_15.raw.quant",
+      "file_size": 1468181
+    },
+    {
+      "file_name": "OTHER/Sample_16.raw.quant",
+      "file_size": 1509265
+    },
+    {
+      "file_name": "OTHER/Sample_17.raw.quant",
+      "file_size": 1516761
+    },
+    {
+      "file_name": "OTHER/Sample_18.raw.quant",
+      "file_size": 1474689
+    },
+    {
+      "file_name": "OTHER/Sample_19.raw.quant",
+      "file_size": 1510365
+    },
+    {
+      "file_name": "OTHER/Sample_20.raw.quant",
+      "file_size": 1515933
+    },
+    {
+      "file_name": "OTHER/Sample_21.raw.quant",
+      "file_size": 1496761
+    },
+    {
+      "file_name": "OTHER/Sample_22.raw.quant",
+      "file_size": 127765
+    },
+    {
+      "file_name": "OTHER/Sample_23.raw.quant",
+      "file_size": 1439773
+    },
+    {
+      "file_name": "OTHER/Sample_24.raw.quant",
+      "file_size": 1533225
+    },
+    {
+      "file_name": "OTHER/Sample_25.raw.quant",
+      "file_size": 1496145
+    },
+    {
+      "file_name": "OTHER/Sample_26.raw.quant",
+      "file_size": 1560953
+    },
+    {
+      "file_name": "OTHER/Sample_27.raw.quant",
+      "file_size": 1516521
+    },
+    {
+      "file_name": "OTHER/Sample_28.raw.quant",
+      "file_size": 1557677
+    },
+    {
+      "file_name": "OTHER/Sample_29.raw.quant",
+      "file_size": 1534973
+    },
+    {
+      "file_name": "OTHER/Sample_30.raw.quant",
+      "file_size": 1552925
+    },
+    {
+      "file_name": "OTHER/Sample_31.raw.quant",
+      "file_size": 1604105
+    },
+    {
+      "file_name": "OTHER/Sample_32.raw.quant",
+      "file_size": 1577669
+    },
+    {
+      "file_name": "OTHER/Sample_33.raw.quant",
+      "file_size": 1586777
+    },
+    {
+      "file_name": "OTHER/Sample_34.raw.quant",
+      "file_size": 1541325
+    },
+    {
+      "file_name": "OTHER/Sample_35.raw.quant",
+      "file_size": 1504829
+    },
+    {
+      "file_name": "OTHER/Sample_36.raw.quant",
+      "file_size": 1478533
+    },
+    {
+      "file_name": "OTHER/Sample_37.raw.quant",
+      "file_size": 1520873
+    },
+    {
+      "file_name": "OTHER/Sample_38.raw.quant",
+      "file_size": 1433705
+    },
+    {
+      "file_name": "OTHER/Sample_39.raw.quant",
+      "file_size": 1514281
+    },
+    {
+      "file_name": "OTHER/Sample_40.raw.quant",
+      "file_size": 1610253
+    },
+    {
+      "file_name": "OTHER/Sample_41.raw.quant",
+      "file_size": 1455077
+    },
+    {
+      "file_name": "OTHER/Sample_42.raw.quant",
+      "file_size": 1498449
+    },
+    {
+      "file_name": "OTHER/Sample_43.raw.quant",
+      "file_size": 1609541
+    },
+    {
+      "file_name": "OTHER/Sample_44.raw.quant",
+      "file_size": 1498565
+    },
+    {
+      "file_name": "OTHER/Sample_45.raw.quant",
+      "file_size": 1564641
+    },
+    {
+      "file_name": "OTHER/Sample_46.raw.quant",
+      "file_size": 1493041
+    },
+    {
+      "file_name": "OTHER/Sample_47.raw.quant",
+      "file_size": 1517825
+    },
+    {
+      "file_name": "OTHER/Sample_48.raw.quant",
+      "file_size": 1489141
+    },
+    {
+      "file_name": "OTHER/Sample_49.raw.quant",
+      "file_size": 1517061
+    },
+    {
+      "file_name": "OTHER/Sample_50.raw.quant",
+      "file_size": 1298432
+    },
+    {
+      "file_name": "OTHER/Sample_51.raw.quant",
+      "file_size": 1431921
+    },
+    {
+      "file_name": "OTHER/Sample_52.raw.quant",
+      "file_size": 1614657
+    },
+    {
+      "file_name": "OTHER/Sample_53.raw.quant",
+      "file_size": 1444157
+    },
+    {
+      "file_name": "OTHER/Sample_54.raw.quant",
+      "file_size": 1488801
+    },
+    {
+      "file_name": "OTHER/Sample_55.raw.quant",
+      "file_size": 1486997
+    },
+    {
+      "file_name": "OTHER/Sample_56.raw.quant",
+      "file_size": 163840
+    },
+    {
+      "file_name": "OTHER/Sample_57.raw.quant",
+      "file_size": 1468509
+    },
+    {
+      "file_name": "OTHER/Sample_58.raw.quant",
+      "file_size": 1543585
+    },
+    {
+      "file_name": "OTHER/Sample_59.raw.quant",
+      "file_size": 1492053
+    },
+    {
+      "file_name": "OTHER/Sample_60.raw.quant",
+      "file_size": 1463261
+    },
+    {
+      "file_name": "OTHER/Sample_61.raw.quant",
+      "file_size": 1568625
+    },
+    {
+      "file_name": "OTHER/Sample_62.raw.quant",
+      "file_size": 1496349
+    },
+    {
+      "file_name": "OTHER/Sample_63.raw.quant",
+      "file_size": 1567573
+    },
+    {
+      "file_name": "OTHER/Sample_64.raw.quant",
+      "file_size": 1534809
+    },
+    {
+      "file_name": "OTHER/Sample_65.raw.quant",
+      "file_size": 1525977
+    },
+    {
+      "file_name": "OTHER/Sample_66.raw.quant",
+      "file_size": 1552205
+    },
+    {
+      "file_name": "OTHER/Sample_67.raw.quant",
+      "file_size": 1502429
+    },
+    {
+      "file_name": "OTHER/Sample_68.raw.quant",
+      "file_size": 1514741
+    },
+    {
+      "file_name": "OTHER/Sample_69.raw.quant",
+      "file_size": 95765
+    },
+    {
+      "file_name": "OTHER/Sample_70.raw.quant",
+      "file_size": 1494081
+    },
+    {
+      "file_name": "OTHER/Sample_71.raw.quant",
+      "file_size": 1484933
+    },
+    {
+      "file_name": "OTHER/Sample_72.raw.quant",
+      "file_size": 1549977
+    },
+    {
+      "file_name": "OTHER/Sample_73.raw.quant",
+      "file_size": 532480
+    },
+    {
+      "file_name": "OTHER/Sample_74.raw.quant",
+      "file_size": 1453577
+    },
+    {
+      "file_name": "OTHER/Sample_75.raw.quant",
+      "file_size": 1557173
+    },
+    {
+      "file_name": "OTHER/Sample_76.raw.quant",
+      "file_size": 1266669
+    },
+    {
+      "file_name": "OTHER/Sample_77.raw.quant",
+      "file_size": 1451345
+    },
+    {
+      "file_name": "OTHER/Sample_78.raw.quant",
+      "file_size": 1487985
+    },
+    {
+      "file_name": "OTHER/Sample_79.raw.quant",
+      "file_size": 127765
+    },
+    {
+      "file_name": "OTHER/Sample_80.raw.quant",
+      "file_size": 1553625
+    },
+    {
+      "file_name": "OTHER/Sample_81.raw.quant",
+      "file_size": 1483217
+    },
+    {
+      "file_name": "OTHER/Sample_82.raw.quant",
+      "file_size": 95765
+    },
+    {
+      "file_name": "OTHER/Sample_83.raw.quant",
+      "file_size": 1495765
+    },
+    {
+      "file_name": "OTHER/Sample_84.raw.quant",
+      "file_size": 1563001
+    },
+    {
+      "file_name": "OTHER/Sample_85.raw.quant",
+      "file_size": 1502237
+    },
+    {
+      "file_name": "OTHER/Sample_86.raw.quant",
+      "file_size": 1529949
+    },
+    {
+      "file_name": "OTHER/Sample_87.raw.quant",
+      "file_size": 1227573
+    },
+    {
+      "file_name": "OTHER/Sample_88.raw.quant",
+      "file_size": 1495289
+    },
+    {
+      "file_name": "OTHER/Sample_89.raw.quant",
+      "file_size": 1494509
+    },
+    {
+      "file_name": "OTHER/Sample_90.raw.quant",
+      "file_size": 1481673
+    },
+    {
+      "file_name": "OTHER/Sample_91.raw.quant",
+      "file_size": 1469497
+    },
+    {
+      "file_name": "OTHER/Sample_92.raw.quant",
+      "file_size": 4096
+    },
+    {
+      "file_name": "OTHER/Sample_93.raw.quant",
+      "file_size": 1546273
+    },
+    {
+      "file_name": "OTHER/Sample_94.raw.quant",
+      "file_size": 1480665
+    },
+    {
+      "file_name": "OTHER/Sample_95.raw.quant",
+      "file_size": 1482633
+    },
+    {
+      "file_name": "OTHER/Sample_96.raw.quant",
+      "file_size": 1534401
+    },
+    {
+      "file_name": "OTHER/Sample_97.raw.quant",
+      "file_size": 1459177
+    },
+    {
+      "file_name": "OTHER/Sample_98.raw.quant",
+      "file_size": 1284193
+    },
+    {
+      "file_name": "OTHER/Sample_99.raw.quant",
+      "file_size": 1458265
+    },
+    {
+      "file_name": "OTHER/Speclib.tsv",
+      "file_size": 12861894
+    },
+    {
+      "file_name": "PEAK/Sample_01.mzML",
+      "file_size": 95760
+    },
+    {
+      "file_name": "PEAK/Sample_01_calibrated.mgf",
+      "file_size": 937813254
+    },
+    {
+      "file_name": "PEAK/Sample_02.mzML",
+      "file_size": 1971806208
+    },
+    {
+      "file_name": "PEAK/Sample_03.mzML",
+      "file_size": 844234752
+    },
+    {
+      "file_name": "PEAK/Sample_04.mzML",
+      "file_size": 171966464
+    },
+    {
+      "file_name": "PEAK/Sample_05.mzML",
+      "file_size": 64421888
+    },
+    {
+      "file_name": "PEAK/Sample_06.mzML",
+      "file_size": 81465344
+    },
+    {
+      "file_name": "PEAK/Sample_07.mzML",
+      "file_size": 391760
+    },
+    {
+      "file_name": "PEAK/Sample_08.mzML",
+      "file_size": 1947205632
+    },
+    {
+      "file_name": "PEAK/Sample_09.mzML",
+      "file_size": 458031104
+    },
+    {
+      "file_name": "PEAK/Sample_10.mzML",
+      "file_size": 70467584
+    },
+    {
+      "file_name": "PEAK/Sample_100.mzML",
+      "file_size": 2017358844
+    },
+    {
+      "file_name": "PEAK/Sample_101.mzML",
+      "file_size": 1614991360
+    },
+    {
+      "file_name": "PEAK/Sample_102.mzML",
+      "file_size": 1345667072
+    },
+    {
+      "file_name": "PEAK/Sample_103.mzML",
+      "file_size": 135168
+    },
+    {
+      "file_name": "PEAK/Sample_104.mzML",
+      "file_size": 1588584448
+    },
+    {
+      "file_name": "PEAK/Sample_105.mzML",
+      "file_size": 1130037248
+    },
+    {
+      "file_name": "PEAK/Sample_106.mzML",
+      "file_size": 1663998482
+    },
+    {
+      "file_name": "PEAK/Sample_107.mzML",
+      "file_size": 95760
+    },
+    {
+      "file_name": "PEAK/Sample_108.mzML",
+      "file_size": 1081614336
+    },
+    {
+      "file_name": "PEAK/Sample_11.mzML",
+      "file_size": 1783595008
+    },
+    {
+      "file_name": "PEAK/Sample_12.mzML",
+      "file_size": 797732864
+    },
+    {
+      "file_name": "PEAK/Sample_13.mzML",
+      "file_size": 424243200
+    },
+    {
+      "file_name": "PEAK/Sample_14.mzML",
+      "file_size": 1468334080
+    },
+    {
+      "file_name": "PEAK/Sample_15.mzML",
+      "file_size": 112173056
+    },
+    {
+      "file_name": "PEAK/Sample_16.mzML",
+      "file_size": 212992
+    },
+    {
+      "file_name": "PEAK/Sample_17.mzML",
+      "file_size": 462848
+    },
+    {
+      "file_name": "PEAK/Sample_18.mzML",
+      "file_size": 403554304
+    },
+    {
+      "file_name": "PEAK/Sample_19.mzML",
+      "file_size": 262144
+    },
+    {
+      "file_name": "PEAK/Sample_20.mzML",
+      "file_size": 1092550656
+    },
+    {
+      "file_name": "PEAK/Sample_21.mzML",
+      "file_size": 138412032
+    },
+    {
+      "file_name": "PEAK/Sample_22.mzML",
+      "file_size": 557056
+    },
+    {
+      "file_name": "PEAK/Sample_23.mzML",
+      "file_size": 1355792384
+    },
+    {
+      "file_name": "PEAK/Sample_24.mzML",
+      "file_size": 638910464
+    },
+    {
+      "file_name": "PEAK/Sample_25.mzML",
+      "file_size": 733552640
+    },
+    {
+      "file_name": "PEAK/Sample_26.mzML",
+      "file_size": 379953152
+    },
+    {
+      "file_name": "PEAK/Sample_27.mzML",
+      "file_size": 1819021312
+    },
+    {
+      "file_name": "PEAK/Sample_28.mzML",
+      "file_size": 2079158090
+    },
+    {
+      "file_name": "PEAK/Sample_29.mzML",
+      "file_size": 2163802555
+    },
+    {
+      "file_name": "PEAK/Sample_30.mzML",
+      "file_size": 641003520
+    },
+    {
+      "file_name": "PEAK/Sample_31.mzML",
+      "file_size": 424402944
+    },
+    {
+      "file_name": "PEAK/Sample_32.mzML",
+      "file_size": 681943040
+    },
+    {
+      "file_name": "PEAK/Sample_33.mzML",
+      "file_size": 2143028076
+    },
+    {
+      "file_name": "PEAK/Sample_34.mzML",
+      "file_size": 239760
+    },
+    {
+      "file_name": "PEAK/Sample_35.mzML",
+      "file_size": 1002217472
+    },
+    {
+      "file_name": "PEAK/Sample_36.mzML",
+      "file_size": 155590656
+    },
+    {
+      "file_name": "PEAK/Sample_37.mzML",
+      "file_size": 368967680
+    },
+    {
+      "file_name": "PEAK/Sample_38.mzML",
+      "file_size": 127760
+    },
+    {
+      "file_name": "PEAK/Sample_39.mzML",
+      "file_size": 2133012268
+    },
+    {
+      "file_name": "PEAK/Sample_40.mzML",
+      "file_size": 328482816
+    },
+    {
+      "file_name": "PEAK/Sample_41.mzML",
+      "file_size": 132644864
+    },
+    {
+      "file_name": "PEAK/Sample_42.mzML",
+      "file_size": 1518239744
+    },
+    {
+      "file_name": "PEAK/Sample_43.mzML",
+      "file_size": 212877312
+    },
+    {
+      "file_name": "PEAK/Sample_44.mzML",
+      "file_size": 137293824
+    },
+    {
+      "file_name": "PEAK/Sample_45.mzML",
+      "file_size": 227737600
+    },
+    {
+      "file_name": "PEAK/Sample_46.mzML",
+      "file_size": 567760
+    },
+    {
+      "file_name": "PEAK/Sample_47.mzML",
+      "file_size": 373151760
+    },
+    {
+      "file_name": "PEAK/Sample_48.mzML",
+      "file_size": 212008960
+    },
+    {
+      "file_name": "PEAK/Sample_49.mzML",
+      "file_size": 2019876864
+    },
+    {
+      "file_name": "PEAK/Sample_50.mzML",
+      "file_size": 81723392
+    },
+    {
+      "file_name": "PEAK/Sample_51.mzML",
+      "file_size": 206946304
+    },
+    {
+      "file_name": "PEAK/Sample_52.mzML",
+      "file_size": 537956352
+    },
+    {
+      "file_name": "PEAK/Sample_53.mzML",
+      "file_size": 133039760
+    },
+    {
+      "file_name": "PEAK/Sample_54.mzML",
+      "file_size": 2167887993
+    },
+    {
+      "file_name": "PEAK/Sample_55.mzML",
+      "file_size": 1352695808
+    },
+    {
+      "file_name": "PEAK/Sample_56.mzML",
+      "file_size": 1125777408
+    },
+    {
+      "file_name": "PEAK/Sample_57.mzML",
+      "file_size": 263760
+    },
+    {
+      "file_name": "PEAK/Sample_58.mzML",
+      "file_size": 60815760
+    },
+    {
+      "file_name": "PEAK/Sample_59.mzML",
+      "file_size": 1529348096
+    },
+    {
+      "file_name": "PEAK/Sample_60.mzML",
+      "file_size": 277356544
+    },
+    {
+      "file_name": "PEAK/Sample_61.mzML",
+      "file_size": 255328256
+    },
+    {
+      "file_name": "PEAK/Sample_62.mzML",
+      "file_size": 1779740672
+    },
+    {
+      "file_name": "PEAK/Sample_63.mzML",
+      "file_size": 2237459934
+    },
+    {
+      "file_name": "PEAK/Sample_64.mzML",
+      "file_size": 95760
+    },
+    {
+      "file_name": "PEAK/Sample_65.mzML",
+      "file_size": 342884352
+    },
+    {
+      "file_name": "PEAK/Sample_66.mzML",
+      "file_size": 1336373248
+    },
+    {
+      "file_name": "PEAK/Sample_67.mzML",
+      "file_size": 54525952
+    },
+    {
+      "file_name": "PEAK/Sample_68.mzML",
+      "file_size": 367760
+    },
+    {
+      "file_name": "PEAK/Sample_69.mzML",
+      "file_size": 516890624
+    },
+    {
+      "file_name": "PEAK/Sample_70.mzML",
+      "file_size": 903061504
+    },
+    {
+      "file_name": "PEAK/Sample_71.mzML",
+      "file_size": 95760
+    },
+    {
+      "file_name": "PEAK/Sample_72.mzML",
+      "file_size": 634834944
+    },
+    {
+      "file_name": "PEAK/Sample_73.mzML",
+      "file_size": 221241344
+    },
+    {
+      "file_name": "PEAK/Sample_74.mzML",
+      "file_size": 248709120
+    },
+    {
+      "file_name": "PEAK/Sample_75.mzML",
+      "file_size": 567357440
+    },
+    {
+      "file_name": "PEAK/Sample_76.mzML",
+      "file_size": 153804800
+    },
+    {
+      "file_name": "PEAK/Sample_77.mzML",
+      "file_size": 462848
+    },
+    {
+      "file_name": "PEAK/Sample_78.mzML",
+      "file_size": 595431760
+    },
+    {
+      "file_name": "PEAK/Sample_79.mzML",
+      "file_size": 443219968
+    },
+    {
+      "file_name": "PEAK/Sample_80.mzML",
+      "file_size": 305340416
+    },
+    {
+      "file_name": "PEAK/Sample_81.mzML",
+      "file_size": 133398528
+    },
+    {
+      "file_name": "PEAK/Sample_82.mzML",
+      "file_size": 2202108703
+    },
+    {
+      "file_name": "PEAK/Sample_83.mzML",
+      "file_size": 608837632
+    },
+    {
+      "file_name": "PEAK/Sample_84.mzML",
+      "file_size": 967959760
+    },
+    {
+      "file_name": "PEAK/Sample_85.mzML",
+      "file_size": 652567760
+    },
+    {
+      "file_name": "PEAK/Sample_86.mzML",
+      "file_size": 995360768
+    },
+    {
+      "file_name": "PEAK/Sample_87.mzML",
+      "file_size": 1535407760
+    },
+    {
+      "file_name": "PEAK/Sample_88.mzML",
+      "file_size": 343834624
+    },
+    {
+      "file_name": "PEAK/Sample_89.mzML",
+      "file_size": 262144
+    },
+    {
+      "file_name": "PEAK/Sample_90.mzML",
+      "file_size": 1406795776
+    },
+    {
+      "file_name": "PEAK/Sample_91.mzML",
+      "file_size": 107298816
+    },
+    {
+      "file_name": "PEAK/Sample_92.mzML",
+      "file_size": 171806720
+    },
+    {
+      "file_name": "PEAK/Sample_93.mzML",
+      "file_size": 2203625826
+    },
+    {
+      "file_name": "PEAK/Sample_94.mzML",
+      "file_size": 447885312
+    },
+    {
+      "file_name": "PEAK/Sample_95.mzML",
+      "file_size": 561364992
+    },
+    {
+      "file_name": "PEAK/Sample_96.mzML",
+      "file_size": 402519760
+    },
+    {
+      "file_name": "PEAK/Sample_97.mzML",
+      "file_size": 223694848
+    },
+    {
+      "file_name": "PEAK/Sample_98.mzML",
+      "file_size": 546055760
+    },
+    {
+      "file_name": "PEAK/Sample_99.mzML",
+      "file_size": 72220672
+    },
+    {
+      "file_name": "PXD058621_file_manifest.json",
+      "file_size": 384111
+    },
+    {
+      "file_name": "RAW/Sample_01.raw",
+      "file_size": 189431808
+    },
+    {
+      "file_name": "RAW/Sample_02.raw",
+      "file_size": 62672896
+    },
+    {
+      "file_name": "RAW/Sample_03.raw",
+      "file_size": 868141600
+    },
+    {
+      "file_name": "RAW/Sample_04.raw",
+      "file_size": 856478994
+    },
+    {
+      "file_name": "RAW/Sample_05.raw",
+      "file_size": 861082303
+    },
+    {
+      "file_name": "RAW/Sample_06.raw",
+      "file_size": 85991424
+    },
+    {
+      "file_name": "RAW/Sample_07.raw",
+      "file_size": 842439721
+    },
+    {
+      "file_name": "RAW/Sample_08.raw",
+      "file_size": 99102720
+    },
+    {
+      "file_name": "RAW/Sample_09.raw",
+      "file_size": 452649631
+    },
+    {
+      "file_name": "RAW/Sample_10.raw",
+      "file_size": 587202560
+    },
+    {
+      "file_name": "RAW/Sample_100.raw",
+      "file_size": 127761
+    },
+    {
+      "file_name": "RAW/Sample_101.raw",
+      "file_size": 703258039
+    },
+    {
+      "file_name": "RAW/Sample_102.raw",
+      "file_size": 211394560
+    },
+    {
+      "file_name": "RAW/Sample_103.raw",
+      "file_size": 262144
+    },
+    {
+      "file_name": "RAW/Sample_104.raw",
+      "file_size": 507904
+    },
+    {
+      "file_name": "RAW/Sample_105.raw",
+      "file_size": 761439259
+    },
+    {
+      "file_name": "RAW/Sample_106.raw",
+      "file_size": 489704156
+    },
+    {
+      "file_name": "RAW/Sample_107.raw",
+      "file_size": 665462693
+    },
+    {
+      "file_name": "RAW/Sample_108.raw",
+      "file_size": 777108618
+    },
+    {
+      "file_name": "RAW/Sample_11.raw",
+      "file_size": 118735761
+    },
+    {
+      "file_name": "RAW/Sample_12.raw",
+      "file_size": 212992
+    },
+    {
+      "file_name": "RAW/Sample_13.raw",
+      "file_size": 873892294
+    },
+    {
+      "file_name": "RAW/Sample_14.raw",
+      "file_size": 879299837
+    },
+    {
+      "file_name": "RAW/Sample_15.raw",
+      "file_size": 671744
+    },
+    {
+      "file_name": "RAW/Sample_16.raw",
+      "file_size": 893412072
+    },
+    {
+      "file_name": "RAW/Sample_17.raw",
+      "file_size": 822618852
+    },
+    {
+      "file_name": "RAW/Sample_18.raw",
+      "file_size": 115490816
+    },
+    {
+      "file_name": "RAW/Sample_19.raw",
+      "file_size": 779262908
+    },
+    {
+      "file_name": "RAW/Sample_20.raw",
+      "file_size": 795994609
+    },
+    {
+      "file_name": "RAW/Sample_21.raw",
+      "file_size": 362679761
+    },
+    {
+      "file_name": "RAW/Sample_22.raw",
+      "file_size": 403063761
+    },
+    {
+      "file_name": "RAW/Sample_23.raw",
+      "file_size": 785839896
+    },
+    {
+      "file_name": "RAW/Sample_24.raw",
+      "file_size": 691077120
+    },
+    {
+      "file_name": "RAW/Sample_25.raw",
+      "file_size": 384172032
+    },
+    {
+      "file_name": "RAW/Sample_26.raw",
+      "file_size": 833218493
+    },
+    {
+      "file_name": "RAW/Sample_27.raw",
+      "file_size": 582373376
+    },
+    {
+      "file_name": "RAW/Sample_28.raw",
+      "file_size": 360013824
+    },
+    {
+      "file_name": "RAW/Sample_29.raw",
+      "file_size": 836032807
+    },
+    {
+      "file_name": "RAW/Sample_30.raw",
+      "file_size": 892644791
+    },
+    {
+      "file_name": "RAW/Sample_31.raw",
+      "file_size": 852543697
+    },
+    {
+      "file_name": "RAW/Sample_32.raw",
+      "file_size": 138014720
+    },
+    {
+      "file_name": "RAW/Sample_33.raw",
+      "file_size": 820869763
+    },
+    {
+      "file_name": "RAW/Sample_34.raw",
+      "file_size": 196608
+    },
+    {
+      "file_name": "RAW/Sample_35.raw",
+      "file_size": 870306708
+    },
+    {
+      "file_name": "RAW/Sample_36.raw",
+      "file_size": 102641664
+    },
+    {
+      "file_name": "RAW/Sample_37.raw",
+      "file_size": 309161984
+    },
+    {
+      "file_name": "RAW/Sample_38.raw",
+      "file_size": 228311040
+    },
+    {
+      "file_name": "RAW/Sample_39.raw",
+      "file_size": 154861568
+    },
+    {
+      "file_name": "RAW/Sample_40.raw",
+      "file_size": 833235570
+    },
+    {
+      "file_name": "RAW/Sample_41.raw",
+      "file_size": 475787264
+    },
+    {
+      "file_name": "RAW/Sample_42.raw",
+      "file_size": 875448736
+    },
+    {
+      "file_name": "RAW/Sample_43.raw",
+      "file_size": 786239801
+    },
+    {
+      "file_name": "RAW/Sample_44.raw",
+      "file_size": 772903761
+    },
+    {
+      "file_name": "RAW/Sample_45.raw",
+      "file_size": 812443495
+    },
+    {
+      "file_name": "RAW/Sample_46.raw",
+      "file_size": 711163904
+    },
+    {
+      "file_name": "RAW/Sample_47.raw",
+      "file_size": 467374080
+    },
+    {
+      "file_name": "RAW/Sample_48.raw",
+      "file_size": 266439761
+    },
+    {
+      "file_name": "RAW/Sample_49.raw",
+      "file_size": 817964824
+    },
+    {
+      "file_name": "RAW/Sample_50.raw",
+      "file_size": 831317312
+    },
+    {
+      "file_name": "RAW/Sample_51.raw",
+      "file_size": 867880261
+    },
+    {
+      "file_name": "RAW/Sample_52.raw",
+      "file_size": 795140628
+    },
+    {
+      "file_name": "RAW/Sample_53.raw",
+      "file_size": 171367761
+    },
+    {
+      "file_name": "RAW/Sample_54.raw",
+      "file_size": 347287552
+    },
+    {
+      "file_name": "RAW/Sample_55.raw",
+      "file_size": 519233536
+    },
+    {
+      "file_name": "RAW/Sample_56.raw",
+      "file_size": 800849920
+    },
+    {
+      "file_name": "RAW/Sample_57.raw",
+      "file_size": 178655232
+    },
+    {
+      "file_name": "RAW/Sample_58.raw",
+      "file_size": 815094444
+    },
+    {
+      "file_name": "RAW/Sample_59.raw",
+      "file_size": 127401984
+    },
+    {
+      "file_name": "RAW/Sample_60.raw",
+      "file_size": 823631338
+    },
+    {
+      "file_name": "RAW/Sample_61.raw",
+      "file_size": 891636593
+    },
+    {
+      "file_name": "RAW/Sample_62.raw",
+      "file_size": 822205657
+    },
+    {
+      "file_name": "RAW/Sample_63.raw",
+      "file_size": 524288
+    },
+    {
+      "file_name": "RAW/Sample_64.raw",
+      "file_size": 874452955
+    },
+    {
+      "file_name": "RAW/Sample_65.raw",
+      "file_size": 357564416
+    },
+    {
+      "file_name": "RAW/Sample_66.raw",
+      "file_size": 294846464
+    },
+    {
+      "file_name": "RAW/Sample_67.raw",
+      "file_size": 195951761
+    },
+    {
+      "file_name": "RAW/Sample_68.raw",
+      "file_size": 810287619
+    },
+    {
+      "file_name": "RAW/Sample_69.raw",
+      "file_size": 783713378
+    },
+    {
+      "file_name": "RAW/Sample_70.raw",
+      "file_size": 769549077
+    },
+    {
+      "file_name": "RAW/Sample_71.raw",
+      "file_size": 811374801
+    },
+    {
+      "file_name": "RAW/Sample_72.raw",
+      "file_size": 764374920
+    },
+    {
+      "file_name": "RAW/Sample_73.raw",
+      "file_size": 453050368
+    },
+    {
+      "file_name": "RAW/Sample_74.raw",
+      "file_size": 854540209
+    },
+    {
+      "file_name": "RAW/Sample_75.raw",
+      "file_size": 101215761
+    },
+    {
+      "file_name": "RAW/Sample_76.raw",
+      "file_size": 724332683
+    },
+    {
+      "file_name": "RAW/Sample_77.raw",
+      "file_size": 218238976
+    },
+    {
+      "file_name": "RAW/Sample_78.raw",
+      "file_size": 501612544
+    },
+    {
+      "file_name": "RAW/Sample_79.raw",
+      "file_size": 256421888
+    },
+    {
+      "file_name": "RAW/Sample_80.raw",
+      "file_size": 789178368
+    },
+    {
+      "file_name": "RAW/Sample_81.raw",
+      "file_size": 491892736
+    },
+    {
+      "file_name": "RAW/Sample_82.raw",
+      "file_size": 76939264
+    },
+    {
+      "file_name": "RAW/Sample_83.raw",
+      "file_size": 60159761
+    },
+    {
+      "file_name": "RAW/Sample_84.raw",
+      "file_size": 845446188
+    },
+    {
+      "file_name": "RAW/Sample_85.raw",
+      "file_size": 435118080
+    },
+    {
+      "file_name": "RAW/Sample_86.raw",
+      "file_size": 632639488
+    },
+    {
+      "file_name": "RAW/Sample_87.raw",
+      "file_size": 510302686
+    },
+    {
+      "file_name": "RAW/Sample_88.raw",
+      "file_size": 2392064
+    },
+    {
+      "file_name": "RAW/Sample_89.raw",
+      "file_size": 658014208
+    },
+    {
+      "file_name": "RAW/Sample_90.raw",
+      "file_size": 834151365
+    },
+    {
+      "file_name": "RAW/Sample_91.raw",
+      "file_size": 601755648
+    },
+    {
+      "file_name": "RAW/Sample_92.raw",
+      "file_size": 645214208
+    },
+    {
+      "file_name": "RAW/Sample_93.raw",
+      "file_size": 440655761
+    },
+    {
+      "file_name": "RAW/Sample_94.raw",
+      "file_size": 229924864
+    },
+    {
+      "file_name": "RAW/Sample_95.raw",
+      "file_size": 877735097
+    },
+    {
+      "file_name": "RAW/Sample_96.raw",
+      "file_size": 813848030
+    },
+    {
+      "file_name": "RAW/Sample_97.raw",
+      "file_size": 621301760
+    },
+    {
+      "file_name": "RAW/Sample_98.raw",
+      "file_size": 229903761
+    },
+    {
+      "file_name": "RAW/Sample_99.raw",
+      "file_size": 10343761
+    },
+    {
+      "file_name": "SEARCH/REC2202.pr_matrix.tsv",
+      "file_size": 2759639
+    }
+  ],
+  "notes": "Track A raw preserved; Track B build patient x protein matrix."
+}

@@ -1,0 +1,17 @@
+{
+  "accession": "Pf8",
+  "repository": "MalariaGEN/Zenodo",
+  "download_url": "https://zenodo.org/records/18681980",
+  "download_date": "2026-08-27T04:14:55.961687+00:00",
+  "dest_dir": "/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/parasite_genomics/Pf8",
+  "license_or_access_terms": "open",
+  "publication": "",
+  "raw_or_processed_status": "metadata+resistance",
+  "sample_count": null,
+  "organism": "Plasmodium falciparum",
+  "tissue": "",
+  "platform": "",
+  "software": "zenodo-direct",
+  "files": [],
+  "notes": "Metadata + resistance from Zenodo (no GCS auth). Use --use-gcs for the malariagen_data API (needs Google auth)."
+}

@@ -1,0 +1,11 @@
+data/processed/**/*.tsv                     filter=lfs diff=lfs merge=lfs -text
+tables/nano_dds_dissolution_parameters.csv  filter=lfs diff=lfs merge=lfs -text
+tables/nano_dds_factorial.csv               filter=lfs diff=lfs merge=lfs -text
+figures/**/*.png                            filter=lfs diff=lfs merge=lfs -text
+figures_matlab/**/*.png                     filter=lfs diff=lfs merge=lfs -text
+figures_matlab/**/*.fig                     filter=lfs diff=lfs merge=lfs -text
+
+*.m   text eol=lf
+*.py  text eol=lf
+*.R   text eol=lf
+*.md  text eol=lf

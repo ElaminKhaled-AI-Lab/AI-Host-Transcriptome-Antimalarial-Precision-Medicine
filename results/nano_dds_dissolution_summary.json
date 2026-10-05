@@ -1,0 +1,139 @@
+{
+  "n_formulations": 8019,
+  "time_points_h": [
+    0.083,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0,
+    6.0,
+    8.0,
+    10.0,
+    12.0,
+    16.0,
+    20.0,
+    24.0,
+    36.0,
+    48.0,
+    60.0,
+    72.0
+  ],
+  "reference_carrier": "PLGA_50_50 centre point (per drug)",
+  "per_polymer": {
+    "Alginate": {
+      "DE_pct": 69.394,
+      "MDT_h": 6.104,
+      "t50_h": 5.782,
+      "t80_h": 20.298,
+      "burst_1h": 17.535,
+      "n_peppas": 0.569,
+      "f2_vs_ref": 55.555
+    },
+    "Chitosan": {
+      "DE_pct": 68.416,
+      "MDT_h": 6.716,
+      "t50_h": 6.683,
+      "t80_h": 21.291,
+      "burst_1h": 15.35,
+      "n_peppas": 0.58,
+      "f2_vs_ref": 60.455
+    },
+    "Ethylcellulose": {
+      "DE_pct": 57.808,
+      "MDT_h": 14.183,
+      "t50_h": 18.5,
+      "t80_h": 44.725,
+      "burst_1h": 8.601,
+      "n_peppas": 0.529,
+      "f2_vs_ref": 52.594
+    },
+    "Eudragit_RL100": {
+      "DE_pct": 68.759,
+      "MDT_h": 6.54,
+      "t50_h": 6.322,
+      "t80_h": 22.072,
+      "burst_1h": 16.851,
+      "n_peppas": 0.555,
+      "f2_vs_ref": 58.572
+    },
+    "Eudragit_RS100": {
+      "DE_pct": 65.896,
+      "MDT_h": 8.736,
+      "t50_h": 8.991,
+      "t80_h": 30.214,
+      "burst_1h": 13.461,
+      "n_peppas": 0.542,
+      "f2_vs_ref": 66.837
+    },
+    "Eudragit_S100": {
+      "DE_pct": 69.507,
+      "MDT_h": 5.924,
+      "t50_h": 5.639,
+      "t80_h": 19.943,
+      "burst_1h": 18.078,
+      "n_peppas": 0.567,
+      "f2_vs_ref": 54.727
+    },
+    "HPMC": {
+      "DE_pct": 69.435,
+      "MDT_h": 6.035,
+      "t50_h": 5.815,
+      "t80_h": 21.163,
+      "burst_1h": 16.061,
+      "n_peppas": 0.606,
+      "f2_vs_ref": 56.246
+    },
+    "PCL": {
+      "DE_pct": 56.544,
+      "MDT_h": 14.895,
+      "t50_h": 20.346,
+      "t80_h": 48.098,
+      "burst_1h": 8.011,
+      "n_peppas": 0.531,
+      "f2_vs_ref": 50.354
+    },
+    "PLA_PDLLA": {
+      "DE_pct": 61.053,
+      "MDT_h": 12.203,
+      "t50_h": 14.27,
+      "t80_h": 39.86,
+      "burst_1h": 10.24,
+      "n_peppas": 0.528,
+      "f2_vs_ref": 58.845
+    },
+    "PLGA_50_50": {
+      "DE_pct": 66.353,
+      "MDT_h": 8.242,
+      "t50_h": 8.381,
+      "t80_h": 27.994,
+      "burst_1h": 14.946,
+      "n_peppas": 0.522,
+      "f2_vs_ref": 66.538
+    },
+    "PLGA_75_25": {
+      "DE_pct": 63.839,
+      "MDT_h": 10.287,
+      "t50_h": 11.071,
+      "t80_h": 34.39,
+      "burst_1h": 12.46,
+      "n_peppas": 0.519,
+      "f2_vs_ref": 65.501
+    }
+  },
+  "mechanism_counts": {
+    "anomalous (non-Fickian) transport": 6772,
+    "Fickian diffusion": 1245,
+    "super case-II transport": 1,
+    "case-II (erosion-controlled)": 1
+  },
+  "best_model_counts_aic": {
+    "korsmeyer_peppas": 6000,
+    "first_order": 1976,
+    "higuchi": 43
+  },
+  "n_equivalent_to_reference": 4297
+}

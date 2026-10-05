@@ -1,0 +1,2 @@
+covariate,type,test,n,effect_name,effect,p,p_fdr,significant_fdr_0.05
+severity_group,categorical,Fisher exact,44,Cramer's V,0.2390457218668787,0.20084566596194503,0.20084566596194503,False

@@ -1,0 +1,42 @@
+[
+  {
+    "round": 0,
+    "best_desirability": 0.8592625795366065,
+    "n_feasible": 390
+  },
+  {
+    "round": 1,
+    "best_desirability": 0.8712219409066408,
+    "n_feasible": 327
+  },
+  {
+    "round": 2,
+    "best_desirability": 0.8466781437500283,
+    "n_feasible": 332
+  },
+  {
+    "round": 3,
+    "best_desirability": 0.8487993251156858,
+    "n_feasible": 319
+  },
+  {
+    "round": 4,
+    "best_desirability": 0.8473118264894952,
+    "n_feasible": 352
+  },
+  {
+    "round": 5,
+    "best_desirability": 0.8247270784609294,
+    "n_feasible": 364
+  },
+  {
+    "round": 6,
+    "best_desirability": 0.8306259311856836,
+    "n_feasible": 337
+  },
+  {
+    "round": 7,
+    "best_desirability": 0.8323247548076251,
+    "n_feasible": 361
+  }
+]

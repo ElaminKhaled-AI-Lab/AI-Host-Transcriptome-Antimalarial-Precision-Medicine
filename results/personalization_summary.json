@@ -1,0 +1,17 @@
+{
+  "objective": "utility",
+  "n_children": 56,
+  "n_formulations": 297,
+  "one_size_fits_all_formulation": "Eudragit_RS100_r1",
+  "n_distinct_personalized_formulations": 8,
+  "pct_children_differing_from_global": 80.4,
+  "mean_objective_personalized": 0.6443,
+  "mean_objective_one_size": 0.6244,
+  "mean_gain": 0.0199,
+  "max_gain": 0.1651,
+  "polymer_counts": {
+    "PCL": 22,
+    "Eudragit_RL100": 18,
+    "Eudragit_RS100": 16
+  }
+}

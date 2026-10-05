@@ -1,0 +1,32 @@
+# =====================================================================
+# requirements.txt  --  pip-only fallback (if not using conda/mamba)
+# Install with:  python -m pip install -r envs/requirements.txt
+# NOTE: bioinformatics CLI tools (sra-tools, salmon, entrez-direct) are
+# NOT pip-installable -- use envs/environment.yml or your system package
+# manager for those. See envs/README_R.md for the R/Bioconductor stack.
+# =====================================================================
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+matplotlib
+seaborn
+pyarrow
+zarr
+pyyaml
+tqdm
+joblib
+torch
+xgboost
+optuna
+shap
+requests
+malariagen_data
+pridepy
+ppx
+mofapy2
+snfpy
+gpytorch
+botorch
+lifelines

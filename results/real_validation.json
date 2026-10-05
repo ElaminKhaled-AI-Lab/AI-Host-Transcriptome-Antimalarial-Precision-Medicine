@@ -1,0 +1,75 @@
+{
+  "real_mali": {
+    "concat_kmeans": {
+      "silhouette": 0.4072814750774504,
+      "cluster_balance": 0.12923377484299955,
+      "stability_mean_pairwise_ari": 0.20303112168922066,
+      "stability_frac_confident_0.9": 0.017857142857142856,
+      "ari": null
+    },
+    "BLISS": {
+      "silhouette": 0.7836270332336426,
+      "cluster_balance": 0.12923377484299955,
+      "stability_mean_pairwise_ari": 0.4709731011008607,
+      "stability_frac_confident_0.9": 0.017857142857142856,
+      "ari": null
+    },
+    "_meta": {
+      "n_samples": 56,
+      "labelled": false,
+      "n_labelled": 0,
+      "group_counts": {}
+    }
+  },
+  "external_gambia": {
+    "concat_kmeans": {
+      "silhouette": 0.0856611932778725,
+      "cluster_balance": 0.9903748364456899,
+      "stability_mean_pairwise_ari": 0.45169369748985044,
+      "stability_frac_confident_0.9": 0.038461538461538464,
+      "ari": -0.015021459227467811,
+      "n_labelled": 44
+    },
+    "BLISS": {
+      "silhouette": 0.861376166343689,
+      "cluster_balance": 0.9957274520820402,
+      "stability_mean_pairwise_ari": 1.0,
+      "stability_frac_confident_0.9": 0.0,
+      "ari": -0.015021459227467811,
+      "n_labelled": 44
+    },
+    "_meta": {
+      "n_samples": 52,
+      "labelled": true,
+      "n_labelled": 44,
+      "group_counts": {
+        "UM": 24,
+        "CM": 20
+      }
+    }
+  },
+  "transportability": {
+    "per_cohort": {
+      "synthetic": {
+        "ari": 0.6536300578407255,
+        "silhouette": 0.8706644177436829
+      },
+      "real_mali": {
+        "ari": NaN,
+        "silhouette": 0.7836270332336426
+      },
+      "external_gambia": {
+        "ari": -0.015021459227467811,
+        "silhouette": 0.861376166343689
+      }
+    },
+    "ari_gap_synthetic_to_real_mali": NaN,
+    "silhouette_gap_synthetic_to_real_mali": 0.08703738451004028,
+    "ari_gap_synthetic_to_external_gambia": 0.6686515170681933,
+    "silhouette_gap_synthetic_to_external_gambia": 0.009288251399993896,
+    "ari_available": {
+      "real_mali": false,
+      "external_gambia": true
+    }
+  }
+}

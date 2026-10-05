@@ -1,0 +1,100 @@
+{
+  "task": "patient x formulation outcome prediction (paediatric antimalarial nano-DDS)",
+  "split": "patient-grouped (test children unseen in training)",
+  "n_train_children": 42,
+  "n_test_children": 14,
+  "n_train_rows": 12474,
+  "n_test_rows": 4158,
+  "compute_device": "cpu",
+  "n_seeds_per_strategy": 3,
+  "epochs": 80,
+  "integration_strategies": {
+    "early_concat": "EARLY -- raw blocks concatenated",
+    "late_ensemble": "LATE -- per-block models combined at output",
+    "intermediate_latent": "INTERMEDIATE -- per-block encoders, latents concatenated",
+    "PROFILE-Net": "INTERMEDIATE + low-rank bilinear cross-attention interaction"
+  },
+  "metrics": {
+    "early_concat": {
+      "exposure_r2": 0.9504,
+      "exposure_r2_sd": 0.0249,
+      "utility_r2": 0.9497,
+      "utility_r2_sd": 0.0248,
+      "within_patient_rank_corr": 0.9533,
+      "within_patient_rank_corr_sd": 0.0127,
+      "interaction_residual_rank_corr": 0.8008,
+      "interaction_residual_rank_corr_sd": 0.0432,
+      "personalization_gain_utility": 0.0084,
+      "personalization_gain_utility_sd": 0.0026,
+      "n_parameters": 36611,
+      "n_seeds": 3,
+      "per_seed_interaction_rank": [
+        0.8059,
+        0.7455,
+        0.8509
+      ]
+    },
+    "late_ensemble": {
+      "exposure_r2": 0.8498,
+      "exposure_r2_sd": 0.0218,
+      "utility_r2": 0.8258,
+      "utility_r2_sd": 0.0476,
+      "within_patient_rank_corr": 0.9381,
+      "within_patient_rank_corr_sd": 0.0015,
+      "interaction_residual_rank_corr": -0.0011,
+      "interaction_residual_rank_corr_sd": 0.0164,
+      "personalization_gain_utility": -0.0089,
+      "personalization_gain_utility_sd": 0.0063,
+      "n_parameters": 70151,
+      "n_seeds": 3,
+      "per_seed_interaction_rank": [
+        0.0001,
+        0.0183,
+        -0.0217
+      ]
+    },
+    "intermediate_latent": {
+      "exposure_r2": 0.8231,
+      "exposure_r2_sd": 0.0172,
+      "utility_r2": 0.8967,
+      "utility_r2_sd": 0.021,
+      "within_patient_rank_corr": 0.9773,
+      "within_patient_rank_corr_sd": 0.0064,
+      "interaction_residual_rank_corr": 0.7392,
+      "interaction_residual_rank_corr_sd": 0.04,
+      "personalization_gain_utility": 0.0098,
+      "personalization_gain_utility_sd": 0.0024,
+      "n_parameters": 69827,
+      "n_seeds": 3,
+      "per_seed_interaction_rank": [
+        0.7907,
+        0.7337,
+        0.6931
+      ]
+    },
+    "PROFILE-Net": {
+      "exposure_r2": 0.8299,
+      "exposure_r2_sd": 0.034,
+      "utility_r2": 0.9309,
+      "utility_r2_sd": 0.0055,
+      "within_patient_rank_corr": 0.9834,
+      "within_patient_rank_corr_sd": 0.0013,
+      "interaction_residual_rank_corr": 0.8134,
+      "interaction_residual_rank_corr_sd": 0.0541,
+      "personalization_gain_utility": 0.0128,
+      "personalization_gain_utility_sd": 0.0025,
+      "n_parameters": 97731,
+      "n_seeds": 3,
+      "per_seed_interaction_rank": [
+        0.818,
+        0.8772,
+        0.745
+      ]
+    }
+  },
+  "winner": "PROFILE-Net",
+  "decision_metric": "interaction-residual rank correlation (patient-by-formulation interaction, formulation main effect removed); personalization gain as tiebreak",
+  "note": "within_patient_rank_corr is reported for completeness but additive models can score highly on it without modelling interaction.",
+  "winner_margin_over_runner_up": 0.0126,
+  "winner_is_separated_from_noise": false
+}

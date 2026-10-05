@@ -1,0 +1,25 @@
+{
+  "exposure_allometric": {
+    "r2": 0.04367959540943189,
+    "mae_log10": 0.24608247295454558
+  },
+  "exposure_ai_gbm": {
+    "r2": 0.12825803869975982,
+    "mae_log10": 0.23172978821602616
+  },
+  "exposure_feature_importance": {
+    "host_txPC1": 0.46739846168035326,
+    "weight_kg": 0.1368349827369116,
+    "age_years": 0.11027002336107156,
+    "dissolution_pct_30min": 0.10158576231288433,
+    "bioavailable_F": 0.10043182395973704,
+    "particle_size_d50_um": 0.07473082628778793,
+    "sex_M": 0.008748119661254232
+  },
+  "exposure_ai_neural": {
+    "r2": 0.17130504592798745,
+    "mae_log10": 0.22522607536493305
+  },
+  "cure_auroc_ai": 0.600034435261708,
+  "cure_auroc_day7only": 0.9981060606060606
+}

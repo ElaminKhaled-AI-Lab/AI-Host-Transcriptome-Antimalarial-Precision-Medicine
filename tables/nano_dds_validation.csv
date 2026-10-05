@@ -1,0 +1,12 @@
+anchor,drug,polymer,metric,twin_achievable_range,literature_range,design_space_overlaps,citation
+Primaquine nanochitosan-galactose,primaquine,Chitosan,size_nm,208.6 - 511.8,300 - 500,True,"Antimicrob. Agents Chemother. 2023, doi:10.1128/aac.00915-23"
+Primaquine nanochitosan-galactose,primaquine,Chitosan,zeta_mv,23.1 - 32.0,20 - 40,True,"Antimicrob. Agents Chemother. 2023, doi:10.1128/aac.00915-23"
+Primaquine nanochitosan-galactose,primaquine,Chitosan,pdi,0.37 - 0.46,0.4 - 0.6,True,"Antimicrob. Agents Chemother. 2023, doi:10.1128/aac.00915-23"
+Primaquine nanochitosan-galactose,primaquine,Chitosan,ee_pct,35.2 - 72.9,40 - 60,True,"Antimicrob. Agents Chemother. 2023, doi:10.1128/aac.00915-23"
+Primaquine nanochitosan-galactose,primaquine,Chitosan,liver_plasma_ratio,0.61 - 0.63,0.45 - 0.65,True,"Antimicrob. Agents Chemother. 2023, doi:10.1128/aac.00915-23"
+Curcumin-artesunate PLGA 50:50,artesunate,PLGA_50_50,size_nm,121.3 - 297.5,220 - 290,True,PMC5988888 (Sci. Rep. / PLGA artesunate)
+Curcumin-artesunate PLGA 50:50,artesunate,PLGA_50_50,zeta_mv,-18.1 - -12.3,-25 - -13,True,PMC5988888 (Sci. Rep. / PLGA artesunate)
+Curcumin-artesunate PLGA 50:50,artesunate,PLGA_50_50,pdi,0.05 - 0.13,0.08 - 0.22,True,PMC5988888 (Sci. Rep. / PLGA artesunate)
+Curcumin-artesunate PLGA 50:50,artesunate,PLGA_50_50,ee_pct,33.7 - 71.6,15 - 35,True,PMC5988888 (Sci. Rep. / PLGA artesunate)
+DHA-lumefantrine polymeric NP,lumefantrine,PLGA_75_25,size_nm,101.9 - 249.9,120 - 260,True,"Heliyon 2024, doi:10.1016/j.heliyon.2024.e28990"
+DHA-lumefantrine polymeric NP,lumefantrine,PLGA_75_25,ee_pct,76.2 - 92.6,40 - 90,True,"Heliyon 2024, doi:10.1016/j.heliyon.2024.e28990"

@@ -1,0 +1,182 @@
+# =====================================================================
+# datasets.yaml  --  Verified core data sources (blueprint Section 11 & 100)
+#
+# access tiers:
+#   open              = downloadable without application
+#   open_processed    = processed/count-level open; raw patient reads restricted
+#   managed           = requires application + Data Use Agreement (DUA)
+#
+# NOTE: accession URLs below are transcribed from the master blueprint.
+# The download scripts verify each URL at run time and write a provenance
+# record to metadata/dataset_registry/. Do not treat any URL as guaranteed
+# live until the download script confirms it.
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# Host multi-omics reference (Mali; Nat Commun 2025 s41467-025-59281-5)
+# ---------------------------------------------------------------------
+host_transcriptomics:
+  accession: "GSE289197"
+  repository: "GEO"                       # Gene Expression Omnibus
+  layer: "host_transcriptomics"
+  access: "open_processed"
+  pediatric: true
+  raw_reads_open: false                   # patient FASTQ NOT open (identifiable)
+  url_landing: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE289197"
+  dest: "data/raw/host_transcriptomics/GSE289197"
+  role: "Host expression reference"
+
+host_proteomics:
+  accession: "PXD058621"
+  repository: "PRIDE"                      # PRoteomics IDEntifications Database
+  layer: "host_proteomics"
+  access: "open"
+  pediatric: true
+  raw_reads_open: true                    # raw mass-spectrometry submitted
+  url_landing: "https://www.ebi.ac.uk/pride/archive/projects/PXD058621"
+  dest: "data/raw/host_proteomics/PXD058621"
+  role: "Host proteome"
+
+host_metabolomics:
+  accession: "MSV000096913"
+  repository: "MassIVE"
+  layer: "host_metabolomics"
+  access: "open"
+  pediatric: true
+  task_id: "ba8df9f0096c4bf6abb946f323f153c1"
+  url_landing: "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=ba8df9f0096c4bf6abb946f323f153c1"
+  url_files: "https://massive.ucsd.edu/ProteoSAFe/dataset_files.jsp?task=ba8df9f0096c4bf6abb946f323f153c1"
+  dest: "data/raw/host_metabolomics/MSV000096913"
+  role: "Host metabolome"
+
+# ---------------------------------------------------------------------
+# Dual host-parasite transcriptomics
+# ---------------------------------------------------------------------
+dual_rna_mali:
+  accession: "PRJNA962942"
+  repository: "SRA"                       # NCBI Sequence Read Archive
+  layer: "parasite_transcriptomics"       # + host_transcriptomics (dual)
+  access: "open"
+  pediatric: true
+  url_landing: "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA962942"
+  article: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10918175/"
+  dest: "data/raw/parasite_transcriptomics/PRJNA962942"
+  role: "Host-parasite transcriptome (development)"
+
+dual_rna_gambia:
+  accession: "E-MTAB-6413"
+  repository: "BioStudies/ENA"            # European Nucleotide Archive
+  ena_study: "ERP116722"
+  ena_project: "PRJEB33892"
+  layer: "parasite_transcriptomics"
+  access: "open"
+  pediatric: true
+  url_landing: "https://www.ebi.ac.uk/biostudies/studies/E-MTAB-6413"
+  dest: "data/raw/parasite_transcriptomics/E-MTAB-6413"
+  role: "External dual-transcriptome validation"
+
+# ---------------------------------------------------------------------
+# Parasite genomics
+# ---------------------------------------------------------------------
+parasite_genomics_pf8:
+  accession: "Pf8"
+  repository: "MalariaGEN"
+  layer: "parasite_genomics"
+  access: "open"
+  pediatric: "mixed"
+  n_samples: 33325
+  url_landing: "https://www.malariagen.net/data_package/open-dataset-plasmodium-falciparum-v80/"
+  url_studies: "https://apps.malariagen.net/apps/pf8/studies/"
+  url_samples: "https://apps.malariagen.net/apps/pf8/samples"
+  url_docs: "https://apps.malariagen.net/apps/pf8/documentation/"
+  dest: "data/raw/parasite_genomics/Pf8"
+  # Download METADATA + resistance first. Raw CRAM only when required.
+  download_first:
+    - "sample_metadata"
+    - "resistance_marker_genotypes"
+    - "inferred_resistance_status"
+    - "copy_number_variation"
+    - "complexity_of_infection"
+    - "qc_variables"
+  resistance_loci: ["crt", "dhfr", "dhps", "mdr1", "kelch13", "plasmepsin2_3"]
+  role: "Parasite genome and resistance"
+
+pf8_study_1167:
+  accession: "1167"
+  repository: "MalariaGEN Pf8 study"
+  access: "open"                          # parasite genome open; clinical must be audited
+  pediatric: true                          # 6 months to 10 years
+  n_samples: 347
+  treatment_arms: ["artemether-lumefantrine", "dihydroartemisinin-piperaquine"]
+  url_landing: "https://apps.malariagen.net/apps/pf8/studies/1167/"
+  dest: "data/raw/parasite_genomics/Pf8/study_1167"
+  role: "Pediatric treatment-response candidate cohort"
+
+pf8_study_1101:
+  accession: "1101"
+  repository: "MalariaGEN Pf8 study"
+  access: "open"
+  pediatric: "verify"
+  treatment_arms: ["three ACTs (DRC)"]     # ACT = Artemisinin-based Combination Therapy
+  url_studies: "https://apps.malariagen.net/apps/pf8/studies/"
+  dest: "data/raw/parasite_genomics/Pf8/study_1101"
+  role: "Candidate multi-treatment cohort"
+
+# ---------------------------------------------------------------------
+# Matched host-parasite genetics (MalariaGEN)
+# ---------------------------------------------------------------------
+host_parasite_genetics:
+  repository: "MalariaGEN"
+  access: "mixed"                          # parasite open; full human genotype managed
+  url_landing: "https://www.malariagen.net/data_package/host-parasite-interaction/"
+  parasite_accession_list: "https://doi.org/10.5281/zenodo.5723515"
+  joint_genotype_dataset: "https://doi.org/10.5281/zenodo.4973476"
+  association_summary_stats: "https://doi.org/10.5281/zenodo.5722497"
+  human_genetics_managed: "https://www.malariagen.net/resource/25/"
+  dest: "data/raw/host_genomics/malariagen_host_parasite"
+  role: "Matched host-parasite genetics"
+
+# ---------------------------------------------------------------------
+# Clinical + pharmacokinetic individual participant data (managed)
+# ---------------------------------------------------------------------
+clinical_pk_iddo:
+  repository: "IDDO/WWARN"                 # Infectious Diseases Data Observatory /
+                                           # Worldwide Antimalarial Resistance Network
+  access: "managed"                        # application + DUA required
+  url_access: "https://www.iddo.org/wwarn/access-malaria-data"
+  url_process: "https://www.iddo.org/data-sharing/accessing-data"
+  dest: "data/raw/clinical_pk/IDDO_WWARN"
+  role: "Clinical and PK labels (Individual Participant Data)"
+
+# ---------------------------------------------------------------------
+# Formulation / pharmaceutical references
+# ---------------------------------------------------------------------
+formulation_fda_iid:
+  repository: "FDA"                        # US Food and Drug Administration
+  name: "Inactive Ingredient Database (IID)"
+  access: "open"
+  url_landing: "https://www.fda.gov/drugs/drug-approvals-and-databases/inactive-ingredients-database-download"
+  dest: "data/raw/formulation/FDA_IID"
+  role: "Excipient precedent for formulation design"
+
+formulation_who:
+  repository: "WHO"                        # World Health Organization
+  access: "open"
+  url_gmp: "https://www.who.int/teams/global-malaria-programme"
+  url_prequal: "https://extranet.who.int/prequal/medicines/prequalified-lists"
+  dest: "data/raw/formulation/WHO"
+  role: "Treatment and dosage-form benchmark"
+
+reference_pubchem:
+  repository: "PubChem"
+  access: "open"
+  url: "https://pubchem.ncbi.nlm.nih.gov/"
+  dest: "data/raw/formulation/PubChem"
+  role: "Physicochemical reference"
+
+reference_chembl:
+  repository: "ChEMBL"
+  access: "open"
+  url: "https://www.ebi.ac.uk/chembl/"
+  dest: "data/raw/formulation/ChEMBL"
+  role: "Antimalarial bioactivity reference"

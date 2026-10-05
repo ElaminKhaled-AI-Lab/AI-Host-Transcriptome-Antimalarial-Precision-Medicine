@@ -1,0 +1,446 @@
+{
+  "accession": "E-MTAB-6413 / ERP116722 / PRJEB33892",
+  "repository": "BioStudies/ENA",
+  "download_url": "https://www.ebi.ac.uk/biostudies/studies/E-MTAB-6413",
+  "download_date": "2026-08-27T04:14:23.695714+00:00",
+  "dest_dir": "/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/parasite_transcriptomics/E-MTAB-6413",
+  "license_or_access_terms": "",
+  "publication": "",
+  "raw_or_processed_status": "raw_fastq",
+  "sample_count": 53,
+  "organism": "Homo sapiens + Plasmodium falciparum",
+  "tissue": "peripheral blood",
+  "platform": "",
+  "software": "",
+  "files": [
+    {
+      "file_name": "PRJEB33892_read_run_report.tsv",
+      "file_size": 24757
+    },
+    {
+      "file_name": "fastq/ERR3470484/ERR3470484_1.fastq.gz",
+      "file_size": 250679296
+    },
+    {
+      "file_name": "fastq/ERR3470484/ERR3470484_2.fastq.gz",
+      "file_size": 481787904
+    },
+    {
+      "file_name": "fastq/ERR3470485/ERR3470485_1.fastq.gz",
+      "file_size": 895614976
+    },
+    {
+      "file_name": "fastq/ERR3470485/ERR3470485_2.fastq.gz",
+      "file_size": 1750321124
+    },
+    {
+      "file_name": "fastq/ERR3470486/ERR3470486_1.fastq.gz",
+      "file_size": 170391726
+    },
+    {
+      "file_name": "fastq/ERR3470486/ERR3470486_2.fastq.gz",
+      "file_size": 446951726
+    },
+    {
+      "file_name": "fastq/ERR3470487/ERR3470487_1.fastq.gz",
+      "file_size": 220719726
+    },
+    {
+      "file_name": "fastq/ERR3470487/ERR3470487_2.fastq.gz",
+      "file_size": 117796864
+    },
+    {
+      "file_name": "fastq/ERR3470488/ERR3470488_1.fastq.gz",
+      "file_size": 647626752
+    },
+    {
+      "file_name": "fastq/ERR3470488/ERR3470488_2.fastq.gz",
+      "file_size": 575535726
+    },
+    {
+      "file_name": "fastq/ERR3470489/ERR3470489_1.fastq.gz",
+      "file_size": 231751680
+    },
+    {
+      "file_name": "fastq/ERR3470489/ERR3470489_2.fastq.gz",
+      "file_size": 184221696
+    },
+    {
+      "file_name": "fastq/ERR3470490/ERR3470490_1.fastq.gz",
+      "file_size": 589463552
+    },
+    {
+      "file_name": "fastq/ERR3470490/ERR3470490_2.fastq.gz",
+      "file_size": 899276800
+    },
+    {
+      "file_name": "fastq/ERR3470491/ERR3470491_1.fastq.gz",
+      "file_size": 106439726
+    },
+    {
+      "file_name": "fastq/ERR3470491/ERR3470491_2.fastq.gz",
+      "file_size": 116969472
+    },
+    {
+      "file_name": "fastq/ERR3470492/ERR3470492_1.fastq.gz",
+      "file_size": 131855726
+    },
+    {
+      "file_name": "fastq/ERR3470492/ERR3470492_2.fastq.gz",
+      "file_size": 95726
+    },
+    {
+      "file_name": "fastq/ERR3470493/ERR3470493_1.fastq.gz",
+      "file_size": 87687726
+    },
+    {
+      "file_name": "fastq/ERR3470493/ERR3470493_2.fastq.gz",
+      "file_size": 1949710266
+    },
+    {
+      "file_name": "fastq/ERR3470494/ERR3470494_1.fastq.gz",
+      "file_size": 199183726
+    },
+    {
+      "file_name": "fastq/ERR3470494/ERR3470494_2.fastq.gz",
+      "file_size": 536428544
+    },
+    {
+      "file_name": "fastq/ERR3470495/ERR3470495_1.fastq.gz",
+      "file_size": 374159726
+    },
+    {
+      "file_name": "fastq/ERR3470495/ERR3470495_2.fastq.gz",
+      "file_size": 154271726
+    },
+    {
+      "file_name": "fastq/ERR3470496/ERR3470496_1.fastq.gz",
+      "file_size": 1340211200
+    },
+    {
+      "file_name": "fastq/ERR3470496/ERR3470496_2.fastq.gz",
+      "file_size": 2579449105
+    },
+    {
+      "file_name": "fastq/ERR3470497/ERR3470497_1.fastq.gz",
+      "file_size": 181669888
+    },
+    {
+      "file_name": "fastq/ERR3470497/ERR3470497_2.fastq.gz",
+      "file_size": 95726
+    },
+    {
+      "file_name": "fastq/ERR3470498/ERR3470498_1.fastq.gz",
+      "file_size": 408943726
+    },
+    {
+      "file_name": "fastq/ERR3470498/ERR3470498_2.fastq.gz",
+      "file_size": 426111726
+    },
+    {
+      "file_name": "fastq/ERR3470499/ERR3470499_1.fastq.gz",
+      "file_size": 1020395520
+    },
+    {
+      "file_name": "fastq/ERR3470499/ERR3470499_2.fastq.gz",
+      "file_size": 3235229867
+    },
+    {
+      "file_name": "fastq/ERR3470500/ERR3470500_1.fastq.gz",
+      "file_size": 427491328
+    },
+    {
+      "file_name": "fastq/ERR3470500/ERR3470500_2.fastq.gz",
+      "file_size": 2537095168
+    },
+    {
+      "file_name": "fastq/ERR3470501/ERR3470501_1.fastq.gz",
+      "file_size": 532480
+    },
+    {
+      "file_name": "fastq/ERR3470501/ERR3470501_2.fastq.gz",
+      "file_size": 331485184
+    },
+    {
+      "file_name": "fastq/ERR3470502/ERR3470502_1.fastq.gz",
+      "file_size": 57119726
+    },
+    {
+      "file_name": "fastq/ERR3470502/ERR3470502_2.fastq.gz",
+      "file_size": 147193856
+    },
+    {
+      "file_name": "fastq/ERR3470503/ERR3470503_1.fastq.gz",
+      "file_size": 157286400
+    },
+    {
+      "file_name": "fastq/ERR3470503/ERR3470503_2.fastq.gz",
+      "file_size": 471063726
+    },
+    {
+      "file_name": "fastq/ERR3470504/ERR3470504_1.fastq.gz",
+      "file_size": 497811456
+    },
+    {
+      "file_name": "fastq/ERR3470504/ERR3470504_2.fastq.gz",
+      "file_size": 278478848
+    },
+    {
+      "file_name": "fastq/ERR3470505/ERR3470505_1.fastq.gz",
+      "file_size": 638648320
+    },
+    {
+      "file_name": "fastq/ERR3470505/ERR3470505_2.fastq.gz",
+      "file_size": 104591360
+    },
+    {
+      "file_name": "fastq/ERR3470506/ERR3470506_1.fastq.gz",
+      "file_size": 221431726
+    },
+    {
+      "file_name": "fastq/ERR3470506/ERR3470506_2.fastq.gz",
+      "file_size": 346303726
+    },
+    {
+      "file_name": "fastq/ERR3470507/ERR3470507_1.fastq.gz",
+      "file_size": 390725632
+    },
+    {
+      "file_name": "fastq/ERR3470507/ERR3470507_2.fastq.gz",
+      "file_size": 2510983168
+    },
+    {
+      "file_name": "fastq/ERR3470508/ERR3470508_1.fastq.gz",
+      "file_size": 1780551680
+    },
+    {
+      "file_name": "fastq/ERR3470508/ERR3470508_2.fastq.gz",
+      "file_size": 95726
+    },
+    {
+      "file_name": "fastq/ERR3470509/ERR3470509_1.fastq.gz",
+      "file_size": 2120015872
+    },
+    {
+      "file_name": "fastq/ERR3470509/ERR3470509_2.fastq.gz",
+      "file_size": 1350415726
+    },
+    {
+      "file_name": "fastq/ERR3470510/ERR3470510_1.fastq.gz",
+      "file_size": 1641119744
+    },
+    {
+      "file_name": "fastq/ERR3470510/ERR3470510_2.fastq.gz",
+      "file_size": 208601088
+    },
+    {
+      "file_name": "fastq/ERR3470511/ERR3470511_1.fastq.gz",
+      "file_size": 518520832
+    },
+    {
+      "file_name": "fastq/ERR3470511/ERR3470511_2.fastq.gz",
+      "file_size": 95726
+    },
+    {
+      "file_name": "fastq/ERR3470512/ERR3470512_1.fastq.gz",
+      "file_size": 598311726
+    },
+    {
+      "file_name": "fastq/ERR3470512/ERR3470512_2.fastq.gz",
+      "file_size": 553123840
+    },
+    {
+      "file_name": "fastq/ERR3470513/ERR3470513_1.fastq.gz",
+      "file_size": 769560576
+    },
+    {
+      "file_name": "fastq/ERR3470513/ERR3470513_2.fastq.gz",
+      "file_size": 327726
+    },
+    {
+      "file_name": "fastq/ERR3470514/ERR3470514_1.fastq.gz",
+      "file_size": 131072
+    },
+    {
+      "file_name": "fastq/ERR3470514/ERR3470514_2.fastq.gz",
+      "file_size": 195423726
+    },
+    {
+      "file_name": "fastq/ERR3470515/ERR3470515_1.fastq.gz",
+      "file_size": 851968
+    },
+    {
+      "file_name": "fastq/ERR3470515/ERR3470515_2.fastq.gz",
+      "file_size": 1020023726
+    },
+    {
+      "file_name": "fastq/ERR3470516/ERR3470516_1.fastq.gz",
+      "file_size": 849653760
+    },
+    {
+      "file_name": "fastq/ERR3470516/ERR3470516_2.fastq.gz",
+      "file_size": 199751726
+    },
+    {
+      "file_name": "fastq/ERR3470517/ERR3470517_1.fastq.gz",
+      "file_size": 462618624
+    },
+    {
+      "file_name": "fastq/ERR3470517/ERR3470517_2.fastq.gz",
+      "file_size": 284909568
+    },
+    {
+      "file_name": "fastq/ERR3470518/ERR3470518_1.fastq.gz",
+      "file_size": 850853888
+    },
+    {
+      "file_name": "fastq/ERR3470518/ERR3470518_2.fastq.gz",
+      "file_size": 238943726
+    },
+    {
+      "file_name": "fastq/ERR3470519/ERR3470519_1.fastq.gz",
+      "file_size": 997871616
+    },
+    {
+      "file_name": "fastq/ERR3470519/ERR3470519_2.fastq.gz",
+      "file_size": 1000538112
+    },
+    {
+      "file_name": "fastq/ERR3470520/ERR3470520_1.fastq.gz",
+      "file_size": 399726
+    },
+    {
+      "file_name": "fastq/ERR3470520/ERR3470520_2.fastq.gz",
+      "file_size": 354914304
+    },
+    {
+      "file_name": "fastq/ERR3470521/ERR3470521_1.fastq.gz",
+      "file_size": 1245575205
+    },
+    {
+      "file_name": "fastq/ERR3470521/ERR3470521_2.fastq.gz",
+      "file_size": 1240925449
+    },
+    {
+      "file_name": "fastq/ERR3470522/ERR3470522_1.fastq.gz",
+      "file_size": 108953600
+    },
+    {
+      "file_name": "fastq/ERR3470522/ERR3470522_2.fastq.gz",
+      "file_size": 473431727
+    },
+    {
+      "file_name": "fastq/ERR3470523/ERR3470523_1.fastq.gz",
+      "file_size": 605503488
+    },
+    {
+      "file_name": "fastq/ERR3470523/ERR3470523_2.fastq.gz",
+      "file_size": 300655726
+    },
+    {
+      "file_name": "fastq/ERR3470524/ERR3470524_1.fastq.gz",
+      "file_size": 937919726
+    },
+    {
+      "file_name": "fastq/ERR3470524/ERR3470524_2.fastq.gz",
+      "file_size": 223726
+    },
+    {
+      "file_name": "fastq/ERR3470525/ERR3470525_1.fastq.gz",
+      "file_size": 524288
+    },
+    {
+      "file_name": "fastq/ERR3470525/ERR3470525_2.fastq.gz",
+      "file_size": 720831726
+    },
+    {
+      "file_name": "fastq/ERR3470526/ERR3470526_1.fastq.gz",
+      "file_size": 3361834928
+    },
+    {
+      "file_name": "fastq/ERR3470526/ERR3470526_2.fastq.gz",
+      "file_size": 1219903488
+    },
+    {
+      "file_name": "fastq/ERR3470527/ERR3470527_1.fastq.gz",
+      "file_size": 230948864
+    },
+    {
+      "file_name": "fastq/ERR3470527/ERR3470527_2.fastq.gz",
+      "file_size": 524288
+    },
+    {
+      "file_name": "fastq/ERR3470528/ERR3470528_1.fastq.gz",
+      "file_size": 714055680
+    },
+    {
+      "file_name": "fastq/ERR3470528/ERR3470528_2.fastq.gz",
+      "file_size": 1130496
+    },
+    {
+      "file_name": "fastq/ERR3470529/ERR3470529_1.fastq.gz",
+      "file_size": 504893440
+    },
+    {
+      "file_name": "fastq/ERR3470529/ERR3470529_2.fastq.gz",
+      "file_size": 589398016
+    },
+    {
+      "file_name": "fastq/ERR3470530/ERR3470530_1.fastq.gz",
+      "file_size": 1060679726
+    },
+    {
+      "file_name": "fastq/ERR3470530/ERR3470530_2.fastq.gz",
+      "file_size": 271055726
+    },
+    {
+      "file_name": "fastq/ERR3470531/ERR3470531_1.fastq.gz",
+      "file_size": 675508224
+    },
+    {
+      "file_name": "fastq/ERR3470531/ERR3470531_2.fastq.gz",
+      "file_size": 1314052879
+    },
+    {
+      "file_name": "fastq/ERR3470532/ERR3470532_1.fastq.gz",
+      "file_size": 104199726
+    },
+    {
+      "file_name": "fastq/ERR3470532/ERR3470532_2.fastq.gz",
+      "file_size": 739430400
+    },
+    {
+      "file_name": "fastq/ERR3470533/ERR3470533_1.fastq.gz",
+      "file_size": 224591872
+    },
+    {
+      "file_name": "fastq/ERR3470533/ERR3470533_2.fastq.gz",
+      "file_size": 1631236591
+    },
+    {
+      "file_name": "fastq/ERR3470534/ERR3470534_1.fastq.gz",
+      "file_size": 94502912
+    },
+    {
+      "file_name": "fastq/ERR3470534/ERR3470534_2.fastq.gz",
+      "file_size": 2500390819
+    },
+    {
+      "file_name": "fastq/ERR3470535/ERR3470535_1.fastq.gz",
+      "file_size": 834523136
+    },
+    {
+      "file_name": "fastq/ERR3470535/ERR3470535_2.fastq.gz",
+      "file_size": 212799726
+    },
+    {
+      "file_name": "fastq/ERR3470536/ERR3470536_1.fastq.gz",
+      "file_size": 422576128
+    },
+    {
+      "file_name": "fastq/ERR3470536/ERR3470536_2.fastq.gz",
+      "file_size": 293801984
+    }
+  ],
+  "notes": "External validation cohort. Check batch/severity/age before pooling."
+}

@@ -1,0 +1,15 @@
+dataset	status	detail	dest
+host_transcriptomics	PASS	counts=1, processed_matrix=True	/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/host_transcriptomics/GSE289197
+host_proteomics	PASS	raw/mzML=216, pr_matrix=1, processed=True	/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/host_proteomics/PXD058621
+host_metabolomics	PARTIAL	files=4 (FTP-blocked networks: fetch elsewhere)	/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/host_metabolomics/MSV000096913
+dual_rna_mali	PASS	fastq=272/272	/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/parasite_transcriptomics/PRJNA962942
+dual_rna_gambia	PASS	fastq=106/106	/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/parasite_transcriptomics/E-MTAB-6413
+parasite_genomics_pf8	PASS	pf8_tables=5, processed=True	/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/parasite_genomics/Pf8
+pf8_study_1167	PARTIAL	subset of parasite_genomics_pf8 (study 1167)	/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/parasite_genomics/Pf8
+pf8_study_1101	PARTIAL	subset of parasite_genomics_pf8 (study 1101)	/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/parasite_genomics/Pf8
+host_parasite_genetics	PASS	files=10 [note: no registry record]	/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/host_genomics/malariagen_host_parasite
+clinical_pk_iddo	MANAGED	application checklist	/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/clinical_pk/IDDO_WWARN
+formulation_fda_iid	MISSING	files=0	/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/formulation/FDA_IID
+formulation_who	REFERENCE	notes/URLs (no file download expected)	/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/formulation/WHO
+reference_pubchem	PASS	files=1 (shared pharma_references record) [note: no registry record]	/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/formulation/PubChem
+reference_chembl	PASS	files=1 (shared pharma_references record) [note: no registry record]	/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/formulation/ChEMBL

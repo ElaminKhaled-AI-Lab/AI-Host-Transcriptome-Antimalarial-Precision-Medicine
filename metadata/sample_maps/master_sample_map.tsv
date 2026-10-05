@@ -1,0 +1,461 @@
+layer	sample_id	join_key	title	gsm	clin_tissue	clin_match_group	clin_Sex	clin_age	clin_ethnicity	clin_blantyre_coma_scale	clin_hemoglobin_g_dl	clin_parasitemia	clin_age_years	clin_blood_type	clin_rh_factor	clin_type_cat	clin_blantyre_coma_scale_2	clin_cm_sma	library	clin_age_months
+host_transcriptome	IGS-MLI-046rCap	IGS-MLI-046RCAP	SMA2	GSM8786894	whole blood	SMA	Female	3 years	Dogon	5.0	3.6	43800.0	3.0	O	+	case	5.0	SMA	IGS_MLI_046rCap	
+host_transcriptome	IGS-MLI-047rCap	IGS-MLI-047RCAP	SMA3	GSM8786895	whole blood	SMA	Female	3 years	Dogon	5.0	2.3	8550.0	3.0	B	+	case	5.0	SMA	IGS_MLI_047rCap	
+host_transcriptome	IGS-MLI-048rCap	IGS-MLI-048RCAP	SMA4	GSM8786896	whole blood	SMA	Male	3 years	Dogon	5.0	2.8	181500.0	3.0	B	+	case	5.0	SMA	IGS_MLI_048rCap	
+host_transcriptome	IGS-MLI-049rCap	IGS-MLI-049RCAP	CM5	GSM8786897	whole blood	CM	Female	1 year	Dogon	2.0	7.9	291000.0	1.0	A	+	case	2.0	CM	IGS_MLI_049rCap	
+host_transcriptome	IGS-MLI-050rCap	IGS-MLI-050RCAP	CS3	GSM8786898	whole blood	CM + SMA	Male	1 year	Dogon	2.0	3.5	242400.0	1.0	B	+	case	2.0	both	IGS_MLI_050rCap	
+host_transcriptome	IGS-MLI-053rCap	IGS-MLI-053RCAP	SMA5	GSM8786899	whole blood	SMA	Female	2 years	Dogon	3.0	2.9	55500.0	2.0	B	+	case	3.0	SMA	IGS_MLI_053rCap	
+host_transcriptome	IGS-MLI-057rCap	IGS-MLI-057RCAP	CM6	GSM8786900	whole blood	CM	Female	3 years	Dogon	2.0	5.3	18150.0	3.0	A	+	case	2.0	CM	IGS_MLI_057rCap	
+host_transcriptome	IGS-MLI-059rCap	IGS-MLI-059RCAP	CS4	GSM8786901	whole blood	CM + SMA	Female	5 years	Dogon	1.0	2.7	3975.0	5.0	B	+	case	1.0	both	IGS_MLI_059rCap	
+host_transcriptome	IGS-MLI-061rCap	IGS-MLI-061RCAP	SMA9	GSM8786902	whole blood	SMA	Female	5 years	Dogon	4.0	5.0	95100.0	5.0	B	+	case	4.0	SMA	IGS_MLI_061rCap	
+host_transcriptome	IGS-MLI-063rCap	IGS-MLI-063RCAP	CM7	GSM8786903	whole blood	CM	Female	3years	Dogon	2.0	9.0	25350.0	3.0	O	+	case	2.0	CM	IGS_MLI_063rCap	
+host_transcriptome	IGS-MLI-064rCap	IGS-MLI-064RCAP	CM8	GSM8786904	whole blood	CM	Male	2 years	Dogon	2.0	9.6	265800.0	2.0	O	+	case	2.0	CM	IGS_MLI_064rCap	
+host_transcriptome	IGS-MLI-066rCap	IGS-MLI-066RCAP	SMA6	GSM8786905	whole blood	SMA	Female	1 year	Dogon	5.0	2.6	3450.0	1.0	O	+	case	5.0	SMA	IGS_MLI_066rCap	
+host_transcriptome	IGS-MLI-067rCap	IGS-MLI-067RCAP	CS5	GSM8786906	whole blood	CM + SMA	Female	3 years	Dogon	2.0	4.1	71700.0	3.0	B	+	case	2.0	both	IGS_MLI_067rCap	
+host_transcriptome	IGS-MLI-068rCap	IGS-MLI-068RCAP	CS6	GSM8786907	whole blood	CM + SMA	Male	2 years	Sarakolé	2.0	4.2	9800.0	2.0	O	+	case	2.0	both	IGS_MLI_068rCap	
+host_transcriptome	IGS-MLI-069rCap	IGS-MLI-069RCAP	CM9	GSM8786908	whole blood	CM	Male	3 years	Dogon	2.0	8.9	442800.0	3.0	B	+	case	2.0	CM	IGS_MLI_069rCap	
+host_transcriptome	IGS-MLI-071rCap	IGS-MLI-071RCAP	CM13	GSM8786909	whole blood	CM	Male	3 years	Dogon	2.0	7.0	450600.0	3.0	AB	+	case	2.0	CM	IGS_MLI_071rCap	
+host_transcriptome	IGS-MLI-073rCap	IGS-MLI-073RCAP	CS7	GSM8786910	whole blood	CM + SMA	Male	5 years	Bambara	2.0	4.6	182000.0	5.0	B	-	case	2.0	both	IGS_MLI_073rCap	
+host_transcriptome	IGS-MLI-074rCap	IGS-MLI-074RCAP	CS8	GSM8786911	whole blood	CM + SMA	Male	3 years	Dogon	1.0	2.2	1650.0	3.0	O	-	case	1.0	both	IGS_MLI_074rCap	
+host_transcriptome	IGS-MLI-075rCap	IGS-MLI-075RCAP	CM10	GSM8786912	whole blood	CM	Male	5 years	Dogon	1.0	8.1	244700.0	5.0	AB	+	case	1.0	CM	IGS_MLI_075rCap	
+host_transcriptome	IGS-MLI-076rCap	IGS-MLI-076RCAP	CM12	GSM8786913	whole blood	CM	Male	3 years	Dogon	1.0	10.8	1200.0	3.0	O	-	case	1.0	CM	IGS_MLI_076rCap	
+host_transcriptome	IGS-MLI-079rCap	IGS-MLI-079RCAP	UMC2	GSM8786914	whole blood	CM	Male	4 years	Dogon	5.0	8.6	9000.0	4.0	A	+	control		neither	IGS_MLI_079rCap	
+host_transcriptome	IGS-MLI-080rCap	IGS-MLI-080RCAP	UMC3	GSM8786915	whole blood	CM	Female	21 Months	Dogon	5.0	5.5	3300.0	1.75	A	+	control		neither	IGS_MLI_080rCap	21.0
+host_transcriptome	IGS-MLI-081rCap	IGS-MLI-081RCAP	UMC4	GSM8786916	whole blood	CM	Male	16 Months	Dogon	5.0	7.5	1425.0	1.33	B	+	control		neither	IGS_MLI_081rCap	16.0
+host_transcriptome	IGS-MLI-082rCap	IGS-MLI-082RCAP	UMCS1	GSM8786917	whole blood	CM + SMA	Male	3 years	Dogon	5.0	11.2	1575.0	3.0	B	+	control		neither	IGS_MLI_082rCap	
+host_transcriptome	IGS-MLI-083rCap	IGS-MLI-083RCAP	UMCS2	GSM8786918	whole blood	CM + SMA	Male	4 years	Dogon	5.0	7.8	375.0	4.0	O	+	control		neither	IGS_MLI_083rCap	
+host_transcriptome	IGS-MLI-084rCap	IGS-MLI-084RCAP	UMS1	GSM8786919	whole blood	SMA	Female	3 years	Dogon	5.0	7.0	55500.0	3.0	B	+	control		neither	IGS_MLI_084rCap	
+host_transcriptome	IGS-MLI-085rCap	IGS-MLI-085RCAP	UMS2	GSM8786920	whole blood	SMA	Female	3 years	Dogon	5.0	8.6	9300.0	3.0	AB	+	control		neither	IGS_MLI_085rCap	
+host_transcriptome	IGS-MLI-086rCap	IGS-MLI-086RCAP	UMS3	GSM8786921	whole blood	SMA	Female	3 years	Dogon	5.0	8.9	55800.0	3.0	O	+	control		neither	IGS_MLI_086rCap	
+host_transcriptome	IGS-MLI-087rCap	IGS-MLI-087RCAP	UMS4	GSM8786922	whole blood	SMA	Male	3 years	Dogon	5.0	11.5	9975.0	3.0	A	+	control		neither	IGS_MLI_087rCap	
+host_transcriptome	IGS-MLI-088rCap	IGS-MLI-088RCAP	UMC5	GSM8786923	whole blood	CM	Female	1 years	Dogon	5.0	7.9	82500.0	1.0	A	+	control		neither	IGS_MLI_088rCap	
+host_transcriptome	IGS-MLI-089rCap	IGS-MLI-089RCAP	UMCS3	GSM8786924	whole blood	CM + SMA	Male	1	Dogon	5.0	7.0	12600.0	1.0	B	+	control		neither	IGS_MLI_089rCap	
+host_transcriptome	IGS-MLI-090rCap	IGS-MLI-090RCAP	UMS5	GSM8786925	whole blood	SMA	Female	3 years	Dogon	5.0	7.2	119400.0	3.0	A	+	control		neither	IGS_MLI_090rCap	
+host_transcriptome	IGS-MLI-091rCap	IGS-MLI-091RCAP	UMC6	GSM8786926	whole blood	CM	Female	3 years	Dogon	5.0	11.6	45850.0	3.0	O	+	control		neither	IGS_MLI_091rCap	
+host_transcriptome	IGS-MLI-092rCap	IGS-MLI-092RCAP	UMCS4	GSM8786927	whole blood	CM + SMA	Female	5 years	Dogon	5.0	11.8	8025.0	5.0	B	+	control		neither	IGS_MLI_092rCap	
+host_transcriptome	IGS-MLI-094rCap	IGS-MLI-094RCAP	UMC7	GSM8786928	whole blood	CM	Female	3 years	Dogon	5.0	8.8	54000.0	4.0	O	+	control		neither	IGS_MLI_094rCap	
+host_transcriptome	IGS-MLI-095rCap	IGS-MLI-095RCAP	UMC8	GSM8786929	whole blood	CM	Male	2 years	Dogon	5.0	10.6	5100.0	2.0	O	+	control		neither	IGS_MLI_095rCap	
+host_transcriptome	IGS-MLI-097rCap	IGS-MLI-097RCAP	UMS6	GSM8786930	whole blood	SMA	Female	1 year	Dogon	5.0	6.2	1350.0	1.0	B	-	control		neither	IGS_MLI_097rCap	
+host_transcriptome	IGS-MLI-098rCap	IGS-MLI-098RCAP	UMCS5	GSM8786931	whole blood	CM + SMA	Female	3 years	Dogon	5.0	6.4	2550.0	3.0	O	+	control		neither	IGS_MLI_098rCap	
+host_transcriptome	IGS-MLI-099rCap	IGS-MLI-099RCAP	UMCS6	GSM8786932	whole blood	CM + SMA	Male	2 years	Malinke	5.0	5.0	7500.0	2.0	A	+	control		neither	IGS_MLI_099rCap	
+host_transcriptome	IGS-MLI-100rCap	IGS-MLI-100RCAP	UMC9	GSM8786933	whole blood	CM	Male	3 years	Dogon	5.0	10.6	165000.0	3.0	O	+	control		neither	IGS_MLI_100rCap	
+host_transcriptome	IGS-MLI-102rCap	IGS-MLI-102RCAP	UMCS7	GSM8786934	whole blood	CM + SMA	Male	4 ans	Bambara	5.0	9.3	10800.0	4.0	O	+	control		neither	IGS_MLI_102rCap	
+host_transcriptome	IGS-MLI-103rCap	IGS-MLI-103RCAP	UMCS8	GSM8786935	whole blood	CM + SMA	Male	4 years	Dogon	5.0	6.4	36000.0	4.0	A	+	control		neither	IGS_MLI_103rCap	
+host_transcriptome	IGS-MLI-104rCap	IGS-MLI-104RCAP	UMC10	GSM8786936	whole blood	CM	Male	4 years	Dogon	5.0	8.0	2850.0	4.0	A	+	control	5.0	neither	IGS_MLI_104rCap	
+host_transcriptome	IGS-MLI-105rCap	IGS-MLI-105RCAP	UMC12	GSM8786937	whole blood	CM	Male	4 years	Dogon	5.0	8.2	5475.0	4.0	O	+	control		neither	IGS_MLI_105rCap	
+host_transcriptome	IGS-MLI-126rCap	IGS-MLI-126RCAP	CM11	GSM8786938	whole blood	CM	Female	9 months	Bambara	2.0	6.3	42000.0		O	+	case	2.0	CM	IGS_MLI_126rCap	9.0
+host_transcriptome	IGS-MLI-127rCap	IGS-MLI-127RCAP	SMA10	GSM8786939	whole blood	SMA	Male	3 years	Bambara	5.0	2.8	28350.0	3.0	AB	+	case	5.0	SMA	IGS_MLI_127rCap	
+host_transcriptome	IGS-MLI-131rCap	IGS-MLI-131RCAP	SMA7	GSM8786940	whole blood	SMA	Male	2 years	Bambara	4.0	2.4	5375.0	2.0	B	+	case	4.0	SMA	IGS_MLI_131rCap	
+host_transcriptome	IGS-MLI-134rCap	IGS-MLI-134RCAP	SMA8	GSM8786941	whole blood	SMA	Female	3 years	Peulh	3.0	2.6	17500.0	3.0	B	+	case	3.0	SMA	IGS_MLI_134rCap	
+host_transcriptome	IGS-MLI-136rCap	IGS-MLI-136RCAP	UMC11	GSM8786942	whole blood	CM	Female	15 months	Bambara	5.0	8.4	22500.0	1.25	O	-	control		neither	IGS_MLI_136rCap	15.0
+host_transcriptome	IGS-MLI-137rCap	IGS-MLI-137RCAP	UMS7	GSM8786943	whole blood	SMA	Male	3 years	Bambara	5.0	7.4	32100.0	3.0	B	+	control		neither	IGS_MLI_137rCap	
+host_transcriptome	IGS-MLI-138rCap	IGS-MLI-138RCAP	UMS8	GSM8786944	whole blood	SMA	Female	3	Peulh	5.0	10.5	14475.0	3.0	O	+	control		neither	IGS_MLI_138rCap	
+host_transcriptome	IGS-MLI-141rCap	IGS-MLI-141RCAP	CM1	GSM8786945	whole blood	CM	Male	4 years	Dogon	2.0	6.6	14040.0	4.0	A	+	case	2.0	CM	IGS_MLI_141rCap	
+host_transcriptome	IGS-MLI-142rCap	IGS-MLI-142RCAP	CM2	GSM8786946	whole blood	CM	Male	4 years	Dogon	1.0	6.9	76400.0	4.0	O	+	case	1.0	CM	IGS_MLI_142rCap	
+host_transcriptome	IGS-MLI-143rCap	IGS-MLI-143RCAP	CM3	GSM8786947	whole blood	CM	Female	18 months	Dogon	2.0	7.4	73800.0	1.5	O	+	case	2.0	CM	IGS_MLI_143rCap	18.0
+host_transcriptome	IGS-MLI-144rCap	IGS-MLI-144RCAP	CM4	GSM8786948	whole blood	CM	Male	16 months	Dogon	2.0	5.4	24000.0	1.33	O	+	case	2.0	CM	IGS_MLI_144rCap	16.0
+host_transcriptome	IGS-MLI-145rCap	IGS-MLI-145RCAP	CS1	GSM8786949	whole blood	CM + SMA	Male	3 years	Dogon	1.0	2.5	525.0	3.0	B	+	case	1.0	both	IGS_MLI_145rCap	
+host_transcriptome	IGS-MLI-147rCap	IGS-MLI-147RCAP	CS2	GSM8786950	whole blood	CM + SMA	Male	4years	Dogon	1.0	2.6	950.0	4.0	AB	+	case	1.0	both	IGS_MLI_147rCap	
+host_transcriptome	IGS-MLI-148rCap	IGS-MLI-148RCAP	SMA1	GSM8786951	whole blood	SMA	Female	3 years	Dogon	3.0	3.8	68400.0	3.0	B	+	case	3.0	SMA	IGS_MLI_148rCap	
+host_transcriptome	IGS-MLI-151rCap	IGS-MLI-151RCAP	UMC1	GSM8786952	whole blood	CM	Male	4 years	Dogon	5.0	10.7	3900.0	4.0	A	+	control		neither	IGS_MLI_151rCap	
+host_transcriptome	IGS-MLI-200rCAP	IGS-MLI-200RCAP	CM14	GSM8786953	whole blood	CM	Male	2 years	Dogon	2.0	6.2	154200.0	2.0	B	+	case	2.0	CM	IGS_MLI_200rCAP	
+host_transcriptome	IGS-MLI-201rCAP	IGS-MLI-201RCAP	CM15	GSM8786954	whole blood	CM	Male	3 years	Dogon	1.0	8.6	185100.0	3.0	O	+	case	1.0	CM	IGS_MLI_201rCAP	
+host_transcriptome	IGS-MLI-205rCAP	IGS-MLI-205RCAP	CM16	GSM8786955	whole blood	CM	Male	4 years	Dogon	1.0	7.3	306600.0	4.0	AB	+	case	1.0	CM	IGS_MLI_205rCAP	
+host_transcriptome	IGS-MLI-206rCAP	IGS-MLI-206RCAP	CM17	GSM8786956	whole blood	CM	Female	3 years	Dogon	1.0	6.3	244200.0	3.0	O	+	case	1.0	CM	IGS_MLI_206rCAP	
+host_transcriptome	IGS-MLI-207rCAP	IGS-MLI-207RCAP	CM18	GSM8786957	whole blood	CM	Female	4 years	Dogon	1.0	6.3	63325.0	4.0	A	+	case	1.0	CM	IGS_MLI_207rCAP	
+host_transcriptome	IGS-MLI-211rCAP	IGS-MLI-211RCAP	SMA11	GSM8786958	whole blood	SMA	Male	18 months	Peulh	5.0	3.8	15500.0	1.5	A	+	case	5.0	SMA	IGS_MLI_211rCAP	18.0
+host_transcriptome	IGS-MLI-212rCAP	IGS-MLI-212RCAP	SMA12	GSM8786959	whole blood	SMA	Female	1 year	Bambara	3.0	3.3	112500.0	1.0	O	+	case	3.0	SMA	IGS_MLI_212rCAP	
+host_transcriptome	IGS-MLI-213rCAP	IGS-MLI-213RCAP	SMA13	GSM8786960	whole blood	SMA	Male	1 year	Bambara	3.0	4.3	3200.0	1.0	B	-	case	3.0	SMA	IGS_MLI_213rCAP	
+host_transcriptome	IGS-MLI-214rCAP	IGS-MLI-214RCAP	CM19	GSM8786961	whole blood	CM	Female	5 years	Malinké	1.0	6.6	41000.0	5.0	A	+	case	1.0	CM	IGS_MLI_214rCAP	
+host_transcriptome	IGS-MLI-215rCAP	IGS-MLI-215RCAP	SMA14	GSM8786962	whole blood	SMA	Male	11 months	Senoufo	5.0	4.6	205000.0	0.916666667	O	+	case	5.0	SMA	IGS_MLI_215rCAP	11.0
+host_transcriptome	IGS-MLI-216rCAP	IGS-MLI-216RCAP	CS10	GSM8786963	whole blood	CM + SMA	Male	2 ans	Bambara	1.0	1.5	125.0	2.0	A	+	case	1.0	both	IGS_MLI_216rCAP	
+host_transcriptome	IGS-MLI-217rCAP	IGS-MLI-217RCAP	SMA15	GSM8786964	whole blood	SMA	Male	5 ans	Bozo	5.0	3.3	150.0	5.0	A	+	case	5.0	SMA	IGS_MLI_217rCAP	
+host_transcriptome	IGS-MLI-219rCAP	IGS-MLI-219RCAP	SMA16	GSM8786965	whole blood	SMA	Male	5 years	Bambara	5.0	3.4	25000.0	5.0	B	+	case	5.0	SMA	IGS_MLI_219rCAP	
+host_transcriptome	IGS-MLI-220rCAP	IGS-MLI-220RCAP	CM20	GSM8786966	whole blood	CM	Female	5 years	Bobo	1.0	8.3	1650.0	5.0	O	-	case	1.0	CM	IGS_MLI_220rCAP	
+host_transcriptome	IGS-MLI-221rCAP	IGS-MLI-221RCAP	SMA17	GSM8786967	whole blood	SMA	Female	3 years	Dogon	5.0	3.9	150000.0	3.0	O	+	case	5.0	SMA	IGS_MLI_221rCAP	
+host_transcriptome	IGS-MLI-222rCAP	IGS-MLI-222RCAP	Both9	GSM8786968	whole blood	CM + SMA	Male	3 years	Bozo	2.0	4.2	550.0	3.0	B	-	case	2.0	both	IGS_MLI_222rCAP	
+host_transcriptome	IGS-MLI-223rCAP	IGS-MLI-223RCAP	CM21	GSM8786969	whole blood	CM	Female	5 years	Sonrhaï	1.0	11.2	92400.0	5.0	B	+	case	1.0	CM	IGS_MLI_223rCAP	
+host_transcriptome	IGS-MLI-228rCAP	IGS-MLI-228RCAP	SMA18	GSM8786970	whole blood	SMA	Female	1 year	Senoufo	5.0	4.7	24825.0	1.0	A	+	case	5.0	SMA	IGS_MLI_228rCAP	
+host_transcriptome	IGS-MLI-230rCAP	IGS-MLI-230RCAP	SMA19	GSM8786971	whole blood	SMA	Male	19 months	Bambara	5.0	4.2	2643.0	1.583333333	O	+	case	5.0	SMA	IGS_MLI_230rCAP	19.0
+host_transcriptome	IGS-MLI-231rCAP	IGS-MLI-231RCAP	SMA20	GSM8786972	whole blood	SMA	Male	16 months	Senoufo	5.0	4.3	32650.0	1.333333333	A	+	case	5.0	SMA	IGS_MLI_231rCAP	16.0
+host_proteome	Sample_01	SAMPLE-01																		
+host_proteome	Sample_02	SAMPLE-02																		
+host_proteome	Sample_03	SAMPLE-03																		
+host_proteome	Sample_04	SAMPLE-04																		
+host_proteome	Sample_05	SAMPLE-05																		
+host_proteome	Sample_06	SAMPLE-06																		
+host_proteome	Sample_07	SAMPLE-07																		
+host_proteome	Sample_08	SAMPLE-08																		
+host_proteome	Sample_09	SAMPLE-09																		
+host_proteome	Sample_10	SAMPLE-10																		
+host_proteome	Sample_11	SAMPLE-11																		
+host_proteome	Sample_12	SAMPLE-12																		
+host_proteome	Sample_13	SAMPLE-13																		
+host_proteome	Sample_14	SAMPLE-14																		
+host_proteome	Sample_15	SAMPLE-15																		
+host_proteome	Sample_16	SAMPLE-16																		
+host_proteome	Sample_17	SAMPLE-17																		
+host_proteome	Sample_18	SAMPLE-18																		
+host_proteome	Sample_19	SAMPLE-19																		
+host_proteome	Sample_20	SAMPLE-20																		
+host_proteome	Sample_21	SAMPLE-21																		
+host_proteome	Sample_22	SAMPLE-22																		
+host_proteome	Sample_23	SAMPLE-23																		
+host_proteome	Sample_24	SAMPLE-24																		
+host_proteome	Sample_25	SAMPLE-25																		
+host_proteome	Sample_26	SAMPLE-26																		
+host_proteome	Sample_27	SAMPLE-27																		
+host_proteome	Sample_28	SAMPLE-28																		
+host_proteome	Sample_29	SAMPLE-29																		
+host_proteome	Sample_30	SAMPLE-30																		
+host_proteome	Sample_31	SAMPLE-31																		
+host_proteome	Sample_32	SAMPLE-32																		
+host_proteome	Sample_33	SAMPLE-33																		
+host_proteome	Sample_34	SAMPLE-34																		
+host_proteome	Sample_35	SAMPLE-35																		
+host_proteome	Sample_36	SAMPLE-36																		
+host_proteome	Sample_37	SAMPLE-37																		
+host_proteome	Sample_38	SAMPLE-38																		
+host_proteome	Sample_39	SAMPLE-39																		
+host_proteome	Sample_40	SAMPLE-40																		
+host_proteome	Sample_41	SAMPLE-41																		
+host_proteome	Sample_42	SAMPLE-42																		
+host_proteome	Sample_43	SAMPLE-43																		
+host_proteome	Sample_44	SAMPLE-44																		
+host_proteome	Sample_45	SAMPLE-45																		
+host_proteome	Sample_46	SAMPLE-46																		
+host_proteome	Sample_47	SAMPLE-47																		
+host_proteome	Sample_48	SAMPLE-48																		
+host_proteome	Sample_49	SAMPLE-49																		
+host_proteome	Sample_50	SAMPLE-50																		
+host_proteome	Sample_51	SAMPLE-51																		
+host_proteome	Sample_52	SAMPLE-52																		
+host_proteome	Sample_53	SAMPLE-53																		
+host_proteome	Sample_54	SAMPLE-54																		
+host_proteome	Sample_55	SAMPLE-55																		
+host_proteome	Sample_56	SAMPLE-56																		
+host_proteome	Sample_57	SAMPLE-57																		
+host_proteome	Sample_58	SAMPLE-58																		
+host_proteome	Sample_59	SAMPLE-59																		
+host_proteome	Sample_60	SAMPLE-60																		
+host_proteome	Sample_61	SAMPLE-61																		
+host_proteome	Sample_62	SAMPLE-62																		
+host_proteome	Sample_63	SAMPLE-63																		
+host_proteome	Sample_64	SAMPLE-64																		
+host_proteome	Sample_65	SAMPLE-65																		
+host_proteome	Sample_66	SAMPLE-66																		
+host_proteome	Sample_67	SAMPLE-67																		
+host_proteome	Sample_68	SAMPLE-68																		
+host_proteome	Sample_69	SAMPLE-69																		
+host_proteome	Sample_70	SAMPLE-70																		
+host_proteome	Sample_71	SAMPLE-71																		
+host_proteome	Sample_72	SAMPLE-72																		
+host_proteome	Sample_73	SAMPLE-73																		
+host_proteome	Sample_74	SAMPLE-74																		
+host_proteome	Sample_75	SAMPLE-75																		
+host_proteome	Sample_76	SAMPLE-76																		
+host_proteome	Sample_77	SAMPLE-77																		
+host_proteome	Sample_78	SAMPLE-78																		
+host_proteome	Sample_79	SAMPLE-79																		
+host_proteome	Sample_80	SAMPLE-80																		
+host_proteome	Sample_81	SAMPLE-81																		
+host_proteome	Sample_82	SAMPLE-82																		
+host_proteome	Sample_83	SAMPLE-83																		
+host_proteome	Sample_84	SAMPLE-84																		
+host_proteome	Sample_85	SAMPLE-85																		
+host_proteome	Sample_86	SAMPLE-86																		
+host_proteome	Sample_87	SAMPLE-87																		
+host_proteome	Sample_88	SAMPLE-88																		
+host_proteome	Sample_89	SAMPLE-89																		
+host_proteome	Sample_90	SAMPLE-90																		
+host_proteome	Sample_91	SAMPLE-91																		
+host_proteome	Sample_92	SAMPLE-92																		
+host_proteome	Sample_93	SAMPLE-93																		
+host_proteome	Sample_94	SAMPLE-94																		
+host_proteome	Sample_95	SAMPLE-95																		
+host_proteome	Sample_96	SAMPLE-96																		
+host_proteome	Sample_97	SAMPLE-97																		
+host_proteome	Sample_98	SAMPLE-98																		
+host_proteome	Sample_99	SAMPLE-99																		
+host_proteome	Sample_100	SAMPLE-100																		
+host_proteome	Sample_101	SAMPLE-101																		
+host_proteome	Sample_102	SAMPLE-102																		
+host_proteome	Sample_103	SAMPLE-103																		
+host_proteome	Sample_104	SAMPLE-104																		
+host_proteome	Sample_105	SAMPLE-105																		
+host_proteome	Sample_106	SAMPLE-106																		
+host_proteome	Sample_107	SAMPLE-107																		
+host_proteome	Sample_108	SAMPLE-108																		
+parasite_genome	SPT15294	SPT15294																		
+parasite_genome	SPT15296	SPT15296																		
+parasite_genome	SPT15297	SPT15297																		
+parasite_genome	SPT15298	SPT15298																		
+parasite_genome	SPT15304	SPT15304																		
+parasite_genome	SPT15309	SPT15309																		
+parasite_genome	SPT15314	SPT15314																		
+parasite_genome	SPT15325	SPT15325																		
+parasite_genome	SPT15327	SPT15327																		
+parasite_genome	SPT15330	SPT15330																		
+parasite_genome	SPT15333	SPT15333																		
+parasite_genome	SPT15335	SPT15335																		
+parasite_genome	SPT15340	SPT15340																		
+parasite_genome	SPT15342	SPT15342																		
+parasite_genome	SPT15346	SPT15346																		
+parasite_genome	SPT15348	SPT15348																		
+parasite_genome	SPT15349	SPT15349																		
+parasite_genome	SPT15351	SPT15351																		
+parasite_genome	SPT15356	SPT15356																		
+parasite_genome	SPT15372	SPT15372																		
+parasite_genome	SPT15376	SPT15376																		
+parasite_genome	SPT15381	SPT15381																		
+parasite_genome	SPT15389	SPT15389																		
+parasite_genome	SPT15407	SPT15407																		
+parasite_genome	SPT15413	SPT15413																		
+parasite_genome	SPT15414	SPT15414																		
+parasite_genome	SPT15417	SPT15417																		
+parasite_genome	SPT15420	SPT15420																		
+parasite_genome	SPT15443	SPT15443																		
+parasite_genome	SPT15446	SPT15446																		
+parasite_genome	SPT15448	SPT15448																		
+parasite_genome	SPT15455	SPT15455																		
+parasite_genome	SPT15456	SPT15456																		
+parasite_genome	SPT15459	SPT15459																		
+parasite_genome	SPT15471	SPT15471																		
+parasite_genome	SPT15483	SPT15483																		
+parasite_genome	SPT15486	SPT15486																		
+parasite_genome	SPT15491	SPT15491																		
+parasite_genome	SPT15504	SPT15504																		
+parasite_genome	SPT15506	SPT15506																		
+parasite_genome	SPT15511	SPT15511																		
+parasite_genome	SPT15516	SPT15516																		
+parasite_genome	SPT15519	SPT15519																		
+parasite_genome	SPT15522	SPT15522																		
+parasite_genome	SPT15528	SPT15528																		
+parasite_genome	SPT15529	SPT15529																		
+parasite_genome	SPT15531	SPT15531																		
+parasite_genome	SPT15532	SPT15532																		
+parasite_genome	SPT15535	SPT15535																		
+parasite_genome	SPT15536	SPT15536																		
+parasite_genome	SPT15537	SPT15537																		
+parasite_genome	SPT15541	SPT15541																		
+parasite_genome	SPT15542	SPT15542																		
+parasite_genome	SPT15543	SPT15543																		
+parasite_genome	SPT15545	SPT15545																		
+parasite_genome	SPT15547	SPT15547																		
+parasite_genome	SPT15548	SPT15548																		
+parasite_genome	SPT15549	SPT15549																		
+parasite_genome	SPT15558	SPT15558																		
+parasite_genome	SPT15562	SPT15562																		
+parasite_genome	SPT15563	SPT15563																		
+parasite_genome	SPT15564	SPT15564																		
+parasite_genome	SPT15565	SPT15565																		
+parasite_genome	SPT15566	SPT15566																		
+parasite_genome	SPT15567	SPT15567																		
+parasite_genome	SPT15571	SPT15571																		
+parasite_genome	SPT15577	SPT15577																		
+parasite_genome	SPT15579	SPT15579																		
+parasite_genome	SPT15580	SPT15580																		
+parasite_genome	SPT15581	SPT15581																		
+parasite_genome	SPT15586	SPT15586																		
+parasite_genome	SPT15587	SPT15587																		
+parasite_genome	SPT15588	SPT15588																		
+parasite_genome	SPT15589	SPT15589																		
+parasite_genome	SPT15590	SPT15590																		
+parasite_genome	SPT15591	SPT15591																		
+parasite_genome	SPT15593	SPT15593																		
+parasite_genome	SPT15594	SPT15594																		
+parasite_genome	SPT15595	SPT15595																		
+parasite_genome	SPT15598	SPT15598																		
+parasite_genome	SPT15599	SPT15599																		
+parasite_genome	SPT15600	SPT15600																		
+parasite_genome	SPT15602	SPT15602																		
+parasite_genome	SPT15603	SPT15603																		
+parasite_genome	SPT15604	SPT15604																		
+parasite_genome	SPT15605	SPT15605																		
+parasite_genome	SPT15606	SPT15606																		
+parasite_genome	SPT15607	SPT15607																		
+parasite_genome	SPT15608	SPT15608																		
+parasite_genome	SPT15609	SPT15609																		
+parasite_genome	SPT15611	SPT15611																		
+parasite_genome	SPT15612	SPT15612																		
+parasite_genome	SPT15614	SPT15614																		
+parasite_genome	SPT15615	SPT15615																		
+parasite_genome	SPT15616	SPT15616																		
+parasite_genome	SPT15617	SPT15617																		
+parasite_genome	SPT15619	SPT15619																		
+parasite_genome	SPT15620	SPT15620																		
+parasite_genome	SPT15621	SPT15621																		
+parasite_genome	SPT15622	SPT15622																		
+parasite_genome	SPT15623	SPT15623																		
+parasite_genome	SPT15625	SPT15625																		
+parasite_genome	SPT15626	SPT15626																		
+parasite_genome	SPT15627	SPT15627																		
+parasite_genome	SPT15628	SPT15628																		
+parasite_genome	SPT15630	SPT15630																		
+parasite_genome	SPT15631	SPT15631																		
+parasite_genome	SPT15632	SPT15632																		
+parasite_genome	SPT15633	SPT15633																		
+parasite_genome	SPT15634	SPT15634																		
+parasite_genome	SPT15635	SPT15635																		
+parasite_genome	SPT15636	SPT15636																		
+parasite_genome	SPT15637	SPT15637																		
+parasite_genome	SPT15638	SPT15638																		
+parasite_genome	SPT15639	SPT15639																		
+parasite_genome	SPT15640	SPT15640																		
+parasite_genome	SPT15641	SPT15641																		
+parasite_genome	SPT15642	SPT15642																		
+parasite_genome	SPT15643	SPT15643																		
+parasite_genome	SPT15644	SPT15644																		
+parasite_genome	SPT15645	SPT15645																		
+parasite_genome	SPT15646	SPT15646																		
+parasite_genome	SPT15647	SPT15647																		
+parasite_genome	SPT15649	SPT15649																		
+parasite_genome	SPT15650	SPT15650																		
+parasite_genome	SPT15653	SPT15653																		
+parasite_genome	SPT15654	SPT15654																		
+parasite_genome	SPT15655	SPT15655																		
+parasite_genome	SPT15656	SPT15656																		
+parasite_genome	SPT15658	SPT15658																		
+parasite_genome	SPT15659	SPT15659																		
+parasite_genome	SPT15660	SPT15660																		
+parasite_genome	SPT15665	SPT15665																		
+parasite_genome	SPT15666	SPT15666																		
+parasite_genome	SPT15668	SPT15668																		
+parasite_genome	SPT15669	SPT15669																		
+parasite_genome	SPT15670	SPT15670																		
+parasite_genome	SPT15671	SPT15671																		
+parasite_genome	SPT15672	SPT15672																		
+parasite_genome	SPT15678	SPT15678																		
+parasite_genome	SPT15679	SPT15679																		
+parasite_genome	SPT15680	SPT15680																		
+parasite_genome	SPT15681	SPT15681																		
+parasite_genome	SPT15682	SPT15682																		
+parasite_genome	SPT15683	SPT15683																		
+parasite_genome	SPT15684	SPT15684																		
+parasite_genome	SPT15685	SPT15685																		
+parasite_genome	SPT15686	SPT15686																		
+parasite_genome	SPT15687	SPT15687																		
+parasite_genome	SPT15688	SPT15688																		
+parasite_genome	SPT15689	SPT15689																		
+parasite_genome	SPT15690	SPT15690																		
+parasite_genome	SPT15691	SPT15691																		
+parasite_genome	SPT15692	SPT15692																		
+parasite_genome	SPT15694	SPT15694																		
+parasite_genome	SPT15695	SPT15695																		
+parasite_genome	SPT15696	SPT15696																		
+parasite_genome	SPT15697	SPT15697																		
+parasite_genome	SPT15698	SPT15698																		
+parasite_genome	SPT15699	SPT15699																		
+parasite_genome	SPT15700	SPT15700																		
+parasite_genome	SPT15701	SPT15701																		
+parasite_genome	SPT15702	SPT15702																		
+parasite_genome	SPT15703	SPT15703																		
+parasite_genome	SPT15704	SPT15704																		
+parasite_genome	SPT15705	SPT15705																		
+parasite_genome	SPT15706	SPT15706																		
+parasite_genome	SPT15707	SPT15707																		
+parasite_genome	SPT15708	SPT15708																		
+parasite_genome	SPT15709	SPT15709																		
+parasite_genome	SPT15710	SPT15710																		
+parasite_genome	SPT15711	SPT15711																		
+parasite_genome	SPT15712	SPT15712																		
+parasite_genome	SPT15713	SPT15713																		
+parasite_genome	SPT15714	SPT15714																		
+parasite_genome	SPT15715	SPT15715																		
+parasite_genome	SPT15716	SPT15716																		
+parasite_genome	SPT15717	SPT15717																		
+parasite_genome	SPT15718	SPT15718																		
+parasite_genome	SPT15719	SPT15719																		
+parasite_genome	SPT15720	SPT15720																		
+parasite_genome	SPT15721	SPT15721																		
+parasite_genome	SPT15722	SPT15722																		
+parasite_genome	SPT15723	SPT15723																		
+parasite_genome	SPT15724	SPT15724																		
+parasite_genome	SPT15725	SPT15725																		
+parasite_genome	SPT15726	SPT15726																		
+parasite_genome	SPT15727	SPT15727																		
+parasite_genome	SPT15728	SPT15728																		
+parasite_genome	SPT15729	SPT15729																		
+parasite_genome	SPT15730	SPT15730																		
+parasite_genome	SPT15731	SPT15731																		
+parasite_genome	SPT15732	SPT15732																		
+parasite_genome	SPT15733	SPT15733																		
+parasite_genome	SPT15734	SPT15734																		
+parasite_genome	SPT15735	SPT15735																		
+parasite_genome	SPT15736	SPT15736																		
+parasite_genome	SPT15737	SPT15737																		
+parasite_genome	SPT15738	SPT15738																		
+parasite_genome	SPT15740	SPT15740																		
+parasite_genome	SPT15742	SPT15742																		
+parasite_genome	SPT15744	SPT15744																		
+parasite_genome	SPT15745	SPT15745																		
+parasite_genome	SPT15747	SPT15747																		
+parasite_genome	SPT15749	SPT15749																		
+parasite_genome	SPT15752	SPT15752																		
+parasite_genome	SPT15753	SPT15753																		
+parasite_genome	SPT15756	SPT15756																		
+parasite_genome	SPT15757	SPT15757																		
+parasite_genome	SPT15758	SPT15758																		
+parasite_genome	SPT15761	SPT15761																		
+parasite_genome	SPT15764	SPT15764																		
+parasite_genome	SPT15766	SPT15766																		
+parasite_genome	SPT15767	SPT15767																		
+parasite_genome	SPT15768	SPT15768																		
+parasite_genome	SPT15770	SPT15770																		
+parasite_genome	SPT15772	SPT15772																		
+parasite_genome	SPT15773	SPT15773																		
+parasite_genome	SPT15775	SPT15775																		
+parasite_genome	SPT15777	SPT15777																		
+parasite_genome	SPT15779	SPT15779																		
+parasite_genome	SPT15782	SPT15782																		
+parasite_genome	SPT15785	SPT15785																		
+parasite_genome	SPT15787	SPT15787																		
+parasite_genome	SPT15789	SPT15789																		
+parasite_genome	SPT15792	SPT15792																		
+parasite_genome	SPT15794	SPT15794																		
+parasite_genome	SPT15797	SPT15797																		
+parasite_genome	SPT15799	SPT15799																		
+parasite_genome	SPT15800	SPT15800																		
+parasite_genome	SPT15804	SPT15804																		
+parasite_genome	SPT15805	SPT15805																		
+parasite_genome	SPT15807	SPT15807																		
+parasite_genome	SPT15808	SPT15808																		
+parasite_genome	SPT15810	SPT15810																		
+parasite_genome	SPT15814	SPT15814																		
+parasite_genome	SPT15817	SPT15817																		
+parasite_genome	SPT15818	SPT15818																		
+parasite_genome	SPT15820	SPT15820																		
+parasite_genome	SPT15823	SPT15823																		
+parasite_genome	SPT15832	SPT15832																		
+parasite_genome	SPT15834	SPT15834																		
+parasite_genome	SPT15838	SPT15838																		
+parasite_genome	SPT15846	SPT15846																		
+parasite_genome	SPT15849	SPT15849																		
+parasite_genome	SPT15850	SPT15850																		
+parasite_genome	SPT15851	SPT15851																		
+parasite_genome	SPT15852	SPT15852																		
+parasite_genome	SPT15853	SPT15853																		
+parasite_genome	SPT15854	SPT15854																		
+parasite_genome	SPT15855	SPT15855																		
+parasite_genome	SPT15856	SPT15856																		
+parasite_genome	SPT15857	SPT15857																		
+parasite_genome	SPT15858	SPT15858																		
+parasite_genome	SPT15859	SPT15859																		
+parasite_genome	SPT15860	SPT15860																		
+parasite_genome	SPT15861	SPT15861																		
+parasite_genome	SPT15862	SPT15862																		
+parasite_genome	SPT15863	SPT15863																		
+parasite_genome	SPT15865	SPT15865																		
+parasite_genome	SPT15866	SPT15866																		
+parasite_genome	SPT15867	SPT15867																		
+parasite_genome	SPT15869	SPT15869																		
+parasite_genome	SPT15870	SPT15870																		
+parasite_genome	SPT15871	SPT15871																		
+parasite_genome	SPT15873	SPT15873																		
+parasite_genome	SPT15874	SPT15874																		
+parasite_genome	SPT15875	SPT15875																		
+parasite_genome	SPT15876	SPT15876																		
+parasite_genome	SPT15877	SPT15877																		
+parasite_genome	SPT15879	SPT15879																		
+parasite_genome	SPT15880	SPT15880																		
+parasite_genome	SPT18689	SPT18689																		

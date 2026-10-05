@@ -1,0 +1,9 @@
+dataset	study	species	country	age	phenotype	sample_count	omics	raw_data_status	processed_data_status	clinical_labels	treatment_labels	patient_level_matching	access_restrictions	download_complete	qc_complete
+E-MTAB-6413 / ERP116722 / PRJEB33892		Homo sapiens + Plasmodium falciparum				53		raw_fastq						yes	no
+GSE289197		Homo sapiens						processed_only					open processed/count-level; raw FASTQ NOT open	yes	no
+MSV000096913		Homo sapiens						raw					public	partial	no
+MalariaGEN_host_parasite		Homo sapiens + Plasmodium falciparum											mixed: parasite/joint/summary OPEN; human genotypes MANAGED	yes	no
+PRJNA962942		Homo sapiens + Plasmodium falciparum				136		raw_fastq						yes	no
+PXD058621		Homo sapiens						raw+processed					open	yes	no
+Pf8		Plasmodium falciparum						metadata+resistance					open	partial	no
+pharma_references								reference_descriptors					open	yes	no

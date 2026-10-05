@@ -1,0 +1,1110 @@
+{
+  "accession": "PRJNA962942",
+  "repository": "SRA/ENA",
+  "download_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA962942",
+  "download_date": "2026-08-26T12:33:13.612796+00:00",
+  "dest_dir": "/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/raw/parasite_transcriptomics/PRJNA962942",
+  "license_or_access_terms": "",
+  "publication": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10918175/",
+  "raw_or_processed_status": "raw_fastq",
+  "sample_count": 136,
+  "organism": "Homo sapiens + Plasmodium falciparum",
+  "tissue": "peripheral blood",
+  "platform": "",
+  "software": "",
+  "files": [
+    {
+      "file_name": "PRJNA962942_read_run_report.tsv",
+      "file_size": 46286
+    },
+    {
+      "file_name": "fastq/SRR25640248/SRR25640248_1.fastq.gz",
+      "file_size": 2326353527
+    },
+    {
+      "file_name": "fastq/SRR25640248/SRR25640248_2.fastq.gz",
+      "file_size": 2324065142
+    },
+    {
+      "file_name": "fastq/SRR25640249/SRR25640249_1.fastq.gz",
+      "file_size": 2394503853
+    },
+    {
+      "file_name": "fastq/SRR25640249/SRR25640249_2.fastq.gz",
+      "file_size": 2395385020
+    },
+    {
+      "file_name": "fastq/SRR25640250/SRR25640250_1.fastq.gz",
+      "file_size": 2243295892
+    },
+    {
+      "file_name": "fastq/SRR25640250/SRR25640250_2.fastq.gz",
+      "file_size": 2242054088
+    },
+    {
+      "file_name": "fastq/SRR25640251/SRR25640251_1.fastq.gz",
+      "file_size": 2361207723
+    },
+    {
+      "file_name": "fastq/SRR25640251/SRR25640251_2.fastq.gz",
+      "file_size": 2365320388
+    },
+    {
+      "file_name": "fastq/SRR25640252/SRR25640252_1.fastq.gz",
+      "file_size": 2314983852
+    },
+    {
+      "file_name": "fastq/SRR25640252/SRR25640252_2.fastq.gz",
+      "file_size": 2313963862
+    },
+    {
+      "file_name": "fastq/SRR25640253/SRR25640253_1.fastq.gz",
+      "file_size": 4508932623
+    },
+    {
+      "file_name": "fastq/SRR25640253/SRR25640253_2.fastq.gz",
+      "file_size": 4527478873
+    },
+    {
+      "file_name": "fastq/SRR25640254/SRR25640254_1.fastq.gz",
+      "file_size": 2118677379
+    },
+    {
+      "file_name": "fastq/SRR25640254/SRR25640254_2.fastq.gz",
+      "file_size": 2121368898
+    },
+    {
+      "file_name": "fastq/SRR25640255/SRR25640255_1.fastq.gz",
+      "file_size": 1825825671
+    },
+    {
+      "file_name": "fastq/SRR25640255/SRR25640255_2.fastq.gz",
+      "file_size": 1830330790
+    },
+    {
+      "file_name": "fastq/SRR25640256/SRR25640256_1.fastq.gz",
+      "file_size": 2344006073
+    },
+    {
+      "file_name": "fastq/SRR25640256/SRR25640256_2.fastq.gz",
+      "file_size": 2344361627
+    },
+    {
+      "file_name": "fastq/SRR25640257/SRR25640257_1.fastq.gz",
+      "file_size": 2370032142
+    },
+    {
+      "file_name": "fastq/SRR25640257/SRR25640257_2.fastq.gz",
+      "file_size": 2372827295
+    },
+    {
+      "file_name": "fastq/SRR25640258/SRR25640258_1.fastq.gz",
+      "file_size": 1782781671
+    },
+    {
+      "file_name": "fastq/SRR25640258/SRR25640258_2.fastq.gz",
+      "file_size": 1784762521
+    },
+    {
+      "file_name": "fastq/SRR25640259/SRR25640259_1.fastq.gz",
+      "file_size": 2490805083
+    },
+    {
+      "file_name": "fastq/SRR25640259/SRR25640259_2.fastq.gz",
+      "file_size": 2501543433
+    },
+    {
+      "file_name": "fastq/SRR25640260/SRR25640260_1.fastq.gz",
+      "file_size": 2620523647
+    },
+    {
+      "file_name": "fastq/SRR25640260/SRR25640260_2.fastq.gz",
+      "file_size": 2634886673
+    },
+    {
+      "file_name": "fastq/SRR25640261/SRR25640261_1.fastq.gz",
+      "file_size": 2346878560
+    },
+    {
+      "file_name": "fastq/SRR25640261/SRR25640261_2.fastq.gz",
+      "file_size": 2346931026
+    },
+    {
+      "file_name": "fastq/SRR25640262/SRR25640262_1.fastq.gz",
+      "file_size": 2572411988
+    },
+    {
+      "file_name": "fastq/SRR25640262/SRR25640262_2.fastq.gz",
+      "file_size": 2581512895
+    },
+    {
+      "file_name": "fastq/SRR25640263/SRR25640263_1.fastq.gz",
+      "file_size": 2181168773
+    },
+    {
+      "file_name": "fastq/SRR25640263/SRR25640263_2.fastq.gz",
+      "file_size": 2179863118
+    },
+    {
+      "file_name": "fastq/SRR25640264/SRR25640264_1.fastq.gz",
+      "file_size": 2198131503
+    },
+    {
+      "file_name": "fastq/SRR25640264/SRR25640264_2.fastq.gz",
+      "file_size": 2195621963
+    },
+    {
+      "file_name": "fastq/SRR25640265/SRR25640265_1.fastq.gz",
+      "file_size": 2355141021
+    },
+    {
+      "file_name": "fastq/SRR25640265/SRR25640265_2.fastq.gz",
+      "file_size": 2354817634
+    },
+    {
+      "file_name": "fastq/SRR25640266/SRR25640266_1.fastq.gz",
+      "file_size": 2332474697
+    },
+    {
+      "file_name": "fastq/SRR25640266/SRR25640266_2.fastq.gz",
+      "file_size": 2339806671
+    },
+    {
+      "file_name": "fastq/SRR25640267/SRR25640267_1.fastq.gz",
+      "file_size": 1887294231
+    },
+    {
+      "file_name": "fastq/SRR25640267/SRR25640267_2.fastq.gz",
+      "file_size": 1883560173
+    },
+    {
+      "file_name": "fastq/SRR25640268/SRR25640268_1.fastq.gz",
+      "file_size": 2620308978
+    },
+    {
+      "file_name": "fastq/SRR25640268/SRR25640268_2.fastq.gz",
+      "file_size": 2621847145
+    },
+    {
+      "file_name": "fastq/SRR25640269/SRR25640269_1.fastq.gz",
+      "file_size": 2747940144
+    },
+    {
+      "file_name": "fastq/SRR25640269/SRR25640269_2.fastq.gz",
+      "file_size": 2751867116
+    },
+    {
+      "file_name": "fastq/SRR25640270/SRR25640270_1.fastq.gz",
+      "file_size": 2006858970
+    },
+    {
+      "file_name": "fastq/SRR25640270/SRR25640270_2.fastq.gz",
+      "file_size": 2007459209
+    },
+    {
+      "file_name": "fastq/SRR25640271/SRR25640271_1.fastq.gz",
+      "file_size": 2513669684
+    },
+    {
+      "file_name": "fastq/SRR25640271/SRR25640271_2.fastq.gz",
+      "file_size": 2521743210
+    },
+    {
+      "file_name": "fastq/SRR25640272/SRR25640272_1.fastq.gz",
+      "file_size": 3048562721
+    },
+    {
+      "file_name": "fastq/SRR25640272/SRR25640272_2.fastq.gz",
+      "file_size": 3045831393
+    },
+    {
+      "file_name": "fastq/SRR25640273/SRR25640273_1.fastq.gz",
+      "file_size": 2241028102
+    },
+    {
+      "file_name": "fastq/SRR25640273/SRR25640273_2.fastq.gz",
+      "file_size": 2237907680
+    },
+    {
+      "file_name": "fastq/SRR25640274/SRR25640274_1.fastq.gz",
+      "file_size": 1954621676
+    },
+    {
+      "file_name": "fastq/SRR25640274/SRR25640274_2.fastq.gz",
+      "file_size": 1953594430
+    },
+    {
+      "file_name": "fastq/SRR25640275/SRR25640275_1.fastq.gz",
+      "file_size": 2296476781
+    },
+    {
+      "file_name": "fastq/SRR25640275/SRR25640275_2.fastq.gz",
+      "file_size": 2296333869
+    },
+    {
+      "file_name": "fastq/SRR25640276/SRR25640276_1.fastq.gz",
+      "file_size": 2136535113
+    },
+    {
+      "file_name": "fastq/SRR25640276/SRR25640276_2.fastq.gz",
+      "file_size": 2137332205
+    },
+    {
+      "file_name": "fastq/SRR25640277/SRR25640277_1.fastq.gz",
+      "file_size": 2744584560
+    },
+    {
+      "file_name": "fastq/SRR25640277/SRR25640277_2.fastq.gz",
+      "file_size": 2743627304
+    },
+    {
+      "file_name": "fastq/SRR25640278/SRR25640278_1.fastq.gz",
+      "file_size": 1734128877
+    },
+    {
+      "file_name": "fastq/SRR25640278/SRR25640278_2.fastq.gz",
+      "file_size": 1735792036
+    },
+    {
+      "file_name": "fastq/SRR25640279/SRR25640279_1.fastq.gz",
+      "file_size": 2284558715
+    },
+    {
+      "file_name": "fastq/SRR25640279/SRR25640279_2.fastq.gz",
+      "file_size": 2286964471
+    },
+    {
+      "file_name": "fastq/SRR25640280/SRR25640280_1.fastq.gz",
+      "file_size": 2385042878
+    },
+    {
+      "file_name": "fastq/SRR25640280/SRR25640280_2.fastq.gz",
+      "file_size": 2382786370
+    },
+    {
+      "file_name": "fastq/SRR25640281/SRR25640281_1.fastq.gz",
+      "file_size": 1971923097
+    },
+    {
+      "file_name": "fastq/SRR25640281/SRR25640281_2.fastq.gz",
+      "file_size": 1973794001
+    },
+    {
+      "file_name": "fastq/SRR25640282/SRR25640282_1.fastq.gz",
+      "file_size": 2461363807
+    },
+    {
+      "file_name": "fastq/SRR25640282/SRR25640282_2.fastq.gz",
+      "file_size": 2456349589
+    },
+    {
+      "file_name": "fastq/SRR25640283/SRR25640283_1.fastq.gz",
+      "file_size": 2455110552
+    },
+    {
+      "file_name": "fastq/SRR25640283/SRR25640283_2.fastq.gz",
+      "file_size": 2461542083
+    },
+    {
+      "file_name": "fastq/SRR25640284/SRR25640284_1.fastq.gz",
+      "file_size": 1821026236
+    },
+    {
+      "file_name": "fastq/SRR25640284/SRR25640284_2.fastq.gz",
+      "file_size": 1818298008
+    },
+    {
+      "file_name": "fastq/SRR25640285/SRR25640285_1.fastq.gz",
+      "file_size": 2262224175
+    },
+    {
+      "file_name": "fastq/SRR25640285/SRR25640285_2.fastq.gz",
+      "file_size": 2260451662
+    },
+    {
+      "file_name": "fastq/SRR25640286/SRR25640286_1.fastq.gz",
+      "file_size": 2505914609
+    },
+    {
+      "file_name": "fastq/SRR25640286/SRR25640286_2.fastq.gz",
+      "file_size": 2501100804
+    },
+    {
+      "file_name": "fastq/SRR25640287/SRR25640287_1.fastq.gz",
+      "file_size": 2233436670
+    },
+    {
+      "file_name": "fastq/SRR25640287/SRR25640287_2.fastq.gz",
+      "file_size": 2232721356
+    },
+    {
+      "file_name": "fastq/SRR25640288/SRR25640288_1.fastq.gz",
+      "file_size": 2346752413
+    },
+    {
+      "file_name": "fastq/SRR25640288/SRR25640288_2.fastq.gz",
+      "file_size": 2346858690
+    },
+    {
+      "file_name": "fastq/SRR25640289/SRR25640289_1.fastq.gz",
+      "file_size": 2419734885
+    },
+    {
+      "file_name": "fastq/SRR25640289/SRR25640289_2.fastq.gz",
+      "file_size": 2419052466
+    },
+    {
+      "file_name": "fastq/SRR25640290/SRR25640290_1.fastq.gz",
+      "file_size": 2485217942
+    },
+    {
+      "file_name": "fastq/SRR25640290/SRR25640290_2.fastq.gz",
+      "file_size": 2485825222
+    },
+    {
+      "file_name": "fastq/SRR25640291/SRR25640291_1.fastq.gz",
+      "file_size": 1881198421
+    },
+    {
+      "file_name": "fastq/SRR25640291/SRR25640291_2.fastq.gz",
+      "file_size": 1884326040
+    },
+    {
+      "file_name": "fastq/SRR25640292/SRR25640292_1.fastq.gz",
+      "file_size": 2478752505
+    },
+    {
+      "file_name": "fastq/SRR25640292/SRR25640292_2.fastq.gz",
+      "file_size": 2484993465
+    },
+    {
+      "file_name": "fastq/SRR25640293/SRR25640293_1.fastq.gz",
+      "file_size": 2722525424
+    },
+    {
+      "file_name": "fastq/SRR25640293/SRR25640293_2.fastq.gz",
+      "file_size": 2716508063
+    },
+    {
+      "file_name": "fastq/SRR25640294/SRR25640294_1.fastq.gz",
+      "file_size": 2283289314
+    },
+    {
+      "file_name": "fastq/SRR25640294/SRR25640294_2.fastq.gz",
+      "file_size": 2288230540
+    },
+    {
+      "file_name": "fastq/SRR25640295/SRR25640295_1.fastq.gz",
+      "file_size": 2724797423
+    },
+    {
+      "file_name": "fastq/SRR25640295/SRR25640295_2.fastq.gz",
+      "file_size": 2731065584
+    },
+    {
+      "file_name": "fastq/SRR25640296/SRR25640296_1.fastq.gz",
+      "file_size": 2337107612
+    },
+    {
+      "file_name": "fastq/SRR25640296/SRR25640296_2.fastq.gz",
+      "file_size": 2345362464
+    },
+    {
+      "file_name": "fastq/SRR25640297/SRR25640297_1.fastq.gz",
+      "file_size": 2392048764
+    },
+    {
+      "file_name": "fastq/SRR25640297/SRR25640297_2.fastq.gz",
+      "file_size": 2389822191
+    },
+    {
+      "file_name": "fastq/SRR25640298/SRR25640298_1.fastq.gz",
+      "file_size": 2278412298
+    },
+    {
+      "file_name": "fastq/SRR25640298/SRR25640298_2.fastq.gz",
+      "file_size": 2283012667
+    },
+    {
+      "file_name": "fastq/SRR25640299/SRR25640299_1.fastq.gz",
+      "file_size": 1565068352
+    },
+    {
+      "file_name": "fastq/SRR25640299/SRR25640299_2.fastq.gz",
+      "file_size": 1566097832
+    },
+    {
+      "file_name": "fastq/SRR25640300/SRR25640300_1.fastq.gz",
+      "file_size": 2217895424
+    },
+    {
+      "file_name": "fastq/SRR25640300/SRR25640300_2.fastq.gz",
+      "file_size": 2218918162
+    },
+    {
+      "file_name": "fastq/SRR25640301/SRR25640301_1.fastq.gz",
+      "file_size": 2443180603
+    },
+    {
+      "file_name": "fastq/SRR25640301/SRR25640301_2.fastq.gz",
+      "file_size": 2439370722
+    },
+    {
+      "file_name": "fastq/SRR25640302/SRR25640302_1.fastq.gz",
+      "file_size": 1475154153
+    },
+    {
+      "file_name": "fastq/SRR25640302/SRR25640302_2.fastq.gz",
+      "file_size": 1476234346
+    },
+    {
+      "file_name": "fastq/SRR25640303/SRR25640303_1.fastq.gz",
+      "file_size": 2887422627
+    },
+    {
+      "file_name": "fastq/SRR25640303/SRR25640303_2.fastq.gz",
+      "file_size": 2894085603
+    },
+    {
+      "file_name": "fastq/SRR25640304/SRR25640304_1.fastq.gz",
+      "file_size": 2363568475
+    },
+    {
+      "file_name": "fastq/SRR25640304/SRR25640304_2.fastq.gz",
+      "file_size": 2373449173
+    },
+    {
+      "file_name": "fastq/SRR25640305/SRR25640305_1.fastq.gz",
+      "file_size": 2207915028
+    },
+    {
+      "file_name": "fastq/SRR25640305/SRR25640305_2.fastq.gz",
+      "file_size": 2206915949
+    },
+    {
+      "file_name": "fastq/SRR25640306/SRR25640306_1.fastq.gz",
+      "file_size": 2132729808
+    },
+    {
+      "file_name": "fastq/SRR25640306/SRR25640306_2.fastq.gz",
+      "file_size": 2123151881
+    },
+    {
+      "file_name": "fastq/SRR25640307/SRR25640307_1.fastq.gz",
+      "file_size": 2981165847
+    },
+    {
+      "file_name": "fastq/SRR25640307/SRR25640307_2.fastq.gz",
+      "file_size": 2983590555
+    },
+    {
+      "file_name": "fastq/SRR25640308/SRR25640308_1.fastq.gz",
+      "file_size": 2044669337
+    },
+    {
+      "file_name": "fastq/SRR25640308/SRR25640308_2.fastq.gz",
+      "file_size": 2043992258
+    },
+    {
+      "file_name": "fastq/SRR25640309/SRR25640309_1.fastq.gz",
+      "file_size": 2098488704
+    },
+    {
+      "file_name": "fastq/SRR25640309/SRR25640309_2.fastq.gz",
+      "file_size": 2100310910
+    },
+    {
+      "file_name": "fastq/SRR25640310/SRR25640310_1.fastq.gz",
+      "file_size": 2670269271
+    },
+    {
+      "file_name": "fastq/SRR25640310/SRR25640310_2.fastq.gz",
+      "file_size": 2673056440
+    },
+    {
+      "file_name": "fastq/SRR25640311/SRR25640311_1.fastq.gz",
+      "file_size": 2153408098
+    },
+    {
+      "file_name": "fastq/SRR25640311/SRR25640311_2.fastq.gz",
+      "file_size": 2151165145
+    },
+    {
+      "file_name": "fastq/SRR25640312/SRR25640312_1.fastq.gz",
+      "file_size": 2753628838
+    },
+    {
+      "file_name": "fastq/SRR25640312/SRR25640312_2.fastq.gz",
+      "file_size": 2744369461
+    },
+    {
+      "file_name": "fastq/SRR25640313/SRR25640313_1.fastq.gz",
+      "file_size": 2559274001
+    },
+    {
+      "file_name": "fastq/SRR25640313/SRR25640313_2.fastq.gz",
+      "file_size": 2558890016
+    },
+    {
+      "file_name": "fastq/SRR25640314/SRR25640314_1.fastq.gz",
+      "file_size": 1896223090
+    },
+    {
+      "file_name": "fastq/SRR25640314/SRR25640314_2.fastq.gz",
+      "file_size": 1898763722
+    },
+    {
+      "file_name": "fastq/SRR25640315/SRR25640315_1.fastq.gz",
+      "file_size": 2214368675
+    },
+    {
+      "file_name": "fastq/SRR25640315/SRR25640315_2.fastq.gz",
+      "file_size": 2210954723
+    },
+    {
+      "file_name": "fastq/SRR25640316/SRR25640316_1.fastq.gz",
+      "file_size": 3115582789
+    },
+    {
+      "file_name": "fastq/SRR25640316/SRR25640316_2.fastq.gz",
+      "file_size": 3215608554
+    },
+    {
+      "file_name": "fastq/SRR25640317/SRR25640317_1.fastq.gz",
+      "file_size": 2788994790
+    },
+    {
+      "file_name": "fastq/SRR25640317/SRR25640317_2.fastq.gz",
+      "file_size": 2786367811
+    },
+    {
+      "file_name": "fastq/SRR25640318/SRR25640318_1.fastq.gz",
+      "file_size": 2726152388
+    },
+    {
+      "file_name": "fastq/SRR25640318/SRR25640318_2.fastq.gz",
+      "file_size": 2729187136
+    },
+    {
+      "file_name": "fastq/SRR25640319/SRR25640319_1.fastq.gz",
+      "file_size": 2608199575
+    },
+    {
+      "file_name": "fastq/SRR25640319/SRR25640319_2.fastq.gz",
+      "file_size": 2613012536
+    },
+    {
+      "file_name": "fastq/SRR25640320/SRR25640320_1.fastq.gz",
+      "file_size": 1656833993
+    },
+    {
+      "file_name": "fastq/SRR25640320/SRR25640320_2.fastq.gz",
+      "file_size": 1660775337
+    },
+    {
+      "file_name": "fastq/SRR25640321/SRR25640321_1.fastq.gz",
+      "file_size": 2179297552
+    },
+    {
+      "file_name": "fastq/SRR25640321/SRR25640321_2.fastq.gz",
+      "file_size": 2175900699
+    },
+    {
+      "file_name": "fastq/SRR25640322/SRR25640322_1.fastq.gz",
+      "file_size": 2487816439
+    },
+    {
+      "file_name": "fastq/SRR25640322/SRR25640322_2.fastq.gz",
+      "file_size": 2487101037
+    },
+    {
+      "file_name": "fastq/SRR25640323/SRR25640323_1.fastq.gz",
+      "file_size": 2813239028
+    },
+    {
+      "file_name": "fastq/SRR25640323/SRR25640323_2.fastq.gz",
+      "file_size": 2813327179
+    },
+    {
+      "file_name": "fastq/SRR25640324/SRR25640324_1.fastq.gz",
+      "file_size": 1281969880
+    },
+    {
+      "file_name": "fastq/SRR25640324/SRR25640324_2.fastq.gz",
+      "file_size": 1281400507
+    },
+    {
+      "file_name": "fastq/SRR25640325/SRR25640325_1.fastq.gz",
+      "file_size": 2725664294
+    },
+    {
+      "file_name": "fastq/SRR25640325/SRR25640325_2.fastq.gz",
+      "file_size": 2720491796
+    },
+    {
+      "file_name": "fastq/SRR25640326/SRR25640326_1.fastq.gz",
+      "file_size": 2016632930
+    },
+    {
+      "file_name": "fastq/SRR25640326/SRR25640326_2.fastq.gz",
+      "file_size": 2024728103
+    },
+    {
+      "file_name": "fastq/SRR25640327/SRR25640327_1.fastq.gz",
+      "file_size": 2302654587
+    },
+    {
+      "file_name": "fastq/SRR25640327/SRR25640327_2.fastq.gz",
+      "file_size": 2304744057
+    },
+    {
+      "file_name": "fastq/SRR25640328/SRR25640328_1.fastq.gz",
+      "file_size": 2059682411
+    },
+    {
+      "file_name": "fastq/SRR25640328/SRR25640328_2.fastq.gz",
+      "file_size": 2069506109
+    },
+    {
+      "file_name": "fastq/SRR25640329/SRR25640329_1.fastq.gz",
+      "file_size": 2441652720
+    },
+    {
+      "file_name": "fastq/SRR25640329/SRR25640329_2.fastq.gz",
+      "file_size": 2438448813
+    },
+    {
+      "file_name": "fastq/SRR25640330/SRR25640330_1.fastq.gz",
+      "file_size": 2667693553
+    },
+    {
+      "file_name": "fastq/SRR25640330/SRR25640330_2.fastq.gz",
+      "file_size": 2675320494
+    },
+    {
+      "file_name": "fastq/SRR25640331/SRR25640331_1.fastq.gz",
+      "file_size": 3099069742
+    },
+    {
+      "file_name": "fastq/SRR25640331/SRR25640331_2.fastq.gz",
+      "file_size": 3101811487
+    },
+    {
+      "file_name": "fastq/SRR25640332/SRR25640332_1.fastq.gz",
+      "file_size": 2024092087
+    },
+    {
+      "file_name": "fastq/SRR25640332/SRR25640332_2.fastq.gz",
+      "file_size": 2025779377
+    },
+    {
+      "file_name": "fastq/SRR25640333/SRR25640333_1.fastq.gz",
+      "file_size": 2611472583
+    },
+    {
+      "file_name": "fastq/SRR25640333/SRR25640333_2.fastq.gz",
+      "file_size": 2609368757
+    },
+    {
+      "file_name": "fastq/SRR25640334/SRR25640334_1.fastq.gz",
+      "file_size": 2665825986
+    },
+    {
+      "file_name": "fastq/SRR25640334/SRR25640334_2.fastq.gz",
+      "file_size": 2669797813
+    },
+    {
+      "file_name": "fastq/SRR25640335/SRR25640335_1.fastq.gz",
+      "file_size": 2034110607
+    },
+    {
+      "file_name": "fastq/SRR25640335/SRR25640335_2.fastq.gz",
+      "file_size": 2035925906
+    },
+    {
+      "file_name": "fastq/SRR25640336/SRR25640336_1.fastq.gz",
+      "file_size": 2342895763
+    },
+    {
+      "file_name": "fastq/SRR25640336/SRR25640336_2.fastq.gz",
+      "file_size": 2340045199
+    },
+    {
+      "file_name": "fastq/SRR25640337/SRR25640337_1.fastq.gz",
+      "file_size": 2686153662
+    },
+    {
+      "file_name": "fastq/SRR25640337/SRR25640337_2.fastq.gz",
+      "file_size": 2704076347
+    },
+    {
+      "file_name": "fastq/SRR25640338/SRR25640338_1.fastq.gz",
+      "file_size": 2428780894
+    },
+    {
+      "file_name": "fastq/SRR25640338/SRR25640338_2.fastq.gz",
+      "file_size": 2428258932
+    },
+    {
+      "file_name": "fastq/SRR25640339/SRR25640339_1.fastq.gz",
+      "file_size": 2146877099
+    },
+    {
+      "file_name": "fastq/SRR25640339/SRR25640339_2.fastq.gz",
+      "file_size": 2156826465
+    },
+    {
+      "file_name": "fastq/SRR25640340/SRR25640340_1.fastq.gz",
+      "file_size": 3138595688
+    },
+    {
+      "file_name": "fastq/SRR25640340/SRR25640340_2.fastq.gz",
+      "file_size": 3127176915
+    },
+    {
+      "file_name": "fastq/SRR25640341/SRR25640341_1.fastq.gz",
+      "file_size": 2015713559
+    },
+    {
+      "file_name": "fastq/SRR25640341/SRR25640341_2.fastq.gz",
+      "file_size": 2015689250
+    },
+    {
+      "file_name": "fastq/SRR25640342/SRR25640342_1.fastq.gz",
+      "file_size": 1967350076
+    },
+    {
+      "file_name": "fastq/SRR25640342/SRR25640342_2.fastq.gz",
+      "file_size": 1963854647
+    },
+    {
+      "file_name": "fastq/SRR25640343/SRR25640343_1.fastq.gz",
+      "file_size": 2571383143
+    },
+    {
+      "file_name": "fastq/SRR25640343/SRR25640343_2.fastq.gz",
+      "file_size": 2581500975
+    },
+    {
+      "file_name": "fastq/SRR25640344/SRR25640344_1.fastq.gz",
+      "file_size": 1951350319
+    },
+    {
+      "file_name": "fastq/SRR25640344/SRR25640344_2.fastq.gz",
+      "file_size": 1949634007
+    },
+    {
+      "file_name": "fastq/SRR25640345/SRR25640345_1.fastq.gz",
+      "file_size": 2203174858
+    },
+    {
+      "file_name": "fastq/SRR25640345/SRR25640345_2.fastq.gz",
+      "file_size": 2202408626
+    },
+    {
+      "file_name": "fastq/SRR25640346/SRR25640346_1.fastq.gz",
+      "file_size": 2187976976
+    },
+    {
+      "file_name": "fastq/SRR25640346/SRR25640346_2.fastq.gz",
+      "file_size": 2187307457
+    },
+    {
+      "file_name": "fastq/SRR25640347/SRR25640347_1.fastq.gz",
+      "file_size": 2194548791
+    },
+    {
+      "file_name": "fastq/SRR25640347/SRR25640347_2.fastq.gz",
+      "file_size": 2194271571
+    },
+    {
+      "file_name": "fastq/SRR25640348/SRR25640348_1.fastq.gz",
+      "file_size": 1705931531
+    },
+    {
+      "file_name": "fastq/SRR25640348/SRR25640348_2.fastq.gz",
+      "file_size": 1705275560
+    },
+    {
+      "file_name": "fastq/SRR25640349/SRR25640349_1.fastq.gz",
+      "file_size": 2529563522
+    },
+    {
+      "file_name": "fastq/SRR25640349/SRR25640349_2.fastq.gz",
+      "file_size": 2525695833
+    },
+    {
+      "file_name": "fastq/SRR25640350/SRR25640350_1.fastq.gz",
+      "file_size": 2522553435
+    },
+    {
+      "file_name": "fastq/SRR25640350/SRR25640350_2.fastq.gz",
+      "file_size": 2521156745
+    },
+    {
+      "file_name": "fastq/SRR25640351/SRR25640351_1.fastq.gz",
+      "file_size": 2246748621
+    },
+    {
+      "file_name": "fastq/SRR25640351/SRR25640351_2.fastq.gz",
+      "file_size": 2244566609
+    },
+    {
+      "file_name": "fastq/SRR25640352/SRR25640352_1.fastq.gz",
+      "file_size": 1234482408
+    },
+    {
+      "file_name": "fastq/SRR25640352/SRR25640352_2.fastq.gz",
+      "file_size": 1235487108
+    },
+    {
+      "file_name": "fastq/SRR25640353/SRR25640353_1.fastq.gz",
+      "file_size": 2566243341
+    },
+    {
+      "file_name": "fastq/SRR25640353/SRR25640353_2.fastq.gz",
+      "file_size": 2569300565
+    },
+    {
+      "file_name": "fastq/SRR25640354/SRR25640354_1.fastq.gz",
+      "file_size": 2474358987
+    },
+    {
+      "file_name": "fastq/SRR25640354/SRR25640354_2.fastq.gz",
+      "file_size": 2477165165
+    },
+    {
+      "file_name": "fastq/SRR25640355/SRR25640355_1.fastq.gz",
+      "file_size": 2683982928
+    },
+    {
+      "file_name": "fastq/SRR25640355/SRR25640355_2.fastq.gz",
+      "file_size": 2687019210
+    },
+    {
+      "file_name": "fastq/SRR25640356/SRR25640356_1.fastq.gz",
+      "file_size": 2517234394
+    },
+    {
+      "file_name": "fastq/SRR25640356/SRR25640356_2.fastq.gz",
+      "file_size": 2518488550
+    },
+    {
+      "file_name": "fastq/SRR25640357/SRR25640357_1.fastq.gz",
+      "file_size": 2246495999
+    },
+    {
+      "file_name": "fastq/SRR25640357/SRR25640357_2.fastq.gz",
+      "file_size": 2247914622
+    },
+    {
+      "file_name": "fastq/SRR25640358/SRR25640358_1.fastq.gz",
+      "file_size": 1988326415
+    },
+    {
+      "file_name": "fastq/SRR25640358/SRR25640358_2.fastq.gz",
+      "file_size": 1989670698
+    },
+    {
+      "file_name": "fastq/SRR25640359/SRR25640359_1.fastq.gz",
+      "file_size": 2345557711
+    },
+    {
+      "file_name": "fastq/SRR25640359/SRR25640359_2.fastq.gz",
+      "file_size": 2343757004
+    },
+    {
+      "file_name": "fastq/SRR25640360/SRR25640360_1.fastq.gz",
+      "file_size": 1773406529
+    },
+    {
+      "file_name": "fastq/SRR25640360/SRR25640360_2.fastq.gz",
+      "file_size": 906631726
+    },
+    {
+      "file_name": "fastq/SRR25640361/SRR25640361_1.fastq.gz",
+      "file_size": 2487082982
+    },
+    {
+      "file_name": "fastq/SRR25640361/SRR25640361_2.fastq.gz",
+      "file_size": 2491005725
+    },
+    {
+      "file_name": "fastq/SRR25640362/SRR25640362_1.fastq.gz",
+      "file_size": 2795303168
+    },
+    {
+      "file_name": "fastq/SRR25640362/SRR25640362_2.fastq.gz",
+      "file_size": 2798952177
+    },
+    {
+      "file_name": "fastq/SRR25640363/SRR25640363_1.fastq.gz",
+      "file_size": 1915667988
+    },
+    {
+      "file_name": "fastq/SRR25640363/SRR25640363_2.fastq.gz",
+      "file_size": 1917741591
+    },
+    {
+      "file_name": "fastq/SRR25640364/SRR25640364_1.fastq.gz",
+      "file_size": 2193088951
+    },
+    {
+      "file_name": "fastq/SRR25640364/SRR25640364_2.fastq.gz",
+      "file_size": 2195941072
+    },
+    {
+      "file_name": "fastq/SRR25640365/SRR25640365_1.fastq.gz",
+      "file_size": 2297894116
+    },
+    {
+      "file_name": "fastq/SRR25640365/SRR25640365_2.fastq.gz",
+      "file_size": 2299761714
+    },
+    {
+      "file_name": "fastq/SRR25640366/SRR25640366_1.fastq.gz",
+      "file_size": 2324283508
+    },
+    {
+      "file_name": "fastq/SRR25640366/SRR25640366_2.fastq.gz",
+      "file_size": 2323972408
+    },
+    {
+      "file_name": "fastq/SRR25640367/SRR25640367_1.fastq.gz",
+      "file_size": 1696013114
+    },
+    {
+      "file_name": "fastq/SRR25640367/SRR25640367_2.fastq.gz",
+      "file_size": 1704418647
+    },
+    {
+      "file_name": "fastq/SRR25640368/SRR25640368_1.fastq.gz",
+      "file_size": 2458428180
+    },
+    {
+      "file_name": "fastq/SRR25640368/SRR25640368_2.fastq.gz",
+      "file_size": 2477419424
+    },
+    {
+      "file_name": "fastq/SRR25640369/SRR25640369_1.fastq.gz",
+      "file_size": 2475763646
+    },
+    {
+      "file_name": "fastq/SRR25640369/SRR25640369_2.fastq.gz",
+      "file_size": 152436736
+    },
+    {
+      "file_name": "fastq/SRR25640370/SRR25640370_1.fastq.gz",
+      "file_size": 3237985685
+    },
+    {
+      "file_name": "fastq/SRR25640370/SRR25640370_2.fastq.gz",
+      "file_size": 3263507101
+    },
+    {
+      "file_name": "fastq/SRR25640371/SRR25640371_1.fastq.gz",
+      "file_size": 2422751556
+    },
+    {
+      "file_name": "fastq/SRR25640371/SRR25640371_2.fastq.gz",
+      "file_size": 2429630691
+    },
+    {
+      "file_name": "fastq/SRR25640372/SRR25640372_1.fastq.gz",
+      "file_size": 1269413428
+    },
+    {
+      "file_name": "fastq/SRR25640372/SRR25640372_2.fastq.gz",
+      "file_size": 1271595944
+    },
+    {
+      "file_name": "fastq/SRR25640373/SRR25640373_1.fastq.gz",
+      "file_size": 2696418380
+    },
+    {
+      "file_name": "fastq/SRR25640373/SRR25640373_2.fastq.gz",
+      "file_size": 2694244696
+    },
+    {
+      "file_name": "fastq/SRR25640374/SRR25640374_1.fastq.gz",
+      "file_size": 2740395488
+    },
+    {
+      "file_name": "fastq/SRR25640374/SRR25640374_2.fastq.gz",
+      "file_size": 2755630102
+    },
+    {
+      "file_name": "fastq/SRR25640375/SRR25640375_1.fastq.gz",
+      "file_size": 2156221080
+    },
+    {
+      "file_name": "fastq/SRR25640375/SRR25640375_2.fastq.gz",
+      "file_size": 2161482415
+    },
+    {
+      "file_name": "fastq/SRR25640376/SRR25640376_1.fastq.gz",
+      "file_size": 776895726
+    },
+    {
+      "file_name": "fastq/SRR25640376/SRR25640376_2.fastq.gz",
+      "file_size": 166719726
+    },
+    {
+      "file_name": "fastq/SRR25640377/SRR25640377_1.fastq.gz",
+      "file_size": 2280609254
+    },
+    {
+      "file_name": "fastq/SRR25640377/SRR25640377_2.fastq.gz",
+      "file_size": 2279615775
+    },
+    {
+      "file_name": "fastq/SRR25640378/SRR25640378_1.fastq.gz",
+      "file_size": 2069640953
+    },
+    {
+      "file_name": "fastq/SRR25640378/SRR25640378_2.fastq.gz",
+      "file_size": 2072439561
+    },
+    {
+      "file_name": "fastq/SRR25640379/SRR25640379_1.fastq.gz",
+      "file_size": 1620578613
+    },
+    {
+      "file_name": "fastq/SRR25640379/SRR25640379_2.fastq.gz",
+      "file_size": 1620588295
+    },
+    {
+      "file_name": "fastq/SRR25640380/SRR25640380_1.fastq.gz",
+      "file_size": 2858050686
+    },
+    {
+      "file_name": "fastq/SRR25640380/SRR25640380_2.fastq.gz",
+      "file_size": 2867606196
+    },
+    {
+      "file_name": "fastq/SRR25640381/SRR25640381_1.fastq.gz",
+      "file_size": 2207069552
+    },
+    {
+      "file_name": "fastq/SRR25640381/SRR25640381_2.fastq.gz",
+      "file_size": 2206552705
+    },
+    {
+      "file_name": "fastq/SRR25640382/SRR25640382_1.fastq.gz",
+      "file_size": 3053720677
+    },
+    {
+      "file_name": "fastq/SRR25640382/SRR25640382_2.fastq.gz",
+      "file_size": 3060570473
+    },
+    {
+      "file_name": "fastq/SRR25640383/SRR25640383_1.fastq.gz",
+      "file_size": 2206992188
+    },
+    {
+      "file_name": "fastq/SRR25640383/SRR25640383_2.fastq.gz",
+      "file_size": 2206024846
+    }
+  ],
+  "notes": "Dual RNA-seq; map to combined human+Pf reference, then split."
+}

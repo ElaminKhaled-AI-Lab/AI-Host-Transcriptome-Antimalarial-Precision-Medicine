@@ -1,0 +1,13 @@
+BioSampleModel
+ENA-FIRST-PUBLIC
+ENA-LAST-UPDATE
+INSDC secondary accession
+NCBI submission package
+age
+biomaterial_provider
+disease
+ethnicity
+isolate
+organism
+sex
+tissue

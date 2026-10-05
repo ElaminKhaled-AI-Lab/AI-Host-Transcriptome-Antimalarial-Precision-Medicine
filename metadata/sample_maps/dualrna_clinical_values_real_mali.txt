@@ -1,0 +1,2 @@
+[disease]
+   136x  'malaria'

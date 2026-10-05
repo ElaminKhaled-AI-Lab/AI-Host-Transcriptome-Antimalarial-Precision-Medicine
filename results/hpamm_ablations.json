@@ -1,0 +1,32 @@
+{
+  "full": {
+    "mean_class_auroc": 0.6334546159604836,
+    "resistance_auroc": 0.7385083947355288,
+    "pk_mae": 9.482894583865138,
+    "resistance_auroc_parasite_dropped": 0.5006306652217815
+  },
+  "no_gating": {
+    "mean_class_auroc": 0.6299135959035013,
+    "resistance_auroc": 0.7365151226303489,
+    "pk_mae": 9.463399774421497,
+    "resistance_auroc_parasite_dropped": 0.49118931507619196
+  },
+  "no_modality_dropout": {
+    "mean_class_auroc": 0.6294768529153258,
+    "resistance_auroc": 0.7362465485367361,
+    "pk_mae": 9.695502529363532,
+    "resistance_auroc_parasite_dropped": 0.5106829316209397
+  },
+  "host_only": {
+    "mean_class_auroc": 0.516216930977951,
+    "resistance_auroc": 0.4873321790436831,
+    "pk_mae": 9.38949458181021,
+    "resistance_auroc_parasite_dropped": NaN
+  },
+  "parasite_only": {
+    "mean_class_auroc": 0.6246782385601221,
+    "resistance_auroc": 0.7335655555300579,
+    "pk_mae": 9.432088203665671,
+    "resistance_auroc_parasite_dropped": 0.4873903762483079
+  }
+}

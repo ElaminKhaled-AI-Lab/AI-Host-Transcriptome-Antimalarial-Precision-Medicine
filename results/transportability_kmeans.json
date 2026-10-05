@@ -1,0 +1,35 @@
+{
+  "per_cohort": {
+    "synthetic": {
+      "silhouette": 0.5286000224702943,
+      "cluster_balance": 0.9982367597336385,
+      "stability_mean_pairwise_ari": 1.0,
+      "stability_frac_confident_0.9": 0.0,
+      "ari": 0.9931361031157955
+    },
+    "real_mali": {
+      "silhouette": 0.32073927751498277,
+      "cluster_balance": 0.9770079823439027,
+      "stability_mean_pairwise_ari": 0.9592014501404448,
+      "stability_frac_confident_0.9": 0.0,
+      "ari": 0.8472816761304388
+    },
+    "external_gambia": {
+      "silhouette": 0.27958751478115823,
+      "cluster_balance": 0.9991221194993961,
+      "stability_mean_pairwise_ari": 0.8524490876760277,
+      "stability_frac_confident_0.9": 0.0,
+      "ari": 0.6351448199975387
+    }
+  },
+  "ari_gap_synthetic_to_real_mali": 0.14585442698535667,
+  "silhouette_gap_synthetic_to_real_mali": 0.20786074495531148,
+  "ari_gap_synthetic_to_external_gambia": 0.3579912831182568,
+  "silhouette_gap_synthetic_to_external_gambia": 0.24901250768913602,
+  "layer_ablation_synthetic": {
+    "_full_ari": 0.9931361031157955,
+    "host_rna": 0.0,
+    "parasite_genome": 0.0,
+    "clinical": 0.0
+  }
+}

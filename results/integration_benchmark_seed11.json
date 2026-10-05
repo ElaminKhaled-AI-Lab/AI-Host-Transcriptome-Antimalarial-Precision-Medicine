@@ -1,0 +1,16 @@
+{
+  "concat_kmeans": {
+    "silhouette": 0.11851571032863567,
+    "cluster_balance": 0.8951970492604736,
+    "stability_mean_pairwise_ari": 0.6244567206540703,
+    "stability_frac_confident_0.9": 0.0,
+    "ari": 0.6579831694127577
+  },
+  "BLISS": {
+    "silhouette": 0.8706644177436829,
+    "cluster_balance": 0.8950988913921851,
+    "stability_mean_pairwise_ari": 1.0,
+    "stability_frac_confident_0.9": 0.0225,
+    "ari": 0.6536300578407255
+  }
+}

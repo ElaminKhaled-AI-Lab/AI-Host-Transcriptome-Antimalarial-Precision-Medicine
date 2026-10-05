@@ -1,0 +1,29 @@
+ENA-CHECKLIST
+ENA-FIRST-PUBLIC
+ENA-LAST-UPDATE
+age
+common name
+disease
+ethnicity
+first blantyre coma score
+hemoglobin concentration (g/dl)
+individual
+infect
+isolate
+lactate measurement
+mean cell volume (fl)
+organism
+organism part
+parasite clones
+parasite density (per microliter)
+percentage lymphocytes
+percentage monocytes
+percentage neutrophils
+percentage parasitemia
+pfhrp2 measurement
+platelet count (x10^9/l)
+red blood cell count (x10^12/l)
+scientific_name
+sex
+sickle cell screen
+total white cell count (x10^9/l)

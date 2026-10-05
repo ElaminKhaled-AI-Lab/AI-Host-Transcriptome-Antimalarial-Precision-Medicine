@@ -1,0 +1,35 @@
+{
+  "cohort": "external_gambia",
+  "n_samples": 52,
+  "cluster_source": "BLISS",
+  "k": 2,
+  "cluster_sizes": {
+    "0": 50,
+    "1": 2
+  },
+  "n_covariates_tested": 1,
+  "n_significant_fdr_0.05": 0,
+  "results": [
+    {
+      "test": "Fisher exact",
+      "p": 0.20084566596194503,
+      "effect": 0.2390457218668787,
+      "effect_name": "Cramer's V",
+      "n": 44,
+      "detail": {
+        "CM": {
+          "0": 18,
+          "1": 2
+        },
+        "UM": {
+          "0": 24,
+          "1": 0
+        }
+      },
+      "covariate": "severity_group",
+      "type": "categorical",
+      "p_fdr": 0.20084566596194503,
+      "significant": false
+    }
+  ]
+}

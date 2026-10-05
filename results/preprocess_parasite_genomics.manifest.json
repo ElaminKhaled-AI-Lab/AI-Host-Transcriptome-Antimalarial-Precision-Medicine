@@ -1,0 +1,20 @@
+{
+  "name": "preprocess_parasite_genomics",
+  "date": "2026-08-27T04:48:09.301555+00:00",
+  "git_commit": "unknown",
+  "python": "3.12.14",
+  "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.39",
+  "seed": 11,
+  "hyperparameters": {},
+  "train_split": null,
+  "test_split": null,
+  "inputs": [],
+  "extra": {
+    "n_samples": 273,
+    "n_features": 80,
+    "study": "1167",
+    "country": "Tanzania",
+    "encoding": "category_codes",
+    "output_matrix": "/media/khaled/Flexbay_HDD_TOSHIBA_6TB/Malaria_Project/data/processed/parasite_genomics/parasite_feature_matrix.tsv"
+  }
+}

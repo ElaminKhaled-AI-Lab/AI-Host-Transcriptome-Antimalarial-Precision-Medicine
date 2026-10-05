@@ -1,0 +1,5 @@
+Genes in common with MOESM4 (by symbol): 163
+log2FC Pearson correlation with paper : -0.693
+log2FC Spearman correlation with paper: -0.618
+directional agreement (same sign)     : 17.2%
+

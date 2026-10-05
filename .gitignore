@@ -1,0 +1,62 @@
+# Sequence data is never committed. Retrieve using the accessions in docs/.
+data/raw/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.cram
+*.sra
+
+# salmon index and quantification scratch
+index/
+*_quant/
+quants/
+
+# archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# scratch
+tmp/
+logs/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Rproj.user/
+
+# MATLAB
+slprj/
+*.asv
+*.autosave
+
+# environment and secrets
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------------------- regenerable
+# salmon scratch, indices and reference FASTA. 4.3 GB, all reproducible by
+# rerunning the pipeline. Never commit these.
+data/interim/
+*.rad
+*.rad.partial-*
+*_index/
+refseq.bin
+index.ssi
+index.ctab
+index.ectab
+*.fa
+*.fa.gz
+*.fasta
+*.fasta.gz
+quant.sf

@@ -1,0 +1,48 @@
+{
+  "patient_index": 0,
+  "patient": {
+    "age_years": 1.7148980025296137,
+    "weight_kg": 11.429796005059227,
+    "host_metabolic_z": -0.48403315420062193,
+    "host_tox_z": 0.02929222500039212,
+    "parasite_resistance": NaN
+  },
+  "prediction": {
+    "drug": "piperaquine",
+    "bioavailability": {
+      "F_estimate": 0.098,
+      "GI_absorption": "High",
+      "abbott_score": 0.11,
+      "solubility_logS": -6.41
+    },
+    "distribution": {
+      "BBB_permeant": true,
+      "plasma_protein_bound_frac": 0.972
+    },
+    "metabolism": {
+      "CYP3A4_substrate_prob": 0.972,
+      "host_metabolic_factor": 0.886
+    },
+    "excretion": {
+      "CL_L_per_h": 0.22,
+      "half_life_h": 15101.5
+    },
+    "toxicity": {
+      "hepatotoxicity_risk": 0.949,
+      "hERG_risk": 0.876,
+      "lipinski_violations": 2,
+      "veber_pass": true
+    },
+    "pharmacokinetics": {
+      "AUC_ng_h_per_mL": 419631.6,
+      "Cmax_ng_per_mL": 19.2,
+      "day7_ng_per_mL": 19.1,
+      "tmax_h": 17.08
+    },
+    "response": {
+      "predicted_cure_prob": 0.419,
+      "resistance_adjusted_response": NaN,
+      "parasite_resistance_burden": NaN
+    }
+  }
+}

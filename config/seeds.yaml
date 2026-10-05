@@ -1,0 +1,30 @@
+# =====================================================================
+# seeds.yaml  --  Predeclared seed set (blueprint Section 74)
+# All models use the SAME data splits per seed where possible.
+# Do not report only the best seed (Section 73).
+# =====================================================================
+
+seeds:
+  - 11
+  - 23
+  - 47
+  - 71
+  - 101
+  - 131
+  - 167
+  - 197
+  - 233
+  - 271
+
+# Synthetic-cohort generation seeds (Section 36: 10 independent cohorts)
+synthetic_cohort_seeds:
+  - 11
+  - 23
+  - 47
+  - 71
+  - 101
+  - 131
+  - 167
+  - 197
+  - 233
+  - 271
