@@ -1,0 +1,83 @@
+{
+  "clustering_power": {
+    "real_mali": {
+      "n": 51,
+      "threshold_box_null_p95": 0.9801507296252864,
+      "n_sim_per_cell": 60,
+      "power_by_cell": {
+        "split50_D0": 0.0,
+        "split50_D1": 0.0,
+        "split50_D2": 0.017,
+        "split50_D3": 0.217,
+        "split50_D4": 0.567,
+        "split50_D5": 0.767,
+        "split70_D0": 0.0,
+        "split70_D1": 0.0,
+        "split70_D2": 0.0,
+        "split70_D3": 0.083,
+        "split70_D4": 0.6,
+        "split70_D5": 0.783
+      }
+    },
+    "external_gambia_dedup": {
+      "n": 45,
+      "threshold_box_null_p95": 0.5095089240947958,
+      "n_sim_per_cell": 60,
+      "power_by_cell": {
+        "split50_D0": 0.2,
+        "split50_D1": 0.25,
+        "split50_D2": 0.75,
+        "split50_D3": 0.983,
+        "split50_D4": 1.0,
+        "split50_D5": 1.0,
+        "split70_D0": 0.117,
+        "split70_D1": 0.233,
+        "split70_D2": 0.817,
+        "split70_D3": 0.983,
+        "split70_D4": 1.0,
+        "split70_D5": 0.983
+      }
+    }
+  },
+  "severity_power": {
+    "deduplicated_17CM_20UM": {
+      "0.50_vs_0.50": 0.04,
+      "0.40_vs_0.60": 0.199,
+      "0.35_vs_0.65": 0.41,
+      "0.30_vs_0.70": 0.663,
+      "0.25_vs_0.75": 0.867,
+      "0.20_vs_0.80": 0.969
+    },
+    "as_submitted_20CM_24UM": {
+      "0.50_vs_0.50": 0.034,
+      "0.40_vs_0.60": 0.209,
+      "0.35_vs_0.65": 0.447,
+      "0.30_vs_0.70": 0.717,
+      "0.25_vs_0.75": 0.908,
+      "0.20_vs_0.80": 0.985
+    }
+  },
+  "gradient": {
+    "real_mali": {
+      "n": 51,
+      "spearman_hostPC1_vs_parasite_read_fraction": 0.111,
+      "p": 0.4367799619406898
+    },
+    "external_gambia_dedup": {
+      "n": 45,
+      "spearman_hostPC1_vs_parasite_read_fraction": 0.251,
+      "p": 0.09630437816300459
+    }
+  },
+  "severity_observed": {
+    "CM_in_cluster1": "9/17",
+    "UM_in_cluster1": "9/20",
+    "difference": 0.079,
+    "newcombe_95ci": [
+      -0.223,
+      0.363
+    ],
+    "fisher_p": 0.7458545854734855,
+    "ari": -0.021601429267500406
+  }
+}

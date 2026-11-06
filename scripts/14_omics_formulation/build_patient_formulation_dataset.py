@@ -73,8 +73,35 @@ def formulation_library(drug, stabilizer, polymers):
     return pd.DataFrame(lib)
 
 
-def outcomes(patients, lib, drug):
-    """Mechanistic day-7 exposure and cure for every (child, formulation) pair."""
+HEPATIC_DRUGS = {"primaquine", "tafenoquine"}   # liver-stage 8-aminoquinolines
+
+
+def hepatic_term_applies(drug, mode="auto"):
+    """Whether hepatic delivery may enter the outcome model for this drug.
+
+    Revision (DDDT 656687, reviewer 2): lumefantrine is a blood-stage
+    schizonticide, so liver targeting is not a therapeutic objective for it.
+    The hepatic term is therefore opt-in and applied by default only to the
+    liver-stage 8-aminoquinolines.
+    """
+    if mode == "on":
+        return True
+    if mode == "off":
+        return False
+    return drug.lower() in HEPATIC_DRUGS
+
+
+def outcomes(patients, lib, drug, hepatic=None, interactions=True):
+    """Mechanistic day-7 exposure and cure for every (child, formulation) pair.
+
+    hepatic      : apply interaction (ii) (resistance offset by liver targeting);
+                   defaults to hepatic_term_applies(drug).
+    interactions : if False, every patient-by-formulation interaction is
+                   switched off (negative control: personalization gain must
+                   then be zero up to ties).
+    """
+    if hepatic is None:
+        hepatic = hepatic_term_applies(drug)
     from src.models.pharmacokinetics import (
         DRUGS as PKDRUGS, scale_params, PKParams, exposure_metrics, cure_probability)
     cls = drug if drug in PKDRUGS else "lumefantrine"
@@ -86,7 +113,8 @@ def outcomes(patients, lib, drug):
                     + 0.20 * lib["Q24"].to_numpy() / 100, 0.10, 1.0)
         CL, V, ka, dose = scale_params(cls, pat.weight_kg, pat.age_years)
         # interaction (i): host metabolic capacity scales clearance
-        CL = CL * float(np.exp(0.25 * pat.host_metabolic_z))
+        if interactions:
+            CL = CL * float(np.exp(0.25 * pat.host_metabolic_z))
         day7 = np.empty(len(lib))
         for i, Fi in enumerate(F):
             m = exposure_metrics(PKParams(CL=float(CL), V=float(V), ka=float(ka),
@@ -94,7 +122,8 @@ def outcomes(patients, lib, drug):
             day7[i] = m["day7"]
         cure = cure_probability(day7, cls)
         # interaction (ii): resistance is offset by liver targeting
-        cure = cure * (1.0 - 0.6 * pat.parasite_resistance * (1.0 - lib["liver_idx"].to_numpy()))
+        if hepatic and interactions:
+            cure = cure * (1.0 - 0.6 * pat.parasite_resistance * (1.0 - lib["liver_idx"].to_numpy()))
         cure = np.clip(cure, 0, 1)
 
         # interaction (iii): THERAPEUTIC WINDOW. Exposure far above target becomes
@@ -108,10 +137,13 @@ def outcomes(patients, lib, drug):
         exposure_index = day7 / max(target, 1e-9)
         burst_frac = lib["burst_1h"].to_numpy() / 100.0
         tox = 1.0 / (1.0 + np.exp(-1.2 * (exposure_index - 8.0)))
-        tox = np.clip(tox * float(np.exp(0.35 * pat.host_tox_z)) * (1.0 + 0.3 * burst_frac), 0, 1)
+        tox_scale = float(np.exp(0.35 * pat.host_tox_z)) if interactions else 1.0
+        tox = np.clip(tox * tox_scale * (1.0 + 0.3 * burst_frac), 0, 1)
         utility = cure * (1.0 - tox)          # therapeutic utility: efficacy net of harm
 
-        rng = np.random.default_rng(abs(hash(pat.patient_id)) % (2 ** 31))
+        # deterministic per-child seed (Python's hash() is salted per process)
+        import zlib
+        rng = np.random.default_rng(zlib.crc32(str(pat.patient_id).encode()))
         cure_bin = (rng.uniform(size=len(cure)) < cure).astype(int)
         blk = lib.copy()
         blk["patient_id"] = pat.patient_id
@@ -137,6 +169,12 @@ def main() -> None:
     ap.add_argument("--polymers", nargs="*", default=list(POLYMERS))
     ap.add_argument("--site", default="mali", help="real cohort site to prefer")
     ap.add_argument("--max-patients", type=int, default=None)
+    ap.add_argument("--hepatic-term", default="auto", choices=["auto", "on", "off"],
+                    help="liver-targeting term in the outcome model; 'auto' applies it "
+                         "only to liver-stage 8-aminoquinolines")
+    ap.add_argument("--no-interactions", action="store_true",
+                    help="negative control: switch off all patient-by-formulation terms")
+    ap.add_argument("--out", default=None, help="output parquet path (default data/synthetic)")
     args = ap.parse_args()
     load_config()
 
@@ -151,11 +189,17 @@ def main() -> None:
     log.info("formulation library: %d formulations (%d polymers x 27 runs)",
              len(lib), len(args.polymers))
 
-    df = outcomes(patients, lib, args.drug)
+    hepatic = hepatic_term_applies(args.drug, args.hepatic_term)
+    log.info("hepatic term in outcome model: %s | interactions: %s",
+             hepatic, not args.no_interactions)
+    df = outcomes(patients, lib, args.drug, hepatic=hepatic,
+                  interactions=not args.no_interactions)
     df["drug"] = args.drug
     syn = get_path("data_synthetic", create=True)
     try:
-        out = syn / "patient_formulation_dataset.parquet"
+        from pathlib import Path
+        out = Path(args.out) if args.out else syn / "patient_formulation_dataset.parquet"
+        out.parent.mkdir(parents=True, exist_ok=True)
         df.to_parquet(out, index=False)
     except Exception:
         out = syn / "patient_formulation_dataset.tsv"

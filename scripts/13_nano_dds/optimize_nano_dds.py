@@ -41,19 +41,40 @@ RESP = ["size_nm", "pdi", "zeta_mv", "ee_pct", "release_24h_pct", "liver_targeti
 
 
 # ---------------------------------------------------------------- desirability
-def desirability(size, ee, release24, liver_idx, zeta):
-    """0-1 overall desirability for a liver-targeted pediatric antimalarial NP.
+OBJECTIVES = {
+    # Original submission: liver-targeted objective (appropriate only for
+    # liver-stage 8-aminoquinolines such as primaquine).
+    "hepatic": dict(size="kupffer", weights=dict(size=1, ee=1, rel=1, liver=1, zeta=1),
+                    rel_target=70.0),
+    # Revision: oral blood-stage objective for lumefantrine. No hepatic term and
+    # no Kupffer size window; smaller particles are favoured for dissolution
+    # (Noyes-Whitney surface-area scaling) with a soft 250 nm midpoint.
+    "oral_blood_stage": dict(size="small", weights=dict(size=1, ee=1, rel=1, liver=0, zeta=1),
+                             rel_target=70.0),
+}
 
-    Rewards: size in 100-200 nm (Kupffer window), high EE, moderate-to-high but
-    controlled 24 h release (target ~70%), high liver-targeting index, and
-    |zeta| >= 20 mV for colloidal stability.
+
+def desirability(size, ee, release24, liver_idx, zeta, objective="hepatic", weights=None):
+    """0-1 overall desirability (weighted geometric mean of component scores).
+
+    Components: size, entrapment efficiency (EE), 24 h release against a target,
+    liver-targeting index (hepatic objective only), and |zeta| >= 20 mV for
+    colloidal stability. Weights are exposed so they can be reported and varied.
     """
-    d_size = np.exp(-((size - 150) / 60) ** 2)
+    spec = OBJECTIVES[objective]
+    w = dict(spec["weights"]) if weights is None else weights
+    if spec["size"] == "kupffer":
+        d_size = np.exp(-((size - 150) / 60) ** 2)
+    else:
+        d_size = 1.0 / (1.0 + np.exp((size - 250) / 40))
     d_ee = ee / 100.0
-    d_rel = np.exp(-((release24 - 70) / 25) ** 2)
+    d_rel = np.exp(-((release24 - spec["rel_target"]) / 25) ** 2)
     d_liver = liver_idx
     d_zeta = 1.0 / (1.0 + np.exp(-(abs(zeta) - 20) / 4))
-    return float((d_size * d_ee * d_rel * d_liver * d_zeta) ** (1 / 5))  # geometric mean
+    comps = dict(size=d_size, ee=d_ee, rel=d_rel, liver=d_liver, zeta=d_zeta)
+    tot = sum(w.values())
+    logd = sum(w[k] * np.log(max(comps[k], 1e-12)) for k in comps if w.get(k, 0) > 0)
+    return float(np.exp(logd / tot))
 
 
 # ---------------------------------------------------------------- AI surrogates
@@ -124,7 +145,7 @@ def rsm_quadratic(df_bbd, resp):
 
 
 # ---------------------------------------------------------------- Bayesian optimization
-def bayes_optimize(drug, polymer, stabilizer, seed, n_init=8, n_iter=25):
+def bayes_optimize(drug, polymer, stabilizer, seed, n_init=8, n_iter=25, objective="hepatic"):
     """GP + Expected-Improvement search over continuous coded factors in [-1,1]^3."""
     from sklearn.gaussian_process import GaussianProcessRegressor
     from sklearn.gaussian_process.kernels import Matern, ConstantKernel
@@ -141,7 +162,8 @@ def bayes_optimize(drug, polymer, stabilizer, seed, n_init=8, n_iter=25):
         size, ee = predict_size(f), predict_ee(f)
         t, Q = release_profile(f)
         rel24 = float(np.interp(24, t, Q))
-        return desirability(size, ee, rel24, liver_targeting_index(f), predict_zeta(f))
+        return desirability(size, ee, rel24, liver_targeting_index(f), predict_zeta(f),
+                            objective=objective)
 
     Xs = rng.uniform(-1, 1, size=(n_init, 3))
     ys = np.array([evaluate(x) for x in Xs])
@@ -173,7 +195,13 @@ def main() -> None:
     ap.add_argument("--stabilizer", default="PVA")
     ap.add_argument("--top-polymers", type=int, default=3,
                     help="optimize the N polymers with best mean desirability for the drug")
+    ap.add_argument("--objective", default=None, choices=list(OBJECTIVES),
+                    help="default: hepatic for 8-aminoquinolines, oral_blood_stage otherwise")
+    ap.add_argument("--out", default=None)
     args = ap.parse_args()
+    if args.objective is None:
+        args.objective = "hepatic" if args.drug in ("primaquine", "tafenoquine") else "oral_blood_stage"
+    log.info("objective: %s %s", args.objective, OBJECTIVES[args.objective])
     seed = load_config()["reproducibility"]["global_seed"]
 
     syn = get_path("data_synthetic")
@@ -190,7 +218,8 @@ def main() -> None:
     # 2. rank polymers for this drug by mean desirability, then RSM + BO on top ones
     dd = df[df["drug"] == args.drug].copy()
     dd["desir"] = [desirability(r.size_nm, r.ee_pct, r.release_24h_pct,
-                                r.liver_targeting_index, r.zeta_mv) for r in dd.itertuples()]
+                                r.liver_targeting_index, r.zeta_mv, objective=args.objective)
+                   for r in dd.itertuples()]
     poly_rank = dd.groupby("polymer")["desir"].mean().sort_values(ascending=False)
     top_polymers = list(poly_rank.head(args.top_polymers).index)
     log.info("top polymers for %s: %s", args.drug,
@@ -217,7 +246,7 @@ def main() -> None:
     # 3. Bayesian optimization per top polymer
     bo = {}
     for p in top_polymers:
-        bo[p] = bayes_optimize(args.drug, p, args.stabilizer, seed)
+        bo[p] = bayes_optimize(args.drug, p, args.stabilizer, seed, objective=args.objective)
         opt = bo[p]["optimal_formulation"]
         log.info("BO %-14s -> desirability %.3f | size %.0f nm, EE %.0f%%, zeta %.0f mV, "
                  "release24h %.0f%%, liver idx %.2f", p, bo[p]["best_desirability"],
@@ -227,6 +256,7 @@ def main() -> None:
     overall = max(bo.items(), key=lambda kv: kv[1]["best_desirability"])
     out = {
         "drug": args.drug, "stabilizer": args.stabilizer,
+        "objective": args.objective, "objective_spec": OBJECTIVES[args.objective],
         "ai_surrogate_cv_r2": surro,
         "polymer_ranking_by_desirability": {p: round(float(poly_rank[p]), 3)
                                             for p in poly_rank.index},
@@ -234,7 +264,8 @@ def main() -> None:
         "bayesian_optimization": bo,
         "recommended_formulation": {"polymer": overall[0], **overall[1]},
     }
-    dest = get_path("results", create=True) / "nano_dds_optimization.json"
+    from pathlib import Path
+    dest = Path(args.out) if args.out else get_path("results", create=True) / "nano_dds_optimization.json"
     dest.write_text(json.dumps(out, indent=2, default=float))
     log.info("RECOMMENDED: %s / %s  desirability=%.3f", args.drug, overall[0],
              overall[1]["best_desirability"])

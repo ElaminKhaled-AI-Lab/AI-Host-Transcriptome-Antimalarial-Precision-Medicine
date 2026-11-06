@@ -54,13 +54,13 @@ Every subfigure is written three ways: `.png` (1200 dpi), `.pdf` (vector) and
 ## F06 — Real-cohort validation, against proper controls
 | ID | Content | Key numbers |
 |---|---|---|
-| `F06a_cluster_balance` | Balance (normalised entropy) exposes degeneracy | Mali dual **0.129 = 1 vs 55**, subset 0.196; Gambia 0.996 |
-| `F06b_reference_null` | Bootstrap stability vs a cluster-free uniform reference | Gambia 0.680 vs null median 0.6825, **p = 0.509**; Mali 0.380 vs 0.784, **p = 0.983** — neither above chance |
-| `F06c_severity_ari` | Agreement with cerebral vs uncomplicated malaria | **ARI = −0.0215**, Fisher **p = 1.000**, n = 44 |
-| `F06d_what_clusters_track` | Covariate effect sizes, FDR corrected | host PC1 r = 1.000; **parasite-read fraction r = 0.876**; parasite library size r = 0.864; severity not significant |
+| `F06a_cluster_balance` | Balance (normalised entropy); dashed line is the degeneracy threshold | Mali balanced (host-only 0.967, dual **0.954**); Gambia host-only 0.996 but **dual 0.318** — the abundant parasite block collapses the split onto a few samples |
+| `F06b_reference_null` | Bootstrap stability vs a cluster-free uniform reference | Mali 0.543 vs null median 0.833, **p = 0.979**; Gambia (45-sample dedup) 0.393 vs 0.256, **p = 0.154** — neither above chance |
+| `F06c_severity_ari` | Agreement with cerebral vs uncomplicated malaria | **ARI = −0.022**, Fisher **p = 0.746**, n = 37 |
+| `F06d_what_clusters_track` | Covariate effect sizes, FDR corrected | host PC1 is the clustering axis itself; among the rest the significant covariates are **parasite transcriptional components (PC1, PC2)**, not read-fraction burden and not severity |
 
 > **Changed.** The old panels plotted BLISS silhouettes from `dualrna_qc`, which
-> came from degenerate clusterings (balance 0.129) measured in a learned latent.
+> came from degenerate clusterings measured in a learned latent.
 > These panels report what is actually informative: balance, stability against a
 > cluster-free reference, ARI, and what the clusters track.
 
@@ -119,17 +119,17 @@ Every subfigure is written three ways: `.png` (1200 dpi), `.pdf` (vector) and
 ## F12 — Precision formulation
 | ID | Content | Key numbers |
 |---|---|---|
-| `F12a_polymer_per_child` | Polymer chosen per child | PCL 22, Eudragit RL100 18, Eudragit RS100 16 |
-| `F12b_phenotype_plane` | Choice across the omic phenotype plane | host latent is now a rank-based inverse-normal transform |
-| `F12c_personalisation_gain` | Utility gain vs one-size-fits-all | **80.4 % of children differ**; mean **+0.0199**, max **+0.1651** |
-| `F12d_interaction_metric` | Interaction-residual rank correlation ± SD | early 0.801 ± 0.043, intermediate 0.739 ± 0.040, PROFILE-Net 0.813 ± 0.054, **late −0.001 ± 0.016** |
-| `F12e_strategy_accuracy` | Exposure and utility R² by strategy | exposure 0.82–0.95; utility 0.83–0.95 |
-| `F12f_therapeutic_window` | Exposure vs utility coloured by toxicity | day-7 exposure 433–4176 ng/mL |
+| `F12a_polymer_collapse` | Polymer counts, as-submitted vs revised objective | as-submitted PCL 23 / RL100 18 / RS100 15; **revised: all 56 → PCL** |
+| `F12b_gain_vs_null` | Utility gain vs a molecular-permutation null, both objectives | as-submitted +0.0244 (**p = 0.576**); revised +0.0006 (**p = 0.532**) — neither above the null |
+| `F12c_strategy_accuracy` | Exposure and utility R² by integration strategy (cross-validated) | exposure 0.95–0.99; utility 0.93–0.98 |
+| `F12d_interaction_metric` | Interaction-residual rank correlation ± 95% CI | early 0.821, intermediate 0.827, PROFILE-Net 0.821, **late −0.130 [−0.233, −0.031]** |
 
-*Benchmark: 56 real Mali children, 42 train / 14 test, patient-grouped, 3 seeds.
-Margin 0.0126 vs combined seed SD 0.0973 → **a tie**, not a win.
-Late (additive) integration cannot personalise: interaction ≈ 0, gain −0.0089.
-One-size-fits-all product: Eudragit RS100 run 1.*
+*Benchmark: 56 real children, repeated grouped five-fold cross-validation.
+The joint strategies (early, intermediate, PROFILE-Net) tie after Holm correction —
+no single architecture wins. Late (additive) integration cannot personalise:
+interaction −0.130. Under the corrected lumefantrine objective the one-size
+product is polycaprolactone and the personalisation gain does not survive
+(revised +0.0006, not above a permutation null).*
 
 
 ---
@@ -138,14 +138,15 @@ One-size-fits-all product: Eudragit RS100 run 1.*
 
 **Negative result on the real cohorts — this is the honest finding.**
 
-1. **No discrete host–parasite subtypes.** Mali remains degenerate even after
-   correction (balance 0.129 = 1 vs 55). Gambia is balanced (0.999) but its
-   bootstrap stability of 0.680 is indistinguishable from a cluster-free
-   reference (null median 0.6825, **p = 0.509**).
-2. **No relationship to clinical severity.** ARI = −0.0215, Fisher p = 1.000 on
-   44 labelled Gambian children.
-3. **The dominant axis is parasite burden** — parasite-read fraction r = 0.876,
-   parasite library size r = 0.864. A continuous gradient, not a subtype.
+1. **No discrete host–parasite subtypes.** After correction Mali is balanced
+   (0.954) but its bootstrap stability of 0.543 is below a cluster-free reference
+   (null median 0.833, **p = 0.979**); Gambia (45-sample dedup) is 0.393 vs 0.256
+   (**p = 0.154**). Neither is above chance.
+2. **No relationship to clinical severity.** ARI = −0.022, Fisher p = 0.746 on
+   37 labelled Gambian children.
+3. **The weak structure tracks parasite transcriptional variation** — the
+   significant covariates are parasite transcriptional components, not
+   read-fraction burden and not severity. A continuous axis, not a subtype.
 
 **Four methodological pitfalls, each demonstrated with a purpose-built control.**
 

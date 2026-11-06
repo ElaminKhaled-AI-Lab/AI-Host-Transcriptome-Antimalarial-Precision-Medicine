@@ -121,7 +121,12 @@ def assemble(quant_root: Path, runs, out_dir: Path):
         if not sf.exists():
             continue
         d = pd.read_csv(sf, sep="\t")
-        is_pf = d["Name"].str.contains("PF3D7|Plasmodium|ASM276", case=False, regex=True)
+        # Revision fix: classify by the HUMAN identifier, not by a parasite name pattern.
+        # Ensembl Protists P. falciparum ASM276v2 cDNA uses ENA-style transcript IDs
+        # (CAD..., CZT..., CAX...) for most transcripts; the earlier pattern
+        # "PF3D7|Plasmodium|ASM276" matched only 149 of ~5,500 and assigned the rest,
+        # with their reads, to the host block. Every Ensembl human transcript is ENST*.
+        is_pf = ~d["Name"].str.startswith("ENST")
         host_cols[run] = d.loc[~is_pf].set_index("Name")["NumReads"]
         para_cols[run] = d.loc[is_pf].set_index("Name")["NumReads"]
         tot = d["NumReads"].sum()

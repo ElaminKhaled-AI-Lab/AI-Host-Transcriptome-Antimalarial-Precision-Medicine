@@ -1,0 +1,137 @@
+{
+  "drug": "lumefantrine",
+  "verification_max_abs_diff": 1.27675647831893e-15,
+  "note": "Oracle gain: assignment uses the simulator's own utility; no fitted model.",
+  "as_submitted_hepatic_on": {
+    "condition": "as submitted",
+    "hepatic_term": true,
+    "interactions": true,
+    "n_children": 56,
+    "n_formulations": 297,
+    "one_size_formulation": "Eudragit_RS100_r1",
+    "pct_children_differing_formulation": 87.5,
+    "pct_children_differing_polymer": 73.2,
+    "n_distinct_formulations": 7,
+    "polymer_counts": {
+      "PCL": 23,
+      "Eudragit_RL100": 18,
+      "Eudragit_RS100": 15
+    },
+    "mean_utility_one_size": 0.6436,
+    "mean_utility_personalized": 0.6679,
+    "mean_gain": 0.0244,
+    "max_gain": 0.1189,
+    "mean_gain_95ci_bootstrap_children": [
+      0.0172,
+      0.0308
+    ],
+    "molecular_permutation_null": {
+      "n_permutations": 1000,
+      "null_median": 0.0252,
+      "null_95pct_range": [
+        0.0184,
+        0.0312
+      ],
+      "p_one_sided": 0.5764
+    },
+    "random_covariate_control": {
+      "n_draws": 1000,
+      "median_gain": 0.0259,
+      "range_95pct": [
+        0.018,
+        0.0333
+      ],
+      "p_one_sided": 0.6543
+    },
+    "mean_covariates_by_assigned_polymer": {
+      "Eudragit_RL100": {
+        "host_metabolic_z": 1.026,
+        "host_tox_z": 0.74,
+        "parasite_resistance": 0.617,
+        "age_years": 6.222
+      },
+      "Eudragit_RS100": {
+        "host_metabolic_z": -0.506,
+        "host_tox_z": -0.441,
+        "parasite_resistance": 0.56,
+        "age_years": 4.667
+      },
+      "PCL": {
+        "host_metabolic_z": -0.473,
+        "host_tox_z": -0.291,
+        "parasite_resistance": 0.391,
+        "age_years": 4.739
+      }
+    }
+  },
+  "revised_hepatic_off": {
+    "condition": "revised",
+    "hepatic_term": false,
+    "interactions": true,
+    "n_children": 56,
+    "n_formulations": 297,
+    "one_size_formulation": "PCL_r7",
+    "pct_children_differing_formulation": 16.1,
+    "pct_children_differing_polymer": 0.0,
+    "n_distinct_formulations": 3,
+    "polymer_counts": {
+      "PCL": 56
+    },
+    "mean_utility_one_size": 0.7068,
+    "mean_utility_personalized": 0.7075,
+    "mean_gain": 0.0006,
+    "max_gain": 0.0073,
+    "mean_gain_95ci_bootstrap_children": [
+      0.0002,
+      0.0011
+    ],
+    "molecular_permutation_null": {
+      "n_permutations": 1000,
+      "null_median": 0.0007,
+      "null_95pct_range": [
+        0.0003,
+        0.0011
+      ],
+      "p_one_sided": 0.5325
+    },
+    "random_covariate_control": {
+      "n_draws": 1000,
+      "median_gain": 0.0005,
+      "range_95pct": [
+        0.0001,
+        0.0046
+      ],
+      "p_one_sided": 0.3716
+    },
+    "mean_covariates_by_assigned_polymer": {
+      "PCL": {
+        "host_metabolic_z": 0.0,
+        "host_tox_z": 0.0,
+        "parasite_resistance": 0.509,
+        "age_years": 5.196
+      }
+    }
+  },
+  "negative_control_no_interactions": {
+    "condition": "no interactions",
+    "hepatic_term": false,
+    "interactions": false,
+    "n_children": 56,
+    "n_formulations": 297,
+    "one_size_formulation": "PCL_r7",
+    "pct_children_differing_formulation": 0.0,
+    "pct_children_differing_polymer": 0.0,
+    "n_distinct_formulations": 1,
+    "polymer_counts": {
+      "PCL": 56
+    },
+    "mean_utility_one_size": 0.726,
+    "mean_utility_personalized": 0.726,
+    "mean_gain": 0.0,
+    "max_gain": 0.0,
+    "mean_gain_95ci_bootstrap_children": [
+      0.0,
+      0.0
+    ]
+  }
+}

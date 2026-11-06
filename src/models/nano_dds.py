@@ -32,8 +32,12 @@ Mechanistic rationale (documented):
     hydrophobic matrix (PLGA/PCL) sustains release, a swellable polymer
     (chitosan/alginate) releases faster with an anomalous mechanism.
   * Liver-targeting index peaks for the ~100-200 nm Kupffer-uptake window and is
-    boosted by positive charge / galactosylation (ASM aac.00915-23 raised the
-    primaquine liver/plasma ratio from 0.1 to 0.58).
+    boosted by positive charge / galactosylation (Gomes et al. 2024, AAC
+    e00915-23, reported 3-fold higher hepatic half-life and MRT and a liver/plasma
+    volume-of-distribution ratio rising from 0.1 to 0.58 in mice for galactosylated
+    nanochitosan primaquine; this is a Vd ratio, not a tissue partition
+    coefficient). The index is relevant only to
+    liver-stage drugs (8-aminoquinolines) and is not used for lumefantrine.
   * Colloidal stability follows DLVO logic: |ZP| < ~20 mV aggregates; growth is
     Arrhenius-accelerated at ICH 40 C / 75% RH.
 """
@@ -193,8 +197,8 @@ def liver_targeting_index(f: Formulation) -> float:
     (i) Passive Kupffer-cell uptake: peaks in the ~100-200 nm size window and is
         aided by positive surface charge. (ii) Active, size-independent
         hepatocyte targeting via a galactose ligand binding the asialoglycoprotein
-        receptor -- the mechanism that raised the primaquine liver/plasma ratio to
-        0.58 (ASM aac.00915-23), so galactosylation dominates when present.
+        receptor (Gomes et al. 2024, AAC e00915-23), so galactosylation dominates
+        when present. Model construct; relevant to liver-stage drugs only.
     """
     size = predict_size(f)
     win = math.exp(-((size - 150.0) / 90.0) ** 2)              # Kupffer size window
@@ -206,10 +210,12 @@ def liver_targeting_index(f: Formulation) -> float:
 
 
 def liver_plasma_ratio(f: Formulation) -> float:
-    """Predicted liver/plasma exposure ratio (free drug ~0.10; ASM aac.00915-23).
+    """Model-construct liver/plasma ratio, loosely anchored to Gomes et al. 2024.
 
-    Active galactose targeting reaches a higher ceiling than passive uptake
-    alone, consistent with the published targeted value of 0.58.
+    Gomes et al. (AAC e00915-23) report a liver/plasma ratio of the VOLUME OF
+    DISTRIBUTION of 0.1 (free primaquine) and 0.58 (galactosylated nanochitosan)
+    in mice. That is not a concentration partition ratio; the ceilings below are
+    assumptions and this function is not used in any reported analysis.
     """
     idx = liver_targeting_index(f)
     ceiling = 0.65 if f.galactosylated else 0.45
@@ -335,12 +341,22 @@ def accelerated_stability(f: Formulation, months=6, ea_kj=80.0) -> dict:
     ee_t = ee0 * (1 - 0.5 * monthly_40) ** t
     # shelf-life at 25 C (long-term): time to +10% size
     shelf_25_months = math.log(1.10) / math.log(1 + base_monthly) if base_monthly > 0 else 99
+    # Revision: Climatic Zone IVb long-term condition (30 C / 75% RH), the
+    # storage condition relevant to deployment in sub-Saharan Africa.
+    accel_30 = math.exp(-ea_kj * 1000 / R * (1 / 303.15 - 1 / 298.15))
+    monthly_30 = base_monthly * accel_30
+    shelf_30_months = math.log(1.10) / math.log(1 + monthly_30) if monthly_30 > 0 else 99
     return {
         "monthly_growth_25C": round(base_monthly, 4),
+        "monthly_growth_30C": round(monthly_30, 4),
         "monthly_growth_40C": round(monthly_40, 4),
         "size_trajectory_40C_nm": [round(float(x), 1) for x in size_t],
         "ee_trajectory_40C_pct": [round(float(x), 1) for x in ee_t],
-        "predicted_shelf_life_25C_months": round(float(np.clip(shelf_25_months, 0.5, 60)), 1),
+        "predicted_shelf_life_25C_months": round(float(np.clip(shelf_25_months, 0.1, 60)), 2),
+        "predicted_shelf_life_30C_months": round(float(np.clip(shelf_30_months, 0.1, 60)), 2),
+        "activation_energy_kJ_per_mol": ea_kj,
+        "note": "Indicative only: ICH Q1E does not permit shelf-life assignment from "
+                "accelerated data alone; the growth model depends on |zeta| only.",
         "colloidally_stable": bool(zeta_abs >= 20),
     }
 
